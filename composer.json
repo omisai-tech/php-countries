@@ -1,0 +1,46 @@
+{
+    "name": "omisai/php-countries",
+    "description": "PHP package to provide countries data",
+    "license": "MIT",
+    "keywords": [
+        "country",
+        "countries"
+    ],
+    "homepage": "https://github.com/omisai-tech/php-countries",
+    "authors": [
+        {
+            "name": "Sándor Gergely Bornemisza",
+            "email": "bornemisza@omisai.com",
+            "homepage": "https://omisai.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Omisai\\Countries\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omisai\\Countries\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "pestphp/pest-plugin": true
+        },
+        "sort-packages": true
+    },
+    "extra": {}
+}
