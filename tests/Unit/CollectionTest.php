@@ -121,6 +121,18 @@ it('returns null when country by name is not found', function () {
     expect($country)->toBeNull();
 });
 
+it('returns countries with names', function () {
+    $collection = new Collection();
+    $countries = $collection->getCountriesName();
+
+    expect($countries)->toBeArray();
+    expect($countries)->not->toBeEmpty();
+    foreach ($countries as $alpha2 => $name) {
+        expect($alpha2)->toBeString();
+        expect($name)->toBeString();
+    }
+});
+
 it('returns countries with alpha2 codes', function () {
     $collection = new Collection();
     $countries = $collection->getCountriesAlpha2();

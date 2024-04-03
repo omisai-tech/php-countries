@@ -49,6 +49,18 @@ class Collection
         }
     }
 
+    public function getCountriesName(string $locale = 'en'): array
+    {
+        $this->validateLocale($locale);
+
+        $result = [];
+        foreach ($this->countries as $country) {
+            $result[$country->alpha2] = $country->getName($locale);
+        }
+
+        return $result;
+    }
+
     public function getCountriesAlpha2(string $locale = 'en'): array
     {
         $this->validateLocale($locale);
