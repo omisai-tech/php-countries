@@ -81,8 +81,8 @@ class SierraLeone extends Country
     public string $fr = "Sierra Leone";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Serra Leoa";
-    
+
 }

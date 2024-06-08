@@ -81,8 +81,8 @@ class SaintPierreAndMiquelon extends Country
     public string $fr = "Saint-Pierre-et-Miquelon";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "São Pedro e Miquelon";
-    
+
 }

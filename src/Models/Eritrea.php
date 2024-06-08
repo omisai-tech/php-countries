@@ -81,8 +81,8 @@ class Eritrea extends Country
     public string $fr = "Érythrée";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Eritreia";
-    
+
 }

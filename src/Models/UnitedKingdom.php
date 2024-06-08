@@ -81,8 +81,8 @@ class UnitedKingdom extends Country
     public string $fr = "Royaume-Uni";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Reino Unido";
-    
+
 }

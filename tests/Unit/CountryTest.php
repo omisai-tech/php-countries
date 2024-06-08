@@ -99,7 +99,7 @@ it('can get the French name of the country', function () {
     expect($country->fr)->toBe('Allemagne');
 });
 
-it('can get the Portugees name of the country', function () {
+it('can get the Portuguese name of the country', function () {
     $country = new Germany();
 
     expect($country->pt)->toBe('Alemanha');

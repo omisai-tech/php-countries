@@ -81,8 +81,8 @@ class MarshallIslands extends Country
     public string $fr = "Iles Marshall";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Marshall";
-    
+
 }

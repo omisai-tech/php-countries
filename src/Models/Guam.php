@@ -81,8 +81,8 @@ class Guam extends Country
     public string $fr = "Guam";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Guam";
-    
+
 }

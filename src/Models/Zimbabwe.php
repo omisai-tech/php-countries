@@ -81,8 +81,8 @@ class Zimbabwe extends Country
     public string $fr = "Zimbabwe";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Zimbábue";
-    
+
 }

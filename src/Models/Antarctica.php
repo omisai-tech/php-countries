@@ -81,8 +81,8 @@ class Antarctica extends Country
     public string $fr = "Antarctique";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Antártica";
-    
+
 }

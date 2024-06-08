@@ -81,8 +81,8 @@ class Guernsey extends Country
     public string $fr = "Guernesey";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Guernsey";
-    
+
 }

@@ -81,8 +81,8 @@ class Uruguay extends Country
     public string $fr = "Uruguay";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Uruguai";
-    
+
 }

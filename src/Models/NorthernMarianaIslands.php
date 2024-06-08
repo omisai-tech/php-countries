@@ -81,8 +81,8 @@ class NorthernMarianaIslands extends Country
     public string $fr = "Îles Mariannes du Nord";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Marianas do Norte";
-    
+
 }

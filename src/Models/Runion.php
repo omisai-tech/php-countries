@@ -81,8 +81,8 @@ class Runion extends Country
     public string $fr = "Réunion";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Reunião";
-    
+
 }

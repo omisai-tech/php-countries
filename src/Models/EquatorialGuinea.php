@@ -81,8 +81,8 @@ class EquatorialGuinea extends Country
     public string $fr = "Guinée Équatoriale";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Guiné Equatorial";
-    
+
 }

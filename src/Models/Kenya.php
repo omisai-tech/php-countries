@@ -81,8 +81,8 @@ class Kenya extends Country
     public string $fr = "Kenya";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Quênia";
-    
+
 }

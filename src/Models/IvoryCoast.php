@@ -81,8 +81,8 @@ class IvoryCoast extends Country
     public string $fr = "Côte d'Ivoire";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Costa do Marfim";
-    
+
 }

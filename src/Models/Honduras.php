@@ -81,8 +81,8 @@ class Honduras extends Country
     public string $fr = "Honduras";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Honduras";
-    
+
 }

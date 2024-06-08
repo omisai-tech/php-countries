@@ -81,8 +81,8 @@ class Gabon extends Country
     public string $fr = "Gabon";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Gabão";
-    
+
 }

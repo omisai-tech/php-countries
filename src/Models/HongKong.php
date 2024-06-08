@@ -81,8 +81,8 @@ class HongKong extends Country
     public string $fr = "Hong Kong";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Hong Kong";
-    
+
 }

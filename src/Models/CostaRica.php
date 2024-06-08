@@ -81,8 +81,8 @@ class CostaRica extends Country
     public string $fr = "Costa Rica";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Costa Rica";
-    
+
 }

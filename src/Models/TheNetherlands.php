@@ -81,8 +81,8 @@ class TheNetherlands extends Country
     public string $fr = "Pays-Bas";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Os Países Baixos";
-    
+
 }

@@ -81,8 +81,8 @@ class Brunei extends Country
     public string $fr = "Brunéi";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Brunei";
-    
+
 }

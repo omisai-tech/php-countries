@@ -81,8 +81,8 @@ class SouthKorea extends Country
     public string $fr = "Corée du Sud";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Coreia do Sul";
-    
+
 }

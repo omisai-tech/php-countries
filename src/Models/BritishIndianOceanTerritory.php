@@ -81,8 +81,8 @@ class BritishIndianOceanTerritory extends Country
     public string $fr = "Territoire britannique de l'océan Indien";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Território Britânico do Oceano Índico";
-    
+
 }

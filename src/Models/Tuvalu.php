@@ -81,8 +81,8 @@ class Tuvalu extends Country
     public string $fr = "Tuvalu";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Tuvalu";
-    
+
 }

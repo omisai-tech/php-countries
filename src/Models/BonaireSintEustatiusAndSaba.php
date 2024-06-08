@@ -81,8 +81,8 @@ class BonaireSintEustatiusAndSaba extends Country
     public string $fr = "Bonaire, Saint-Eustache et Saba";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Bonaire, Santo Eustáquio e Saba";
-    
+
 }

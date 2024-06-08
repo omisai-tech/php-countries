@@ -81,8 +81,8 @@ class DrCongo extends Country
     public string $fr = "RD Congolaise";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "RD Congo";
-    
+
 }

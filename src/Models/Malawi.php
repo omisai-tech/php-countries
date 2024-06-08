@@ -81,8 +81,8 @@ class Malawi extends Country
     public string $fr = "Malawi";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Maláui";
-    
+
 }

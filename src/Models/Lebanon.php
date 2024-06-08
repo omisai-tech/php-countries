@@ -81,8 +81,8 @@ class Lebanon extends Country
     public string $fr = "Liban";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Líbano";
-    
+
 }

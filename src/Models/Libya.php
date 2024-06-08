@@ -81,8 +81,8 @@ class Libya extends Country
     public string $fr = "Libye";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Líbia";
-    
+
 }

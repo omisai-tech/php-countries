@@ -81,8 +81,8 @@ class Martinique extends Country
     public string $fr = "Martinique";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Martinica";
-    
+
 }

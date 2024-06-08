@@ -81,8 +81,8 @@ class Barbados extends Country
     public string $fr = "Barbade";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Barbados";
-    
+
 }

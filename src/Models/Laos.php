@@ -81,8 +81,8 @@ class Laos extends Country
     public string $fr = "Laos";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Laos";
-    
+
 }

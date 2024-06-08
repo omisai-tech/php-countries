@@ -81,8 +81,8 @@ class Suriname extends Country
     public string $fr = "Surinam";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Suriname";
-    
+
 }

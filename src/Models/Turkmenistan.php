@@ -81,8 +81,8 @@ class Turkmenistan extends Country
     public string $fr = "Turkménistan";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Turcomenistão";
-    
+
 }

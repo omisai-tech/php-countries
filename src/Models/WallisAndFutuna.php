@@ -81,8 +81,8 @@ class WallisAndFutuna extends Country
     public string $fr = "Wallis et Futuna";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Wallis e Futuna";
-    
+
 }

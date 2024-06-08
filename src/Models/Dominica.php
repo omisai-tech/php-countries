@@ -81,8 +81,8 @@ class Dominica extends Country
     public string $fr = "Dominique";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Domínica";
-    
+
 }

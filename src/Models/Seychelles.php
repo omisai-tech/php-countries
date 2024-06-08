@@ -81,8 +81,8 @@ class Seychelles extends Country
     public string $fr = "Îles Seychelles";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Seicheles";
-    
+
 }

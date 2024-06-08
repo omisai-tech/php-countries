@@ -81,8 +81,8 @@ class FrenchSouthernTerritories extends Country
     public string $fr = "Territoires du Sud français";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Territórios Franceses do Sul";
-    
+
 }

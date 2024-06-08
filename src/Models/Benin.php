@@ -81,8 +81,8 @@ class Benin extends Country
     public string $fr = "Au Bénin";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Benim";
-    
+
 }

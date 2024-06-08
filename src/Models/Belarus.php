@@ -81,8 +81,8 @@ class Belarus extends Country
     public string $fr = "Biélorussie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Bielorrússia";
-    
+
 }

@@ -81,8 +81,8 @@ class Cuba extends Country
     public string $fr = "Cuba";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Cuba";
-    
+
 }

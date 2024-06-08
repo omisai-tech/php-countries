@@ -81,8 +81,8 @@ class Italy extends Country
     public string $fr = "Italie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Itália";
-    
+
 }

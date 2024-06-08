@@ -81,8 +81,8 @@ class Luxembourg extends Country
     public string $fr = "Luxembourg";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Luxemburgo";
-    
+
 }

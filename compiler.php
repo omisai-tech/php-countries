@@ -102,7 +102,7 @@ class $className extends Country
     public string \$fr = \"{$data[14]}\";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string \$pt = \"{$data[15]}\";
     \n}

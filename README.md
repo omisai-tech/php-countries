@@ -12,7 +12,7 @@ The PHP Countries Package provides a convenient and object-oriented approach to 
 - Easy retrieval of country names and codes, capital city and/or continent.
 - Object-Oriented Programming (OOP) approach for better data management and integration.
 - Lightweight and simple to integrate into any PHP project. (8.1+)
-- Currently supporting English, Hungarian, German, Spanish, Italian, French and Portugees languages.
+- Currently supporting English, Hungarian, German, Spanish, Italian, French and Portuguese languages.
 - Future support for multiple locales, making it versatile for international applications.
 
 ## Installation

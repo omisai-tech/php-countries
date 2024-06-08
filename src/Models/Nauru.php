@@ -81,8 +81,8 @@ class Nauru extends Country
     public string $fr = "Nauru";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Nauru";
-    
+
 }

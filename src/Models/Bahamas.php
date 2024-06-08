@@ -81,8 +81,8 @@ class Bahamas extends Country
     public string $fr = "Bahamas";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Bahamas";
-    
+
 }

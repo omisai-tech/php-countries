@@ -81,8 +81,8 @@ class Iceland extends Country
     public string $fr = "Islande";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Islândia";
-    
+
 }

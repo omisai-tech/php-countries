@@ -81,8 +81,8 @@ class StVincentAndGrenadines extends Country
     public string $fr = "Saint-Vincent-et-les Grenadines";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "São Vicente e Granadinas";
-    
+
 }

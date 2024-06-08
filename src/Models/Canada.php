@@ -81,8 +81,8 @@ class Canada extends Country
     public string $fr = "Canada";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Canadá";
-    
+
 }

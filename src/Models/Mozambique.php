@@ -81,8 +81,8 @@ class Mozambique extends Country
     public string $fr = "Mozambique";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Moçambique";
-    
+
 }

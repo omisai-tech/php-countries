@@ -81,8 +81,8 @@ class Bulgaria extends Country
     public string $fr = "Bulgarie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Bulgária";
-    
+
 }

@@ -81,8 +81,8 @@ class DominicanRepublic extends Country
     public string $fr = "République dominicaine";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "República Dominicana";
-    
+
 }

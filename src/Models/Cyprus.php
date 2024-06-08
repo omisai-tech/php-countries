@@ -81,8 +81,8 @@ class Cyprus extends Country
     public string $fr = "Chypre";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Chipre";
-    
+
 }

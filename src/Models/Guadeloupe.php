@@ -81,8 +81,8 @@ class Guadeloupe extends Country
     public string $fr = "Guadeloupe";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Guadalupe";
-    
+
 }

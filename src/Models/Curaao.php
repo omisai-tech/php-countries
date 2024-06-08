@@ -81,8 +81,8 @@ class Curaao extends Country
     public string $fr = "Curacao";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Curaçau";
-    
+
 }

@@ -81,8 +81,8 @@ class Micronesia extends Country
     public string $fr = "Micronésie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Micronésia";
-    
+
 }

@@ -81,8 +81,8 @@ class Myanmar extends Country
     public string $fr = "Birmanie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Mianmar";
-    
+
 }

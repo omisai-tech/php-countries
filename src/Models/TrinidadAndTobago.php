@@ -81,8 +81,8 @@ class TrinidadAndTobago extends Country
     public string $fr = "Trinité-et-Tobago";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Trinidad e Tobago";
-    
+
 }

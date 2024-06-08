@@ -81,8 +81,8 @@ class CookIslands extends Country
     public string $fr = "les Îles Cook";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Cook";
-    
+
 }

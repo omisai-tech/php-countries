@@ -81,8 +81,8 @@ class SolomonIslands extends Country
     public string $fr = "Les îles Salomon";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Salomão";
-    
+
 }

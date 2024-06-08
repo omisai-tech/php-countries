@@ -81,8 +81,8 @@ class NewZealand extends Country
     public string $fr = "Nouvelle-Zélande";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Nova Zelândia";
-    
+
 }

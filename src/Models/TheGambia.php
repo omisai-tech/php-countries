@@ -81,8 +81,8 @@ class TheGambia extends Country
     public string $fr = "Gambie";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "A Gâmbia";
-    
+
 }

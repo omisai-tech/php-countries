@@ -81,8 +81,8 @@ class SouthSudan extends Country
     public string $fr = "Soudan du sud";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Sudão do Sul";
-    
+
 }

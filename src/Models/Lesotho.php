@@ -81,8 +81,8 @@ class Lesotho extends Country
     public string $fr = "Lesotho";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Lesoto";
-    
+
 }

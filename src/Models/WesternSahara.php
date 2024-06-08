@@ -81,8 +81,8 @@ class WesternSahara extends Country
     public string $fr = "Sahara occidental";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Saara Ocidental";
-    
+
 }

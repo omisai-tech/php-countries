@@ -81,8 +81,8 @@ class FrenchPolynesia extends Country
     public string $fr = "Polynésie française";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Polinésia Francesa";
-    
+
 }

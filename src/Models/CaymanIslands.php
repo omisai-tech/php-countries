@@ -81,8 +81,8 @@ class CaymanIslands extends Country
     public string $fr = "Îles Caïmans";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Cayman";
-    
+
 }

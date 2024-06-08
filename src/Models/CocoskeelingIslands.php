@@ -81,8 +81,8 @@ class CocoskeelingIslands extends Country
     public string $fr = "Îles Cocos (Keeling)";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Ilhas Cocos (Keeling)";
-    
+
 }

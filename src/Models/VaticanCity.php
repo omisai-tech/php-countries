@@ -81,8 +81,8 @@ class VaticanCity extends Country
     public string $fr = "Cité du Vatican";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Cidade do Vaticano";
-    
+
 }

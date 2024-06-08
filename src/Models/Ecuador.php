@@ -81,8 +81,8 @@ class Ecuador extends Country
     public string $fr = "Équateur";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Equador";
-    
+
 }

@@ -81,8 +81,8 @@ class Comoros extends Country
     public string $fr = "Îles Comores";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Comores";
-    
+
 }

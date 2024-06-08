@@ -81,8 +81,8 @@ class Chad extends Country
     public string $fr = "Tchad";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Chade";
-    
+
 }

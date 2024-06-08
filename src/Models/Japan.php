@@ -81,8 +81,8 @@ class Japan extends Country
     public string $fr = "Japon";
 
     /**
-     * Portugees name of the country
+     * Portuguese name of the country
      */
     public string $pt = "Japão";
-    
+
 }
