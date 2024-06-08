@@ -28,6 +28,11 @@ class Guineabissau extends Country
     public string $fipCode = "PU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "245";
+
+    /**
      * Capital city
      */
     public string $capital = "Bissau";

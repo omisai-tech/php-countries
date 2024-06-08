@@ -28,6 +28,11 @@ class India extends Country
     public string $fipCode = "IN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "91";
+
+    /**
      * Capital city
      */
     public string $capital = "New Delhi";

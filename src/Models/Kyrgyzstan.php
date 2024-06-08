@@ -28,6 +28,11 @@ class Kyrgyzstan extends Country
     public string $fipCode = "KG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "996";
+
+    /**
      * Capital city
      */
     public string $capital = "Bishkek";

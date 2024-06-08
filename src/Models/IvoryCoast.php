@@ -28,6 +28,11 @@ class IvoryCoast extends Country
     public string $fipCode = "IV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "225";
+
+    /**
      * Capital city
      */
     public string $capital = "Yamoussoukro";

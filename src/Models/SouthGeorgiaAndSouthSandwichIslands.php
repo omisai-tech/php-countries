@@ -28,6 +28,11 @@ class SouthGeorgiaAndSouthSandwichIslands extends Country
     public string $fipCode = "SX";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "500";
+
+    /**
      * Capital city
      */
     public string $capital = "Grytviken";

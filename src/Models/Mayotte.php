@@ -28,6 +28,11 @@ class Mayotte extends Country
     public string $fipCode = "MF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "262";
+
+    /**
      * Capital city
      */
     public string $capital = "Mamoudzou";

@@ -28,6 +28,11 @@ class Chad extends Country
     public string $fipCode = "CD";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "235";
+
+    /**
      * Capital city
      */
     public string $capital = "N'Djamena";

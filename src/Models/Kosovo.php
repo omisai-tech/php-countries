@@ -28,6 +28,11 @@ class Kosovo extends Country
     public string $fipCode = "KV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "#HI�NYZIK";
+
+    /**
      * Capital city
      */
     public string $capital = "Pristina";

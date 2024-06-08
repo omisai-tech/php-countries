@@ -28,6 +28,11 @@ class Jordan extends Country
     public string $fipCode = "JO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "962";
+
+    /**
      * Capital city
      */
     public string $capital = "Amman";

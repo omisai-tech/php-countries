@@ -28,6 +28,11 @@ class Chile extends Country
     public string $fipCode = "CI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "56";
+
+    /**
      * Capital city
      */
     public string $capital = "Santiago";

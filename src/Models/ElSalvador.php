@@ -28,6 +28,11 @@ class ElSalvador extends Country
     public string $fipCode = "ES";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "503";
+
+    /**
      * Capital city
      */
     public string $capital = "San Salvador";

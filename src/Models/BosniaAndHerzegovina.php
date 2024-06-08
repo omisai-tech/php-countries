@@ -28,6 +28,11 @@ class BosniaAndHerzegovina extends Country
     public string $fipCode = "BK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "387";
+
+    /**
      * Capital city
      */
     public string $capital = "Sarajevo";

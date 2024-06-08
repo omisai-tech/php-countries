@@ -28,6 +28,11 @@ class Ireland extends Country
     public string $fipCode = "EI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "353";
+
+    /**
      * Capital city
      */
     public string $capital = "Dublin";

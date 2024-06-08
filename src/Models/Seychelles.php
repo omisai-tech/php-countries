@@ -28,6 +28,11 @@ class Seychelles extends Country
     public string $fipCode = "SE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "248";
+
+    /**
      * Capital city
      */
     public string $capital = "Victoria";

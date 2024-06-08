@@ -28,6 +28,11 @@ class WesternSahara extends Country
     public string $fipCode = "WI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "212";
+
+    /**
      * Capital city
      */
     public string $capital = "El-Aaiun";

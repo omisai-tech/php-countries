@@ -28,6 +28,11 @@ class Laos extends Country
     public string $fipCode = "LA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "856";
+
+    /**
      * Capital city
      */
     public string $capital = "Vientiane";

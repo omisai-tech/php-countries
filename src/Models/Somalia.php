@@ -28,6 +28,11 @@ class Somalia extends Country
     public string $fipCode = "SO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "252";
+
+    /**
      * Capital city
      */
     public string $capital = "Mogadishu";

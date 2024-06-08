@@ -28,6 +28,11 @@ class NorfolkIsland extends Country
     public string $fipCode = "NF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "672";
+
+    /**
      * Capital city
      */
     public string $capital = "Kingston";

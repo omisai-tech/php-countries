@@ -28,6 +28,11 @@ class Bangladesh extends Country
     public string $fipCode = "BG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "880";
+
+    /**
      * Capital city
      */
     public string $capital = "Dhaka";

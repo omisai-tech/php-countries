@@ -28,6 +28,11 @@ class FrenchSouthernTerritories extends Country
     public string $fipCode = "FS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "262";
+
+    /**
      * Capital city
      */
     public string $capital = "Port-aux-Francais";

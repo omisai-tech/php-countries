@@ -28,6 +28,11 @@ class TurksAndCaicosIslands extends Country
     public string $fipCode = "TK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-649";
+
+    /**
      * Capital city
      */
     public string $capital = "Cockburn Town";

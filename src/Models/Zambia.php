@@ -28,6 +28,11 @@ class Zambia extends Country
     public string $fipCode = "ZA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "260";
+
+    /**
      * Capital city
      */
     public string $capital = "Lusaka";

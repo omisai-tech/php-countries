@@ -28,6 +28,11 @@ class Monaco extends Country
     public string $fipCode = "MN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "377";
+
+    /**
      * Capital city
      */
     public string $capital = "Monaco";

@@ -28,6 +28,11 @@ class Azerbaijan extends Country
     public string $fipCode = "AJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "994";
+
+    /**
      * Capital city
      */
     public string $capital = "Baku";

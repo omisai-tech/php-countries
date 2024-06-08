@@ -28,6 +28,11 @@ class Kenya extends Country
     public string $fipCode = "KE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "254";
+
+    /**
      * Capital city
      */
     public string $capital = "Nairobi";

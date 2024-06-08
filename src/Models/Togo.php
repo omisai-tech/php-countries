@@ -28,6 +28,11 @@ class Togo extends Country
     public string $fipCode = "TO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "228";
+
+    /**
      * Capital city
      */
     public string $capital = "Lome";

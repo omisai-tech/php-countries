@@ -28,6 +28,11 @@ class Israel extends Country
     public string $fipCode = "IS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "972";
+
+    /**
      * Capital city
      */
     public string $capital = "Jerusalem";

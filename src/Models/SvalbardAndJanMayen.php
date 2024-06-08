@@ -28,6 +28,11 @@ class SvalbardAndJanMayen extends Country
     public string $fipCode = "SV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "47";
+
+    /**
      * Capital city
      */
     public string $capital = "Longyearbyen";

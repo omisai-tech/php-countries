@@ -28,6 +28,11 @@ class Ghana extends Country
     public string $fipCode = "GH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "233";
+
+    /**
      * Capital city
      */
     public string $capital = "Accra";

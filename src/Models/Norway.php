@@ -28,6 +28,11 @@ class Norway extends Country
     public string $fipCode = "NO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "47";
+
+    /**
      * Capital city
      */
     public string $capital = "Oslo";

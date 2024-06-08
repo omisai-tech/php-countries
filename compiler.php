@@ -17,7 +17,7 @@ function getClassName($string)
 
 if (($handle = fopen($csvFilePath, 'r')) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        $className = getClassName($data[8]);
+        $className = getClassName($data[9]);
 
         $classContent = "<?php
 namespace Omisai\\Countries\\Models;
@@ -49,9 +49,14 @@ class $className extends Country
     public string \$fipCode = \"{$data[3]}\";
 
     /**
+     * Phone dial code
+     */
+    public string \$dial = \"{$data[4]}\";
+
+    /**
      * Capital city
      */
-    public string \$capital = \"{$data[4]}\";
+    public string \$capital = \"{$data[5]}\";
 
     /**
      * Continent
@@ -64,37 +69,37 @@ class $className extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string \$continent = \"{$data[7]}\";
+    public string \$continent = \"{$data[8]}\";
 
     /**
      * English name of the country
      */
-    public string \$en = \"{$data[8]}\";
+    public string \$en = \"{$data[9]}\";
 
     /**
      * Hungarian name of the country
      */
-    public string \$hu = \"{$data[9]}\";
+    public string \$hu = \"{$data[10]}\";
 
     /**
      * German name of the country
      */
-    public string \$de = \"{$data[10]}\";
+    public string \$de = \"{$data[11]}\";
 
     /**
      * Spanish name of the country
      */
-    public string \$es = \"{$data[11]}\";
+    public string \$es = \"{$data[12]}\";
 
     /**
      * Italian name of the country
      */
-    public string \$it = \"{$data[12]}\";
+    public string \$it = \"{$data[13]}\";
 
     /**
      * French name of the country
      */
-    public string \$fr = \"{$data[13]}\";
+    public string \$fr = \"{$data[14]}\";
     \n}
 ";
 

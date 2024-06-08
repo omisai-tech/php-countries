@@ -28,6 +28,11 @@ class Uzbekistan extends Country
     public string $fipCode = "UZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "998";
+
+    /**
      * Capital city
      */
     public string $capital = "Tashkent";

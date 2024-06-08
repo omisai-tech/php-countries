@@ -28,6 +28,11 @@ class Bahrain extends Country
     public string $fipCode = "BA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "973";
+
+    /**
      * Capital city
      */
     public string $capital = "Manama";

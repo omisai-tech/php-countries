@@ -28,6 +28,11 @@ class Namibia extends Country
     public string $fipCode = "WA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "264";
+
+    /**
      * Capital city
      */
     public string $capital = "Windhoek";

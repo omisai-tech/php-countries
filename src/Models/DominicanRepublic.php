@@ -28,6 +28,11 @@ class DominicanRepublic extends Country
     public string $fipCode = "DR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-809,1-829,1-849";
+
+    /**
      * Capital city
      */
     public string $capital = "Santo Domingo";

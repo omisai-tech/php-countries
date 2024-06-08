@@ -28,6 +28,11 @@ class Zimbabwe extends Country
     public string $fipCode = "ZI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "263";
+
+    /**
      * Capital city
      */
     public string $capital = "Harare";

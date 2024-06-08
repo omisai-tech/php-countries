@@ -28,6 +28,11 @@ class SaintBarthlemy extends Country
     public string $fipCode = "TB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "590";
+
+    /**
      * Capital city
      */
     public string $capital = "Gustavia";

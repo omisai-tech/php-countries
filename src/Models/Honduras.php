@@ -28,6 +28,11 @@ class Honduras extends Country
     public string $fipCode = "HO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "504";
+
+    /**
      * Capital city
      */
     public string $capital = "Tegucigalpa";

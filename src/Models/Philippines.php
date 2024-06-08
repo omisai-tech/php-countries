@@ -28,6 +28,11 @@ class Philippines extends Country
     public string $fipCode = "RP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "63";
+
+    /**
      * Capital city
      */
     public string $capital = "Manila";

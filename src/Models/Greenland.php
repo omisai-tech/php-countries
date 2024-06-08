@@ -28,6 +28,11 @@ class Greenland extends Country
     public string $fipCode = "GL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "299";
+
+    /**
      * Capital city
      */
     public string $capital = "Nuuk";

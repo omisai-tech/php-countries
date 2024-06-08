@@ -28,6 +28,11 @@ class Sweden extends Country
     public string $fipCode = "SW";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "46";
+
+    /**
      * Capital city
      */
     public string $capital = "Stockholm";

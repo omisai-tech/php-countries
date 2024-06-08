@@ -28,6 +28,11 @@ class Denmark extends Country
     public string $fipCode = "DA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "45";
+
+    /**
      * Capital city
      */
     public string $capital = "Copenhagen";

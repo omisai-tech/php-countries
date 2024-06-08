@@ -28,6 +28,11 @@ class Haiti extends Country
     public string $fipCode = "HA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "509";
+
+    /**
      * Capital city
      */
     public string $capital = "Port-au-Prince";

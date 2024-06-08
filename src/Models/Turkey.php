@@ -28,6 +28,11 @@ class Turkey extends Country
     public string $fipCode = "TU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "90";
+
+    /**
      * Capital city
      */
     public string $capital = "Ankara";

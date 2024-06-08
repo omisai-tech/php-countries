@@ -28,6 +28,11 @@ class CentralAfricanRepublic extends Country
     public string $fipCode = "CT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "236";
+
+    /**
      * Capital city
      */
     public string $capital = "Bangui";

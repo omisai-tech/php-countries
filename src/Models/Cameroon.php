@@ -28,6 +28,11 @@ class Cameroon extends Country
     public string $fipCode = "CM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "237";
+
+    /**
      * Capital city
      */
     public string $capital = "Yaounde";

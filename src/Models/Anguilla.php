@@ -28,6 +28,11 @@ class Anguilla extends Country
     public string $fipCode = "AV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-264";
+
+    /**
      * Capital city
      */
     public string $capital = "The Valley";

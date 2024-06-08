@@ -28,6 +28,11 @@ class Kuwait extends Country
     public string $fipCode = "KU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "965";
+
+    /**
      * Capital city
      */
     public string $capital = "Kuwait City";

@@ -28,6 +28,11 @@ class Tonga extends Country
     public string $fipCode = "TN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "676";
+
+    /**
      * Capital city
      */
     public string $capital = "Nuku'alofa";

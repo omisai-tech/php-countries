@@ -28,6 +28,11 @@ class Libya extends Country
     public string $fipCode = "LY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "218";
+
+    /**
      * Capital city
      */
     public string $capital = "Tripoli";

@@ -28,6 +28,11 @@ class Czechia extends Country
     public string $fipCode = "EZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "420";
+
+    /**
      * Capital city
      */
     public string $capital = "Prague";

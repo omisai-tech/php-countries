@@ -28,6 +28,11 @@ class Benin extends Country
     public string $fipCode = "BN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "229";
+
+    /**
      * Capital city
      */
     public string $capital = "Porto-Novo";

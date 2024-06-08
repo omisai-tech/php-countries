@@ -28,6 +28,11 @@ class Montserrat extends Country
     public string $fipCode = "MH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-664";
+
+    /**
      * Capital city
      */
     public string $capital = "Plymouth";

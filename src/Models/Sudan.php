@@ -28,6 +28,11 @@ class Sudan extends Country
     public string $fipCode = "SU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "249";
+
+    /**
      * Capital city
      */
     public string $capital = "Khartoum";

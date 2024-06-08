@@ -28,6 +28,11 @@ class AmericanSamoa extends Country
     public string $fipCode = "AQ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-684";
+
+    /**
      * Capital city
      */
     public string $capital = "Pago Pago";

@@ -28,6 +28,11 @@ class Kazakhstan extends Country
     public string $fipCode = "KZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "7";
+
+    /**
      * Capital city
      */
     public string $capital = "Nur-Sultan";

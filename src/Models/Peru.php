@@ -28,6 +28,11 @@ class Peru extends Country
     public string $fipCode = "PE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "51";
+
+    /**
      * Capital city
      */
     public string $capital = "Lima";

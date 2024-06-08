@@ -28,6 +28,11 @@ class Colombia extends Country
     public string $fipCode = "CO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "57";
+
+    /**
      * Capital city
      */
     public string $capital = "Bogota";

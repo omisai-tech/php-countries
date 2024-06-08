@@ -28,6 +28,11 @@ class Jersey extends Country
     public string $fipCode = "JE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "44";
+
+    /**
      * Capital city
      */
     public string $capital = "Saint Helier";

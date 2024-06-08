@@ -58,6 +58,7 @@ $collection->getCountryByAlpha2('FI'); // Omisai\Countries\Models\Finland
 $collection->getCountryByAlpha3('FIN'); // Omisai\Countries\Models\Finland
 $collection->getCountryByNumeric('246'); // Omisai\Countries\Models\Finland
 $collection->getCountryByFipCode('FI'); // Omisai\Countries\Models\Finland
+$collection->getCountryByDial('358'); // Omisai\Countries\Models\Finland
 $collection->getCountryByCapital('Helsinki'); // Omisai\Countries\Models\Finland
 $collection->getCountryByName('Finland'); // Omisai\Countries\Models\Finland
 $collection->getCountryByName('Finlande', "fr"); // Omisai\Countries\Models\Finland
@@ -69,6 +70,7 @@ $collection->getCountriesAlpha2(); // ['country_name' => 'country_alpha2']
 $collection->getCountriesAlpha3(); // ['country_name' => 'country_alpha3']
 $collection->getCountriesNumeric(); // ['country_name' => 'country_numeric']
 $collection->getCountriesFipCode(); // ['country_name' => 'country_fipCode']
+$collection->getCountriesDial(); // ['country_name' => 'country_dial']
 
 $collection->getCountriesAlpha2('fr'); // ['fr:country_name' => 'country_alpha2'] -> ['Finlande' => 'FI']
 
@@ -84,6 +86,7 @@ $europe->alpha2; // "FI"
 $europe->alpha3; // "FIN"
 $europe->numeric; // "246"
 $europe->fipCode; // "FI"
+$europe->dial; // "358"
 $europe->capital; // "Helsinki"
 $europe->continent; // "EU"
 $europe->hu; // "Finnország"

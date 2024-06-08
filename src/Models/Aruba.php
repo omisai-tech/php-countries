@@ -28,6 +28,11 @@ class Aruba extends Country
     public string $fipCode = "AA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "297";
+
+    /**
      * Capital city
      */
     public string $capital = "Oranjestad";

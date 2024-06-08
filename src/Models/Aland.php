@@ -1,5 +1,4 @@
 <?php
-
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
@@ -29,6 +28,11 @@ class Aland extends Country
     public string $fipCode = "";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "358";
+
+    /**
      * Capital city
      */
     public string $capital = "Mariehamn";
@@ -49,7 +53,7 @@ class Aland extends Country
     /**
      * English name of the country
      */
-    public string $en = "Åland";
+    public string $en = "Aland";
 
     /**
      * Hungarian name of the country
@@ -75,4 +79,5 @@ class Aland extends Country
      * French name of the country
      */
     public string $fr = "Un terrain";
+    
 }

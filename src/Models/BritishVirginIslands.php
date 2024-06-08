@@ -28,6 +28,11 @@ class BritishVirginIslands extends Country
     public string $fipCode = "VI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-284";
+
+    /**
      * Capital city
      */
     public string $capital = "Road Town";

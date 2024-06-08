@@ -28,6 +28,11 @@ class Dominica extends Country
     public string $fipCode = "DO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-767";
+
+    /**
      * Capital city
      */
     public string $capital = "Roseau";

@@ -28,6 +28,11 @@ class SierraLeone extends Country
     public string $fipCode = "SL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "232";
+
+    /**
      * Capital city
      */
     public string $capital = "Freetown";

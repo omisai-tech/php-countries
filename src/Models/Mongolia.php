@@ -28,6 +28,11 @@ class Mongolia extends Country
     public string $fipCode = "MG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "976";
+
+    /**
      * Capital city
      */
     public string $capital = "Ulaanbaatar";

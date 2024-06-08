@@ -28,6 +28,11 @@ class Mauritius extends Country
     public string $fipCode = "MP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "230";
+
+    /**
      * Capital city
      */
     public string $capital = "Port Louis";

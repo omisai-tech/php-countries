@@ -28,6 +28,11 @@ class SouthAfrica extends Country
     public string $fipCode = "SF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "27";
+
+    /**
      * Capital city
      */
     public string $capital = "Pretoria";

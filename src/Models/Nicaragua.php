@@ -28,6 +28,11 @@ class Nicaragua extends Country
     public string $fipCode = "NU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "505";
+
+    /**
      * Capital city
      */
     public string $capital = "Managua";

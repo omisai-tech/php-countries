@@ -28,6 +28,11 @@ class UnitedStates extends Country
     public string $fipCode = "US";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1";
+
+    /**
      * Capital city
      */
     public string $capital = "Washington";

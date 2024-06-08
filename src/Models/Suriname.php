@@ -28,6 +28,11 @@ class Suriname extends Country
     public string $fipCode = "NS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "597";
+
+    /**
      * Capital city
      */
     public string $capital = "Paramaribo";

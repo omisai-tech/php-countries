@@ -28,6 +28,11 @@ class FrenchPolynesia extends Country
     public string $fipCode = "FP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "689";
+
+    /**
      * Capital city
      */
     public string $capital = "Papeete";

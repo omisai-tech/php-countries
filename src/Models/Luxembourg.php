@@ -28,6 +28,11 @@ class Luxembourg extends Country
     public string $fipCode = "LU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "352";
+
+    /**
      * Capital city
      */
     public string $capital = "Luxembourg";

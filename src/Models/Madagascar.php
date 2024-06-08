@@ -28,6 +28,11 @@ class Madagascar extends Country
     public string $fipCode = "MA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "261";
+
+    /**
      * Capital city
      */
     public string $capital = "Antananarivo";

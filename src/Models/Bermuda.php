@@ -28,6 +28,11 @@ class Bermuda extends Country
     public string $fipCode = "BD";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-441";
+
+    /**
      * Capital city
      */
     public string $capital = "Hamilton";

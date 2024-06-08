@@ -28,6 +28,11 @@ class Switzerland extends Country
     public string $fipCode = "SZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "41";
+
+    /**
      * Capital city
      */
     public string $capital = "Bern";

@@ -28,6 +28,11 @@ class Australia extends Country
     public string $fipCode = "AS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "61";
+
+    /**
      * Capital city
      */
     public string $capital = "Canberra";

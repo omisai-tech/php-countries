@@ -28,6 +28,11 @@ class Gabon extends Country
     public string $fipCode = "GB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "241";
+
+    /**
      * Capital city
      */
     public string $capital = "Libreville";

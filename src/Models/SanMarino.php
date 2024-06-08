@@ -28,6 +28,11 @@ class SanMarino extends Country
     public string $fipCode = "SM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "378";
+
+    /**
      * Capital city
      */
     public string $capital = "San Marino";

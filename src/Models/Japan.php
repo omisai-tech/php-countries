@@ -28,6 +28,11 @@ class Japan extends Country
     public string $fipCode = "JA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "81";
+
+    /**
      * Capital city
      */
     public string $capital = "Tokyo";

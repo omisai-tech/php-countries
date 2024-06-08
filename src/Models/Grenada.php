@@ -28,6 +28,11 @@ class Grenada extends Country
     public string $fipCode = "GJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-473";
+
+    /**
      * Capital city
      */
     public string $capital = "St. George's";

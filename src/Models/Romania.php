@@ -28,6 +28,11 @@ class Romania extends Country
     public string $fipCode = "RO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "40";
+
+    /**
      * Capital city
      */
     public string $capital = "Bucharest";

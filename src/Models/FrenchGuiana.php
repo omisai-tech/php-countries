@@ -28,6 +28,11 @@ class FrenchGuiana extends Country
     public string $fipCode = "FG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "594";
+
+    /**
      * Capital city
      */
     public string $capital = "Cayenne";

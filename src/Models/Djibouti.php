@@ -28,6 +28,11 @@ class Djibouti extends Country
     public string $fipCode = "DJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "253";
+
+    /**
      * Capital city
      */
     public string $capital = "Djibouti";

@@ -28,6 +28,11 @@ class Portugal extends Country
     public string $fipCode = "PO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "351";
+
+    /**
      * Capital city
      */
     public string $capital = "Lisbon";

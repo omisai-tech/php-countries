@@ -28,6 +28,11 @@ class Syria extends Country
     public string $fipCode = "SY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "963";
+
+    /**
      * Capital city
      */
     public string $capital = "Damascus";

@@ -28,6 +28,11 @@ class Ukraine extends Country
     public string $fipCode = "UP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "380";
+
+    /**
      * Capital city
      */
     public string $capital = "Kyiv";

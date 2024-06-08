@@ -28,6 +28,11 @@ class Armenia extends Country
     public string $fipCode = "AM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "374";
+
+    /**
      * Capital city
      */
     public string $capital = "Yerevan";

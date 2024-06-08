@@ -28,6 +28,11 @@ class Comoros extends Country
     public string $fipCode = "CN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "269";
+
+    /**
      * Capital city
      */
     public string $capital = "Moroni";

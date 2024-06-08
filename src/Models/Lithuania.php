@@ -28,6 +28,11 @@ class Lithuania extends Country
     public string $fipCode = "LH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "370";
+
+    /**
      * Capital city
      */
     public string $capital = "Vilnius";

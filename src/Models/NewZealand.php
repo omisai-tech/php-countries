@@ -28,6 +28,11 @@ class NewZealand extends Country
     public string $fipCode = "NZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "64";
+
+    /**
      * Capital city
      */
     public string $capital = "Wellington";

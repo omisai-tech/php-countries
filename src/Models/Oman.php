@@ -28,6 +28,11 @@ class Oman extends Country
     public string $fipCode = "MU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "968";
+
+    /**
      * Capital city
      */
     public string $capital = "Muscat";

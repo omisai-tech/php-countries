@@ -142,6 +142,29 @@ class Collection
         return $result;
     }
 
+    public function getCountryByDial(string $dial): ?Country
+    {
+        foreach ($this->countries as $country) {
+            if ($country->dial === $dial) {
+                return $country;
+            }
+        }
+
+        return null;
+    }
+
+    public function getCountriesDial(string $locale = 'en'): array
+    {
+        $this->validateLocale($locale);
+
+        $result = [];
+        foreach ($this->countries as $country) {
+            $result[$country->getName($locale)] = $country->dial;
+        }
+
+        return $result;
+    }
+
     public function getCountryByCapital(string $capital): ?Country
     {
         foreach ($this->countries as $country) {

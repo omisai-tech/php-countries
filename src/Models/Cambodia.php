@@ -28,6 +28,11 @@ class Cambodia extends Country
     public string $fipCode = "CB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "855";
+
+    /**
      * Capital city
      */
     public string $capital = "Phnom Penh";

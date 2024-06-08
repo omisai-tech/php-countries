@@ -28,6 +28,11 @@ class Guatemala extends Country
     public string $fipCode = "GT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "502";
+
+    /**
      * Capital city
      */
     public string $capital = "Guatemala City";

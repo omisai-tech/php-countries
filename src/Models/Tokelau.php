@@ -28,6 +28,11 @@ class Tokelau extends Country
     public string $fipCode = "TL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "690";
+
+    /**
      * Capital city
      */
     public string $capital = "";

@@ -28,6 +28,11 @@ class StVincentAndGrenadines extends Country
     public string $fipCode = "VC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-784";
+
+    /**
      * Capital city
      */
     public string $capital = "Kingstown";

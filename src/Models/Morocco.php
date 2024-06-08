@@ -28,6 +28,11 @@ class Morocco extends Country
     public string $fipCode = "MO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "212";
+
+    /**
      * Capital city
      */
     public string $capital = "Rabat";

@@ -28,6 +28,11 @@ class TheGambia extends Country
     public string $fipCode = "GA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "220";
+
+    /**
      * Capital city
      */
     public string $capital = "Banjul";

@@ -28,6 +28,11 @@ class Palau extends Country
     public string $fipCode = "PS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "680";
+
+    /**
      * Capital city
      */
     public string $capital = "Melekeok";

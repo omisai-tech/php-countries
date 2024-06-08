@@ -28,6 +28,11 @@ class Micronesia extends Country
     public string $fipCode = "FM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "691";
+
+    /**
      * Capital city
      */
     public string $capital = "Palikir";

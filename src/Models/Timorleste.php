@@ -28,6 +28,11 @@ class Timorleste extends Country
     public string $fipCode = "TT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "670";
+
+    /**
      * Capital city
      */
     public string $capital = "Dili";

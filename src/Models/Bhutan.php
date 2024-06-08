@@ -28,6 +28,11 @@ class Bhutan extends Country
     public string $fipCode = "BT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "975";
+
+    /**
      * Capital city
      */
     public string $capital = "Thimphu";

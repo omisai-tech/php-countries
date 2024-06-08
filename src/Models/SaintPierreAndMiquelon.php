@@ -28,6 +28,11 @@ class SaintPierreAndMiquelon extends Country
     public string $fipCode = "SB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "508";
+
+    /**
      * Capital city
      */
     public string $capital = "Saint-Pierre";

@@ -28,6 +28,11 @@ class Bolivia extends Country
     public string $fipCode = "BL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "591";
+
+    /**
      * Capital city
      */
     public string $capital = "Sucre";

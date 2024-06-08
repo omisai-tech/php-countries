@@ -28,6 +28,11 @@ class Iceland extends Country
     public string $fipCode = "IC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "354";
+
+    /**
      * Capital city
      */
     public string $capital = "Reykjavik";

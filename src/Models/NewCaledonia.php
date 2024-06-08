@@ -28,6 +28,11 @@ class NewCaledonia extends Country
     public string $fipCode = "NC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "687";
+
+    /**
      * Capital city
      */
     public string $capital = "Noumea";

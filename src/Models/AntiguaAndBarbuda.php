@@ -28,6 +28,11 @@ class AntiguaAndBarbuda extends Country
     public string $fipCode = "AC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-268";
+
+    /**
      * Capital city
      */
     public string $capital = "St. John's";

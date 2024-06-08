@@ -28,6 +28,11 @@ class SoTomAndPrncipe extends Country
     public string $fipCode = "TP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "239";
+
+    /**
      * Capital city
      */
     public string $capital = "Sao Tome";

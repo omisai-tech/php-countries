@@ -28,6 +28,11 @@ class Myanmar extends Country
     public string $fipCode = "BM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "95";
+
+    /**
      * Capital city
      */
     public string $capital = "Nay Pyi Taw";

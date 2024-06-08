@@ -28,6 +28,11 @@ class NorthMacedonia extends Country
     public string $fipCode = "MK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "389";
+
+    /**
      * Capital city
      */
     public string $capital = "Skopje";

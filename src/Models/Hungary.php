@@ -28,6 +28,11 @@ class Hungary extends Country
     public string $fipCode = "HU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "36";
+
+    /**
      * Capital city
      */
     public string $capital = "Budapest";

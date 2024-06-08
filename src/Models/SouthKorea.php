@@ -28,6 +28,11 @@ class SouthKorea extends Country
     public string $fipCode = "KS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "82";
+
+    /**
      * Capital city
      */
     public string $capital = "Seoul";

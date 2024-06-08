@@ -28,6 +28,11 @@ class Eritrea extends Country
     public string $fipCode = "ER";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "291";
+
+    /**
      * Capital city
      */
     public string $capital = "Asmara";

@@ -28,6 +28,11 @@ class Liberia extends Country
     public string $fipCode = "LI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "231";
+
+    /**
      * Capital city
      */
     public string $capital = "Monrovia";

@@ -28,6 +28,11 @@ class SolomonIslands extends Country
     public string $fipCode = "BP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "677";
+
+    /**
      * Capital city
      */
     public string $capital = "Honiara";

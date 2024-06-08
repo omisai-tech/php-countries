@@ -28,6 +28,11 @@ class UnitedKingdom extends Country
     public string $fipCode = "UK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "44";
+
+    /**
      * Capital city
      */
     public string $capital = "London";

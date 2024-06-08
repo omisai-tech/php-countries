@@ -28,6 +28,11 @@ class Tunisia extends Country
     public string $fipCode = "TS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "216";
+
+    /**
      * Capital city
      */
     public string $capital = "Tunis";

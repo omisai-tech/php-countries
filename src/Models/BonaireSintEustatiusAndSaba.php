@@ -28,6 +28,11 @@ class BonaireSintEustatiusAndSaba extends Country
     public string $fipCode = "";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "599";
+
+    /**
      * Capital city
      */
     public string $capital = "";

@@ -28,6 +28,11 @@ class CaymanIslands extends Country
     public string $fipCode = "CJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-345";
+
+    /**
      * Capital city
      */
     public string $capital = "George Town";

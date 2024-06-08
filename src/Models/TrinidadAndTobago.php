@@ -28,6 +28,11 @@ class TrinidadAndTobago extends Country
     public string $fipCode = "TD";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-868";
+
+    /**
      * Capital city
      */
     public string $capital = "Port of Spain";

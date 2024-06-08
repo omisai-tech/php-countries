@@ -28,6 +28,11 @@ class Bahamas extends Country
     public string $fipCode = "BF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-242";
+
+    /**
      * Capital city
      */
     public string $capital = "Nassau";

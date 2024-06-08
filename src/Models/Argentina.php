@@ -28,6 +28,11 @@ class Argentina extends Country
     public string $fipCode = "AR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "54";
+
+    /**
      * Capital city
      */
     public string $capital = "Buenos Aires";

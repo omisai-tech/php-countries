@@ -28,6 +28,11 @@ class Mauritania extends Country
     public string $fipCode = "MR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "222";
+
+    /**
      * Capital city
      */
     public string $capital = "Nouakchott";

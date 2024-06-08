@@ -28,6 +28,11 @@ class Qatar extends Country
     public string $fipCode = "QA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "974";
+
+    /**
      * Capital city
      */
     public string $capital = "Doha";

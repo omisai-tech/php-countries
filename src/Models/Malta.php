@@ -28,6 +28,11 @@ class Malta extends Country
     public string $fipCode = "MT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "356";
+
+    /**
      * Capital city
      */
     public string $capital = "Valletta";

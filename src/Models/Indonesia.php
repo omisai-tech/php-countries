@@ -28,6 +28,11 @@ class Indonesia extends Country
     public string $fipCode = "ID";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "62";
+
+    /**
      * Capital city
      */
     public string $capital = "Jakarta";

@@ -28,6 +28,11 @@ class TheNetherlands extends Country
     public string $fipCode = "NL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "31";
+
+    /**
      * Capital city
      */
     public string $capital = "Amsterdam";

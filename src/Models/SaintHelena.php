@@ -28,6 +28,11 @@ class SaintHelena extends Country
     public string $fipCode = "SH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "290";
+
+    /**
      * Capital city
      */
     public string $capital = "Jamestown";

@@ -28,6 +28,11 @@ class Slovenia extends Country
     public string $fipCode = "SI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "386";
+
+    /**
      * Capital city
      */
     public string $capital = "Ljubljana";

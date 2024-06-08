@@ -28,6 +28,11 @@ class EquatorialGuinea extends Country
     public string $fipCode = "EK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "240";
+
+    /**
      * Capital city
      */
     public string $capital = "Malabo";

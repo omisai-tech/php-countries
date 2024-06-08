@@ -89,6 +89,21 @@ it('returns null when country by capital is not found', function () {
     expect($country)->toBeNull();
 });
 
+it('returns country by dial', function () {
+    $collection = new Collection();
+    $country = $collection->getCountryByDial('36');
+
+    expect($country)->toBeInstanceOf(Country::class);
+    expect($country->dial)->toBe('36');
+});
+
+it('returns null when country by dial is not found', function () {
+    $collection = new Collection();
+    $country = $collection->getCountryByDial('9999999');
+
+    expect($country)->toBeNull();
+});
+
 it('returns countries by continent', function () {
     $collection = new Collection();
     $countries = $collection->getCountriesByContinent('NA');

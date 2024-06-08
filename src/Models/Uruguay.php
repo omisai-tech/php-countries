@@ -28,6 +28,11 @@ class Uruguay extends Country
     public string $fipCode = "UY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "598";
+
+    /**
      * Capital city
      */
     public string $capital = "Montevideo";

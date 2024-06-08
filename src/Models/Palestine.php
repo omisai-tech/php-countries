@@ -28,6 +28,11 @@ class Palestine extends Country
     public string $fipCode = "WE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "970";
+
+    /**
      * Capital city
      */
     public string $capital = "East Jerusalem";

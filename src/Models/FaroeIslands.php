@@ -28,6 +28,11 @@ class FaroeIslands extends Country
     public string $fipCode = "FO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "298";
+
+    /**
      * Capital city
      */
     public string $capital = "Torshavn";

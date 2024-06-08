@@ -28,6 +28,11 @@ class Gibraltar extends Country
     public string $fipCode = "GI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "350";
+
+    /**
      * Capital city
      */
     public string $capital = "Gibraltar";

@@ -28,6 +28,11 @@ class Guyana extends Country
     public string $fipCode = "GY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "592";
+
+    /**
      * Capital city
      */
     public string $capital = "Georgetown";

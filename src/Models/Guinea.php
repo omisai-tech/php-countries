@@ -28,6 +28,11 @@ class Guinea extends Country
     public string $fipCode = "GV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "224";
+
+    /**
      * Capital city
      */
     public string $capital = "Conakry";

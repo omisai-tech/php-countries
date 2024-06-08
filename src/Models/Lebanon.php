@@ -28,6 +28,11 @@ class Lebanon extends Country
     public string $fipCode = "LE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "961";
+
+    /**
      * Capital city
      */
     public string $capital = "Beirut";

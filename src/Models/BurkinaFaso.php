@@ -28,6 +28,11 @@ class BurkinaFaso extends Country
     public string $fipCode = "UV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "226";
+
+    /**
      * Capital city
      */
     public string $capital = "Ouagadougou";

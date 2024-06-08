@@ -28,6 +28,11 @@ class VaticanCity extends Country
     public string $fipCode = "VT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "39-06";
+
+    /**
      * Capital city
      */
     public string $capital = "Vatican City";

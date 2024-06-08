@@ -28,6 +28,11 @@ class BritishIndianOceanTerritory extends Country
     public string $fipCode = "IO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "246";
+
+    /**
      * Capital city
      */
     public string $capital = "Diego Garcia";

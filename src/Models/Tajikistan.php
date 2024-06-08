@@ -28,6 +28,11 @@ class Tajikistan extends Country
     public string $fipCode = "TI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "992";
+
+    /**
      * Capital city
      */
     public string $capital = "Dushanbe";

@@ -28,6 +28,11 @@ class Lesotho extends Country
     public string $fipCode = "LT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "266";
+
+    /**
      * Capital city
      */
     public string $capital = "Maseru";

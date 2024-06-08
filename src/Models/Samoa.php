@@ -28,6 +28,11 @@ class Samoa extends Country
     public string $fipCode = "WS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "685";
+
+    /**
      * Capital city
      */
     public string $capital = "Apia";

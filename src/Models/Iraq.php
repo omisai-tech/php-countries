@@ -28,6 +28,11 @@ class Iraq extends Country
     public string $fipCode = "IZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "964";
+
+    /**
      * Capital city
      */
     public string $capital = "Baghdad";

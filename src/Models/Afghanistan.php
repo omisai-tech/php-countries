@@ -28,6 +28,11 @@ class Afghanistan extends Country
     public string $fipCode = "AF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "93";
+
+    /**
      * Capital city
      */
     public string $capital = "Kabul";

@@ -28,6 +28,11 @@ class Germany extends Country
     public string $fipCode = "GM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "49";
+
+    /**
      * Capital city
      */
     public string $capital = "Berlin";

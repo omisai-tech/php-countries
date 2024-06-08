@@ -28,6 +28,11 @@ class Albania extends Country
     public string $fipCode = "AL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "355";
+
+    /**
      * Capital city
      */
     public string $capital = "Tirana";

@@ -28,6 +28,11 @@ class UnitedArabEmirates extends Country
     public string $fipCode = "AE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "971";
+
+    /**
      * Capital city
      */
     public string $capital = "Abu Dhabi";

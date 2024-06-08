@@ -28,6 +28,11 @@ class Angola extends Country
     public string $fipCode = "AO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "244";
+
+    /**
      * Capital city
      */
     public string $capital = "Luanda";

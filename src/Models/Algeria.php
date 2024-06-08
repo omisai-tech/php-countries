@@ -28,6 +28,11 @@ class Algeria extends Country
     public string $fipCode = "AG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "213";
+
+    /**
      * Capital city
      */
     public string $capital = "Algiers";

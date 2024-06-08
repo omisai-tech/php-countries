@@ -28,6 +28,11 @@ class Latvia extends Country
     public string $fipCode = "LG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "371";
+
+    /**
      * Capital city
      */
     public string $capital = "Riga";

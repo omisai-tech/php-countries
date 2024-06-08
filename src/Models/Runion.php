@@ -28,6 +28,11 @@ class Runion extends Country
     public string $fipCode = "RE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "262";
+
+    /**
      * Capital city
      */
     public string $capital = "Saint-Denis";

@@ -28,6 +28,11 @@ class SaintLucia extends Country
     public string $fipCode = "ST";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-758";
+
+    /**
      * Capital city
      */
     public string $capital = "Castries";

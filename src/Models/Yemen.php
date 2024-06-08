@@ -28,6 +28,11 @@ class Yemen extends Country
     public string $fipCode = "YM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "967";
+
+    /**
      * Capital city
      */
     public string $capital = "Sanaa";

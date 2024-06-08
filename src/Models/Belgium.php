@@ -28,6 +28,11 @@ class Belgium extends Country
     public string $fipCode = "BE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "32";
+
+    /**
      * Capital city
      */
     public string $capital = "Brussels";

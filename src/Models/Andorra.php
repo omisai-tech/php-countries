@@ -28,6 +28,11 @@ class Andorra extends Country
     public string $fipCode = "AN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "376";
+
+    /**
      * Capital city
      */
     public string $capital = "Andorra la Vella";

@@ -28,6 +28,11 @@ class SaudiArabia extends Country
     public string $fipCode = "SA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "966";
+
+    /**
      * Capital city
      */
     public string $capital = "Riyadh";

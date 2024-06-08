@@ -28,6 +28,11 @@ class Greece extends Country
     public string $fipCode = "GR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "30";
+
+    /**
      * Capital city
      */
     public string $capital = "Athens";

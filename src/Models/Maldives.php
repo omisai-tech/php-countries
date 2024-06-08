@@ -28,6 +28,11 @@ class Maldives extends Country
     public string $fipCode = "MV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "960";
+
+    /**
      * Capital city
      */
     public string $capital = "Male";

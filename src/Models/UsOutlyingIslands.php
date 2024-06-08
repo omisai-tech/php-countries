@@ -28,6 +28,11 @@ class UsOutlyingIslands extends Country
     public string $fipCode = "";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = " ";
+
+    /**
      * Capital city
      */
     public string $capital = "";

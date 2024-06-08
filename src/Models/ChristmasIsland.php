@@ -28,6 +28,11 @@ class ChristmasIsland extends Country
     public string $fipCode = "KT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "61";
+
+    /**
      * Capital city
      */
     public string $capital = "Flying Fish Cove";

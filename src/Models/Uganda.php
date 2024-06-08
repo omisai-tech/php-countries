@@ -28,6 +28,11 @@ class Uganda extends Country
     public string $fipCode = "UG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "256";
+
+    /**
      * Capital city
      */
     public string $capital = "Kampala";

@@ -28,6 +28,11 @@ class Niger extends Country
     public string $fipCode = "NG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "227";
+
+    /**
      * Capital city
      */
     public string $capital = "Niamey";

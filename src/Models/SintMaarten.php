@@ -28,6 +28,11 @@ class SintMaarten extends Country
     public string $fipCode = "NN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-721";
+
+    /**
      * Capital city
      */
     public string $capital = "Philipsburg";

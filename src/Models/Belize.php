@@ -28,6 +28,11 @@ class Belize extends Country
     public string $fipCode = "BH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "501";
+
+    /**
      * Capital city
      */
     public string $capital = "Belmopan";

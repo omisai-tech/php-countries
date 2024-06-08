@@ -28,6 +28,11 @@ class DrCongo extends Country
     public string $fipCode = "CG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "243";
+
+    /**
      * Capital city
      */
     public string $capital = "Kinshasa";

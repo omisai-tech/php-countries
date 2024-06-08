@@ -28,6 +28,11 @@ class Nigeria extends Country
     public string $fipCode = "NI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "234";
+
+    /**
      * Capital city
      */
     public string $capital = "Abuja";

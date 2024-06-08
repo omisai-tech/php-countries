@@ -28,6 +28,11 @@ class SaintMartin extends Country
     public string $fipCode = "RN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "590";
+
+    /**
      * Capital city
      */
     public string $capital = "Marigot";

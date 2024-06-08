@@ -28,6 +28,11 @@ class Fiji extends Country
     public string $fipCode = "FJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "679";
+
+    /**
      * Capital city
      */
     public string $capital = "Suva";

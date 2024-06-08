@@ -28,6 +28,11 @@ class Mozambique extends Country
     public string $fipCode = "MZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "258";
+
+    /**
      * Capital city
      */
     public string $capital = "Maputo";

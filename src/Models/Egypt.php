@@ -28,6 +28,11 @@ class Egypt extends Country
     public string $fipCode = "EG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "20";
+
+    /**
      * Capital city
      */
     public string $capital = "Cairo";

@@ -28,6 +28,11 @@ class Guadeloupe extends Country
     public string $fipCode = "GP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "590";
+
+    /**
      * Capital city
      */
     public string $capital = "Basse-Terre";

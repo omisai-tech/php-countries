@@ -28,6 +28,11 @@ class IsleOfMan extends Country
     public string $fipCode = "IM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "44";
+
+    /**
      * Capital city
      */
     public string $capital = "Douglas";

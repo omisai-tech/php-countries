@@ -28,6 +28,11 @@ class Nepal extends Country
     public string $fipCode = "NP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "977";
+
+    /**
      * Capital city
      */
     public string $capital = "Kathmandu";

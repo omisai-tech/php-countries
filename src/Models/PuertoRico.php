@@ -28,6 +28,11 @@ class PuertoRico extends Country
     public string $fipCode = "RQ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1";
+
+    /**
      * Capital city
      */
     public string $capital = "San Juan";

@@ -28,6 +28,11 @@ class Paraguay extends Country
     public string $fipCode = "PA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "595";
+
+    /**
      * Capital city
      */
     public string $capital = "Asuncion";

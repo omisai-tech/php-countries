@@ -28,6 +28,11 @@ class Estonia extends Country
     public string $fipCode = "EN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "372";
+
+    /**
      * Capital city
      */
     public string $capital = "Tallinn";

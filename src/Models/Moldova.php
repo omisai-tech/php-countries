@@ -28,6 +28,11 @@ class Moldova extends Country
     public string $fipCode = "MD";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "373";
+
+    /**
      * Capital city
      */
     public string $capital = "Chisinau";

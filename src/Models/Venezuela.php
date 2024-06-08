@@ -28,6 +28,11 @@ class Venezuela extends Country
     public string $fipCode = "VE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "58";
+
+    /**
      * Capital city
      */
     public string $capital = "Caracas";

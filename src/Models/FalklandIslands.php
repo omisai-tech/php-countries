@@ -28,6 +28,11 @@ class FalklandIslands extends Country
     public string $fipCode = "FK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "500";
+
+    /**
      * Capital city
      */
     public string $capital = "Stanley";

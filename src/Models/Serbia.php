@@ -28,6 +28,11 @@ class Serbia extends Country
     public string $fipCode = "RI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "381";
+
+    /**
      * Capital city
      */
     public string $capital = "Belgrade";

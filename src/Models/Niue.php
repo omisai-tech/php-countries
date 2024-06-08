@@ -28,6 +28,11 @@ class Niue extends Country
     public string $fipCode = "NE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "683";
+
+    /**
      * Capital city
      */
     public string $capital = "Alofi";

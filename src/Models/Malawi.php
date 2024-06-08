@@ -28,6 +28,11 @@ class Malawi extends Country
     public string $fipCode = "MI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "265";
+
+    /**
      * Capital city
      */
     public string $capital = "Lilongwe";

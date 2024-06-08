@@ -28,6 +28,11 @@ class Mali extends Country
     public string $fipCode = "ML";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "223";
+
+    /**
      * Capital city
      */
     public string $capital = "Bamako";

@@ -28,6 +28,11 @@ class Mexico extends Country
     public string $fipCode = "MX";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "52";
+
+    /**
      * Capital city
      */
     public string $capital = "Mexico City";

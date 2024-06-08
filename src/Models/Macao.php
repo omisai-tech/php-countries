@@ -28,6 +28,11 @@ class Macao extends Country
     public string $fipCode = "MC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "853";
+
+    /**
      * Capital city
      */
     public string $capital = "Macao";

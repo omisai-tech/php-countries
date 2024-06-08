@@ -28,6 +28,11 @@ class SouthSudan extends Country
     public string $fipCode = "OD";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "211";
+
+    /**
      * Capital city
      */
     public string $capital = "Juba";

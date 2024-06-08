@@ -28,6 +28,11 @@ class Eswatini extends Country
     public string $fipCode = "WZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "268";
+
+    /**
      * Capital city
      */
     public string $capital = "Mbabane";

@@ -28,6 +28,11 @@ class CaboVerde extends Country
     public string $fipCode = "CV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "238";
+
+    /**
      * Capital city
      */
     public string $capital = "Praia";

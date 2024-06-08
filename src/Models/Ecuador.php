@@ -28,6 +28,11 @@ class Ecuador extends Country
     public string $fipCode = "EC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "593";
+
+    /**
      * Capital city
      */
     public string $capital = "Quito";

@@ -28,6 +28,11 @@ class Malaysia extends Country
     public string $fipCode = "MY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "60";
+
+    /**
      * Capital city
      */
     public string $capital = "Kuala Lumpur";

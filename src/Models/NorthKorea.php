@@ -28,6 +28,11 @@ class NorthKorea extends Country
     public string $fipCode = "KN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "850";
+
+    /**
      * Capital city
      */
     public string $capital = "Pyongyang";

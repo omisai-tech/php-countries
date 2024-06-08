@@ -28,6 +28,11 @@ class Brunei extends Country
     public string $fipCode = "BX";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "673";
+
+    /**
      * Capital city
      */
     public string $capital = "Bandar Seri Begawan";

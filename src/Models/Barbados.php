@@ -28,6 +28,11 @@ class Barbados extends Country
     public string $fipCode = "BB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-246";
+
+    /**
      * Capital city
      */
     public string $capital = "Bridgetown";

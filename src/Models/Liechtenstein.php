@@ -28,6 +28,11 @@ class Liechtenstein extends Country
     public string $fipCode = "LS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "423";
+
+    /**
      * Capital city
      */
     public string $capital = "Vaduz";

@@ -28,6 +28,11 @@ class Vietnam extends Country
     public string $fipCode = "VM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "84";
+
+    /**
      * Capital city
      */
     public string $capital = "Hanoi";

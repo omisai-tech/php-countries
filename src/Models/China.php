@@ -28,6 +28,11 @@ class China extends Country
     public string $fipCode = "CH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "86";
+
+    /**
      * Capital city
      */
     public string $capital = "Beijing";

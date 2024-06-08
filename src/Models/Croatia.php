@@ -28,6 +28,11 @@ class Croatia extends Country
     public string $fipCode = "HR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "385";
+
+    /**
      * Capital city
      */
     public string $capital = "Zagreb";

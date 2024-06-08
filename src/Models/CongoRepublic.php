@@ -28,6 +28,11 @@ class CongoRepublic extends Country
     public string $fipCode = "CF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "242";
+
+    /**
      * Capital city
      */
     public string $capital = "Brazzaville";

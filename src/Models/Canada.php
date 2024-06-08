@@ -28,6 +28,11 @@ class Canada extends Country
     public string $fipCode = "CA";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1";
+
+    /**
      * Capital city
      */
     public string $capital = "Ottawa";

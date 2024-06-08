@@ -28,6 +28,11 @@ class Brazil extends Country
     public string $fipCode = "BR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "55";
+
+    /**
      * Capital city
      */
     public string $capital = "Brasilia";

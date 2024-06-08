@@ -28,6 +28,11 @@ class Jamaica extends Country
     public string $fipCode = "JM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-876";
+
+    /**
      * Capital city
      */
     public string $capital = "Kingston";

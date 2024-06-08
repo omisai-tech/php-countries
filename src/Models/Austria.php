@@ -28,6 +28,11 @@ class Austria extends Country
     public string $fipCode = "AU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "43";
+
+    /**
      * Capital city
      */
     public string $capital = "Vienna";

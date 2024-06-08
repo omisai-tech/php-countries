@@ -28,6 +28,11 @@ class PapuaNewGuinea extends Country
     public string $fipCode = "PP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "675";
+
+    /**
      * Capital city
      */
     public string $capital = "Port Moresby";

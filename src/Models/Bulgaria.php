@@ -28,6 +28,11 @@ class Bulgaria extends Country
     public string $fipCode = "BU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "359";
+
+    /**
      * Capital city
      */
     public string $capital = "Sofia";

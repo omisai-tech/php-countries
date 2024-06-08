@@ -28,6 +28,11 @@ class Thailand extends Country
     public string $fipCode = "TH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "66";
+
+    /**
      * Capital city
      */
     public string $capital = "Bangkok";

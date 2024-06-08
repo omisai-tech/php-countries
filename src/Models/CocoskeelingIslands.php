@@ -28,6 +28,11 @@ class CocoskeelingIslands extends Country
     public string $fipCode = "CK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "61";
+
+    /**
      * Capital city
      */
     public string $capital = "West Island";

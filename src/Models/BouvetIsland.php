@@ -28,6 +28,11 @@ class BouvetIsland extends Country
     public string $fipCode = "BV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "47";
+
+    /**
      * Capital city
      */
     public string $capital = "";

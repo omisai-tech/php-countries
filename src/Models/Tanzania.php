@@ -28,6 +28,11 @@ class Tanzania extends Country
     public string $fipCode = "TZ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "255";
+
+    /**
      * Capital city
      */
     public string $capital = "Dodoma";

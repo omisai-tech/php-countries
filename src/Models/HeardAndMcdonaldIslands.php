@@ -28,6 +28,11 @@ class HeardAndMcdonaldIslands extends Country
     public string $fipCode = "HM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "672";
+
+    /**
      * Capital city
      */
     public string $capital = "";

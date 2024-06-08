@@ -28,6 +28,11 @@ class Martinique extends Country
     public string $fipCode = "MB";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "596";
+
+    /**
      * Capital city
      */
     public string $capital = "Fort-de-France";

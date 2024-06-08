@@ -28,6 +28,11 @@ class Cyprus extends Country
     public string $fipCode = "CY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "357";
+
+    /**
      * Capital city
      */
     public string $capital = "Nicosia";

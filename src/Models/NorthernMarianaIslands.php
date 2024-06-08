@@ -28,6 +28,11 @@ class NorthernMarianaIslands extends Country
     public string $fipCode = "CQ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-670";
+
+    /**
      * Capital city
      */
     public string $capital = "Saipan";

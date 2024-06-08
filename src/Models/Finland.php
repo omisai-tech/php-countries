@@ -28,6 +28,11 @@ class Finland extends Country
     public string $fipCode = "FI";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "358";
+
+    /**
      * Capital city
      */
     public string $capital = "Helsinki";

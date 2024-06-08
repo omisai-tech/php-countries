@@ -28,6 +28,11 @@ class Slovakia extends Country
     public string $fipCode = "LO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "421";
+
+    /**
      * Capital city
      */
     public string $capital = "Bratislava";

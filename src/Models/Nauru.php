@@ -28,6 +28,11 @@ class Nauru extends Country
     public string $fipCode = "NR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "674";
+
+    /**
      * Capital city
      */
     public string $capital = "Yaren";

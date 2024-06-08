@@ -28,6 +28,11 @@ class PitcairnIslands extends Country
     public string $fipCode = "PC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "870";
+
+    /**
      * Capital city
      */
     public string $capital = "Adamstown";

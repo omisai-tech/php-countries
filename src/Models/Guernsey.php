@@ -28,6 +28,11 @@ class Guernsey extends Country
     public string $fipCode = "GK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "44";
+
+    /**
      * Capital city
      */
     public string $capital = "St Peter Port";

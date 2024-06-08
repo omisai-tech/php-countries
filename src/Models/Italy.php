@@ -28,6 +28,11 @@ class Italy extends Country
     public string $fipCode = "IT";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "39";
+
+    /**
      * Capital city
      */
     public string $capital = "Rome";

@@ -28,6 +28,11 @@ class MarshallIslands extends Country
     public string $fipCode = "RM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "692";
+
+    /**
      * Capital city
      */
     public string $capital = "Majuro";

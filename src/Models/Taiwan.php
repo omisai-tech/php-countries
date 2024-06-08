@@ -28,6 +28,11 @@ class Taiwan extends Country
     public string $fipCode = "TW";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "886";
+
+    /**
      * Capital city
      */
     public string $capital = "Taipei";

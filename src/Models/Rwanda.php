@@ -28,6 +28,11 @@ class Rwanda extends Country
     public string $fipCode = "RW";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "250";
+
+    /**
      * Capital city
      */
     public string $capital = "Kigali";

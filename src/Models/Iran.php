@@ -28,6 +28,11 @@ class Iran extends Country
     public string $fipCode = "IR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "98";
+
+    /**
      * Capital city
      */
     public string $capital = "Tehran";

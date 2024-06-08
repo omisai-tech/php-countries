@@ -28,6 +28,11 @@ class Senegal extends Country
     public string $fipCode = "SG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "221";
+
+    /**
      * Capital city
      */
     public string $capital = "Dakar";

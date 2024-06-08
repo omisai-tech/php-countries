@@ -28,6 +28,11 @@ class Burundi extends Country
     public string $fipCode = "BY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "257";
+
+    /**
      * Capital city
      */
     public string $capital = "Gitega";

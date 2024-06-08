@@ -28,6 +28,11 @@ class CookIslands extends Country
     public string $fipCode = "CW";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "682";
+
+    /**
      * Capital city
      */
     public string $capital = "Avarua";

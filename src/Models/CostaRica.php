@@ -28,6 +28,11 @@ class CostaRica extends Country
     public string $fipCode = "CS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "506";
+
+    /**
      * Capital city
      */
     public string $capital = "San Jose";

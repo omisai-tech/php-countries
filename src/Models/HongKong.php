@@ -28,6 +28,11 @@ class HongKong extends Country
     public string $fipCode = "HK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "852";
+
+    /**
      * Capital city
      */
     public string $capital = "Hong Kong";

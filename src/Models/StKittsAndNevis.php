@@ -28,6 +28,11 @@ class StKittsAndNevis extends Country
     public string $fipCode = "SC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-869";
+
+    /**
      * Capital city
      */
     public string $capital = "Basseterre";

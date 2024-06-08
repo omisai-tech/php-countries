@@ -28,6 +28,11 @@ class Georgia extends Country
     public string $fipCode = "GG";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "995";
+
+    /**
      * Capital city
      */
     public string $capital = "Tbilisi";

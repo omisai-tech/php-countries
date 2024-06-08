@@ -28,6 +28,11 @@ class Turkmenistan extends Country
     public string $fipCode = "TX";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "993";
+
+    /**
      * Capital city
      */
     public string $capital = "Ashgabat";

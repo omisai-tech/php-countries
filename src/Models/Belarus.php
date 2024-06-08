@@ -28,6 +28,11 @@ class Belarus extends Country
     public string $fipCode = "BO";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "375";
+
+    /**
      * Capital city
      */
     public string $capital = "Minsk";

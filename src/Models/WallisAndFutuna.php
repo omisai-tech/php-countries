@@ -28,6 +28,11 @@ class WallisAndFutuna extends Country
     public string $fipCode = "WF";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "681";
+
+    /**
      * Capital city
      */
     public string $capital = "Mata Utu";

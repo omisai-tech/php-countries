@@ -28,6 +28,11 @@ class SriLanka extends Country
     public string $fipCode = "CE";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "94";
+
+    /**
      * Capital city
      */
     public string $capital = "Colombo";

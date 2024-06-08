@@ -28,6 +28,11 @@ class Singapore extends Country
     public string $fipCode = "SN";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "65";
+
+    /**
      * Capital city
      */
     public string $capital = "Singapore";

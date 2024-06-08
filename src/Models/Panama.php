@@ -28,6 +28,11 @@ class Panama extends Country
     public string $fipCode = "PM";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "507";
+
+    /**
      * Capital city
      */
     public string $capital = "Panama City";

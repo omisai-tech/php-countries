@@ -28,6 +28,11 @@ class Ethiopia extends Country
     public string $fipCode = "ET";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "251";
+
+    /**
      * Capital city
      */
     public string $capital = "Addis Ababa";

@@ -28,6 +28,11 @@ class Kiribati extends Country
     public string $fipCode = "KR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "686";
+
+    /**
      * Capital city
      */
     public string $capital = "Tarawa";

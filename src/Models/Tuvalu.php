@@ -28,6 +28,11 @@ class Tuvalu extends Country
     public string $fipCode = "TV";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "688";
+
+    /**
      * Capital city
      */
     public string $capital = "Funafuti";

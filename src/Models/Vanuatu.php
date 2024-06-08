@@ -28,6 +28,11 @@ class Vanuatu extends Country
     public string $fipCode = "NH";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "678";
+
+    /**
      * Capital city
      */
     public string $capital = "Port Vila";

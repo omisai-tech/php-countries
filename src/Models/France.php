@@ -28,6 +28,11 @@ class France extends Country
     public string $fipCode = "FR";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "33";
+
+    /**
      * Capital city
      */
     public string $capital = "Paris";

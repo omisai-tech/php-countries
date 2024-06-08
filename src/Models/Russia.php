@@ -28,6 +28,11 @@ class Russia extends Country
     public string $fipCode = "RS";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "7";
+
+    /**
      * Capital city
      */
     public string $capital = "Moscow";

@@ -28,6 +28,11 @@ class Cuba extends Country
     public string $fipCode = "CU";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "53";
+
+    /**
      * Capital city
      */
     public string $capital = "Havana";

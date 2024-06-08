@@ -28,6 +28,11 @@ class Poland extends Country
     public string $fipCode = "PL";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "48";
+
+    /**
      * Capital city
      */
     public string $capital = "Warsaw";

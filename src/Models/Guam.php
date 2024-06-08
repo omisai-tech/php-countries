@@ -28,6 +28,11 @@ class Guam extends Country
     public string $fipCode = "GQ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-671";
+
+    /**
      * Capital city
      */
     public string $capital = "Hagatna";

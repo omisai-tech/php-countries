@@ -28,6 +28,11 @@ class Spain extends Country
     public string $fipCode = "SP";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "34";
+
+    /**
      * Capital city
      */
     public string $capital = "Madrid";

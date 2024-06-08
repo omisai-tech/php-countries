@@ -28,6 +28,11 @@ class Antarctica extends Country
     public string $fipCode = "AY";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "672";
+
+    /**
      * Capital city
      */
     public string $capital = "";

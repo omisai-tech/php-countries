@@ -28,6 +28,11 @@ class Pakistan extends Country
     public string $fipCode = "PK";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "92";
+
+    /**
      * Capital city
      */
     public string $capital = "Islamabad";

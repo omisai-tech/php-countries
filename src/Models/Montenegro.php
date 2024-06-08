@@ -28,6 +28,11 @@ class Montenegro extends Country
     public string $fipCode = "MJ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "382";
+
+    /**
      * Capital city
      */
     public string $capital = "Podgorica";

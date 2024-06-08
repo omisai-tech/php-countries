@@ -28,6 +28,11 @@ class UsVirginIslands extends Country
     public string $fipCode = "VQ";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "1-340";
+
+    /**
      * Capital city
      */
     public string $capital = "Charlotte Amalie";

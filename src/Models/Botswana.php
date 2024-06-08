@@ -28,6 +28,11 @@ class Botswana extends Country
     public string $fipCode = "BC";
 
     /**
+     * Phone dial code
+     */
+    public string $dial = "267";
+
+    /**
      * Capital city
      */
     public string $capital = "Gaborone";
