@@ -79,5 +79,10 @@ class Panama extends Country
      * French name of the country
      */
     public string $fr = "Panama";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Panamá";
     
 }

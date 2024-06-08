@@ -79,5 +79,10 @@ class CaboVerde extends Country
      * French name of the country
      */
     public string $fr = "Cap-Vert";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Cabo Verde";
     
 }

@@ -79,5 +79,10 @@ class Jordan extends Country
      * French name of the country
      */
     public string $fr = "Jordan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Jordânia";
     
 }

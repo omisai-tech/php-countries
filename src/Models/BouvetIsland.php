@@ -79,5 +79,10 @@ class BouvetIsland extends Country
      * French name of the country
      */
     public string $fr = "Île Bouvet";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilha Bouvet";
     
 }

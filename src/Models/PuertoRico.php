@@ -79,5 +79,10 @@ class PuertoRico extends Country
      * French name of the country
      */
     public string $fr = "Porto Rico";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Porto Rico";
     
 }

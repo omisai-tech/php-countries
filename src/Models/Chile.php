@@ -79,5 +79,10 @@ class Chile extends Country
      * French name of the country
      */
     public string $fr = "Chili";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Chile";
     
 }

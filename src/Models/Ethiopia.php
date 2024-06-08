@@ -79,5 +79,10 @@ class Ethiopia extends Country
      * French name of the country
      */
     public string $fr = "Ethiopie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Etiópia";
     
 }

@@ -79,5 +79,10 @@ class Togo extends Country
      * French name of the country
      */
     public string $fr = "Aller";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ir";
     
 }

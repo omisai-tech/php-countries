@@ -79,5 +79,10 @@ class Liberia extends Country
      * French name of the country
      */
     public string $fr = "Libéria";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Libéria";
     
 }

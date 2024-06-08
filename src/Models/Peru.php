@@ -79,5 +79,10 @@ class Peru extends Country
      * French name of the country
      */
     public string $fr = "Pérou";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Peru";
     
 }

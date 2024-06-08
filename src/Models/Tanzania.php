@@ -79,5 +79,10 @@ class Tanzania extends Country
      * French name of the country
      */
     public string $fr = "Tanzanie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Tanzânia";
     
 }

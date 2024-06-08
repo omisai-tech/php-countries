@@ -79,5 +79,10 @@ class Malta extends Country
      * French name of the country
      */
     public string $fr = "Malte";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Malta";
     
 }

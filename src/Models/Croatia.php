@@ -79,5 +79,10 @@ class Croatia extends Country
      * French name of the country
      */
     public string $fr = "Croatie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Croácia";
     
 }

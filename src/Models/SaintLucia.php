@@ -79,5 +79,10 @@ class SaintLucia extends Country
      * French name of the country
      */
     public string $fr = "Sainte-Lucie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Santa Lúcia";
     
 }

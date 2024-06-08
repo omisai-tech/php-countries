@@ -79,5 +79,10 @@ class UnitedArabEmirates extends Country
      * French name of the country
      */
     public string $fr = "Emirats Arabes Unis";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Emirados Árabes Unidos";
     
 }

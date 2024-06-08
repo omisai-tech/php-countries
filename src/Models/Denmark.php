@@ -79,5 +79,10 @@ class Denmark extends Country
      * French name of the country
      */
     public string $fr = "Danemark";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Dinamarca";
     
 }

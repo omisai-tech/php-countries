@@ -79,5 +79,10 @@ class FalklandIslands extends Country
      * French name of the country
      */
     public string $fr = "les îles Falkland";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Malvinas";
     
 }

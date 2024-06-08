@@ -79,5 +79,10 @@ class Senegal extends Country
      * French name of the country
      */
     public string $fr = "Sénégal";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Senegal";
     
 }

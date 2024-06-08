@@ -79,5 +79,10 @@ class SaudiArabia extends Country
      * French name of the country
      */
     public string $fr = "Arabie Saoudite";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Arábia Saudita";
     
 }

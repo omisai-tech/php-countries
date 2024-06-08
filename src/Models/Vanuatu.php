@@ -79,5 +79,10 @@ class Vanuatu extends Country
      * French name of the country
      */
     public string $fr = "Vanuatu";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Vanuatu";
     
 }

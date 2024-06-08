@@ -79,5 +79,10 @@ class Fiji extends Country
      * French name of the country
      */
     public string $fr = "Îles Fidji";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Fiji";
     
 }

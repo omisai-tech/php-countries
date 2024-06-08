@@ -79,5 +79,10 @@ class Samoa extends Country
      * French name of the country
      */
     public string $fr = "Samoa";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Samoa";
     
 }

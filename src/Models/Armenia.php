@@ -79,5 +79,10 @@ class Armenia extends Country
      * French name of the country
      */
     public string $fr = "Arménie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Armênia";
     
 }

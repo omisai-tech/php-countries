@@ -79,5 +79,10 @@ class CentralAfricanRepublic extends Country
      * French name of the country
      */
     public string $fr = "République centrafricaine";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "República Centro-Africana";
     
 }

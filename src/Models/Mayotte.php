@@ -79,5 +79,10 @@ class Mayotte extends Country
      * French name of the country
      */
     public string $fr = "Mayotte";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Maiote";
     
 }

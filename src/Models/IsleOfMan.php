@@ -79,5 +79,10 @@ class IsleOfMan extends Country
      * French name of the country
      */
     public string $fr = "île de Man";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilha de Man";
     
 }

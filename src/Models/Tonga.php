@@ -79,5 +79,10 @@ class Tonga extends Country
      * French name of the country
      */
     public string $fr = "Tonga";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Tonga";
     
 }

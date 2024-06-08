@@ -79,5 +79,10 @@ class Somalia extends Country
      * French name of the country
      */
     public string $fr = "Somalie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Somália";
     
 }

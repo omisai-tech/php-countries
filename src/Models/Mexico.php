@@ -79,5 +79,10 @@ class Mexico extends Country
      * French name of the country
      */
     public string $fr = "Mexique";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "México";
     
 }

@@ -79,5 +79,10 @@ class Turkey extends Country
      * French name of the country
      */
     public string $fr = "Turquie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Peru";
     
 }

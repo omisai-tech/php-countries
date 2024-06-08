@@ -79,5 +79,10 @@ class Belgium extends Country
      * French name of the country
      */
     public string $fr = "Belgique";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Bélgica";
     
 }

@@ -79,5 +79,10 @@ class Aland extends Country
      * French name of the country
      */
     public string $fr = "Un terrain";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Uma terra";
     
 }

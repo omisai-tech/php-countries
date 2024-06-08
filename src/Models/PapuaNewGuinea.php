@@ -79,5 +79,10 @@ class PapuaNewGuinea extends Country
      * French name of the country
      */
     public string $fr = "Papouasie Nouvelle Guinée";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Papua Nova Guiné";
     
 }

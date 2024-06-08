@@ -79,5 +79,10 @@ class Lithuania extends Country
      * French name of the country
      */
     public string $fr = "Lituanie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Lituânia";
     
 }

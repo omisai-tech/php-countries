@@ -79,5 +79,10 @@ class Morocco extends Country
      * French name of the country
      */
     public string $fr = "Maroc";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Marrocos";
     
 }

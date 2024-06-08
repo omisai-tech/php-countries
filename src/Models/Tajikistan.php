@@ -79,5 +79,10 @@ class Tajikistan extends Country
      * French name of the country
      */
     public string $fr = "Tadjikistan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Tadjiquistão";
     
 }

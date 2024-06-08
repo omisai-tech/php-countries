@@ -79,5 +79,10 @@ class Haiti extends Country
      * French name of the country
      */
     public string $fr = "Haïti";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Haiti";
     
 }

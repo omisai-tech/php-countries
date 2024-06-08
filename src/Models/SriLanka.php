@@ -79,5 +79,10 @@ class SriLanka extends Country
      * French name of the country
      */
     public string $fr = "Sri Lanka";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Sri Lanka";
     
 }

@@ -79,5 +79,10 @@ class Sweden extends Country
      * French name of the country
      */
     public string $fr = "Suède";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Suécia";
     
 }

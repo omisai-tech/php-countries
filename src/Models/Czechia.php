@@ -79,5 +79,10 @@ class Czechia extends Country
      * French name of the country
      */
     public string $fr = "République tchèque";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Tcheca";
     
 }

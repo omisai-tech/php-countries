@@ -79,5 +79,10 @@ class Colombia extends Country
      * French name of the country
      */
     public string $fr = "Colombie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Colômbia";
     
 }

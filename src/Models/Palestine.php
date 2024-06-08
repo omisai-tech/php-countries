@@ -79,5 +79,10 @@ class Palestine extends Country
      * French name of the country
      */
     public string $fr = "Palestine";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Palestina";
     
 }

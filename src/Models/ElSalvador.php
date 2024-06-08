@@ -79,5 +79,10 @@ class ElSalvador extends Country
      * French name of the country
      */
     public string $fr = "Le Salvador";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "El Salvador";
     
 }

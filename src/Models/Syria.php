@@ -79,5 +79,10 @@ class Syria extends Country
      * French name of the country
      */
     public string $fr = "Syrie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Síria";
     
 }

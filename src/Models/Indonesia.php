@@ -79,5 +79,10 @@ class Indonesia extends Country
      * French name of the country
      */
     public string $fr = "Indonésie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Indonésia";
     
 }

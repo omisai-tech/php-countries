@@ -79,5 +79,10 @@ class Andorra extends Country
      * French name of the country
      */
     public string $fr = "Andorre";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Andorra";
     
 }

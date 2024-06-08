@@ -79,5 +79,10 @@ class NorthMacedonia extends Country
      * French name of the country
      */
     public string $fr = "Macédoine du Nord";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Macedônia do Norte";
     
 }

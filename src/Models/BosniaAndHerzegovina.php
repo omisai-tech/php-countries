@@ -79,5 +79,10 @@ class BosniaAndHerzegovina extends Country
      * French name of the country
      */
     public string $fr = "Bosnie Herzégovine";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Bósnia e Herzegovina";
     
 }

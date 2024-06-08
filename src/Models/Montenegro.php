@@ -79,5 +79,10 @@ class Montenegro extends Country
      * French name of the country
      */
     public string $fr = "Monténégro";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Montenegro";
     
 }

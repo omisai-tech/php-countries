@@ -79,5 +79,10 @@ class FaroeIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles Féroé";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "ilhas Faroe";
     
 }

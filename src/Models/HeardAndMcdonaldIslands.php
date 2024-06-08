@@ -79,5 +79,10 @@ class HeardAndMcdonaldIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles Heard et McDonald";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Heard e McDonald";
     
 }

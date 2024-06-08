@@ -79,5 +79,10 @@ class Israel extends Country
      * French name of the country
      */
     public string $fr = "Israël";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Israel";
     
 }

@@ -100,6 +100,11 @@ class $className extends Country
      * French name of the country
      */
     public string \$fr = \"{$data[14]}\";
+
+    /**
+     * Portugees name of the country
+     */
+    public string \$pt = \"{$data[15]}\";
     \n}
 ";
 

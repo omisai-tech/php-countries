@@ -79,5 +79,10 @@ class Bermuda extends Country
      * French name of the country
      */
     public string $fr = "Bermudes";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Bermudas";
     
 }

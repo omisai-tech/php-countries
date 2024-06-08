@@ -79,5 +79,10 @@ class SanMarino extends Country
      * French name of the country
      */
     public string $fr = "Saint Marin";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "São Marino";
     
 }

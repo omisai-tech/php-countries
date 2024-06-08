@@ -79,5 +79,10 @@ class Niue extends Country
      * French name of the country
      */
     public string $fr = "Nioué";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Niue";
     
 }

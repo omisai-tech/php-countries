@@ -79,5 +79,10 @@ class NorthKorea extends Country
      * French name of the country
      */
     public string $fr = "Corée du Nord";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Coréia do Norte";
     
 }

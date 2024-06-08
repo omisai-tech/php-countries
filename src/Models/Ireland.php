@@ -79,5 +79,10 @@ class Ireland extends Country
      * French name of the country
      */
     public string $fr = "Irlande";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Irlanda";
     
 }

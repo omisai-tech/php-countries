@@ -79,5 +79,10 @@ class PitcairnIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles Pitcairn";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Pitcairn";
     
 }

@@ -79,5 +79,10 @@ class SvalbardAndJanMayen extends Country
      * French name of the country
      */
     public string $fr = "Svalbard et Jan Mayen";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Svalbard e Jan Mayen";
     
 }

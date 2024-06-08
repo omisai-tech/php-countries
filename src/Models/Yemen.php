@@ -79,5 +79,10 @@ class Yemen extends Country
      * French name of the country
      */
     public string $fr = "Yémen";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Iémen";
     
 }

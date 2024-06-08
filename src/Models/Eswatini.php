@@ -79,5 +79,10 @@ class Eswatini extends Country
      * French name of the country
      */
     public string $fr = "Eswatini";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Essuatíni";
     
 }

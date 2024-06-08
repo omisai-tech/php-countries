@@ -79,5 +79,10 @@ class Nauru extends Country
      * French name of the country
      */
     public string $fr = "Nauru";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Nauru";
     
 }

@@ -79,5 +79,10 @@ class Taiwan extends Country
      * French name of the country
      */
     public string $fr = "Taïwan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Taiwan";
     
 }

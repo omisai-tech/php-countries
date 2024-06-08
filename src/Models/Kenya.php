@@ -79,5 +79,10 @@ class Kenya extends Country
      * French name of the country
      */
     public string $fr = "Kenya";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Quênia";
     
 }

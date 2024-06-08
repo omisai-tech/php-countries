@@ -79,5 +79,10 @@ class Tunisia extends Country
      * French name of the country
      */
     public string $fr = "Tunisie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Tunísia";
     
 }

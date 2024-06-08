@@ -79,5 +79,10 @@ class Grenada extends Country
      * French name of the country
      */
     public string $fr = "Grenade";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Granada";
     
 }

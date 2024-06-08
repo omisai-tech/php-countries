@@ -79,5 +79,10 @@ class UsVirginIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles Vierges américaines";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Virgens dos EUA";
     
 }

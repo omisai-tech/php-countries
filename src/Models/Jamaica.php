@@ -79,5 +79,10 @@ class Jamaica extends Country
      * French name of the country
      */
     public string $fr = "Jamaïque";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Jamaica";
     
 }

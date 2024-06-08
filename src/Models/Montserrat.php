@@ -79,5 +79,10 @@ class Montserrat extends Country
      * French name of the country
      */
     public string $fr = "Montserrat";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Montserrate";
     
 }

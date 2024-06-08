@@ -79,5 +79,10 @@ class Oman extends Country
      * French name of the country
      */
     public string $fr = "Oman";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Omã";
     
 }

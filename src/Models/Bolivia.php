@@ -79,5 +79,10 @@ class Bolivia extends Country
      * French name of the country
      */
     public string $fr = "Bolivie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Bolívia";
     
 }

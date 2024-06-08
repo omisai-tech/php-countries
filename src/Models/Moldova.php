@@ -79,5 +79,10 @@ class Moldova extends Country
      * French name of the country
      */
     public string $fr = "Moldavie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Moldávia";
     
 }

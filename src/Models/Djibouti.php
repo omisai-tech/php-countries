@@ -79,5 +79,10 @@ class Djibouti extends Country
      * French name of the country
      */
     public string $fr = "Djibouti";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Djibuti";
     
 }

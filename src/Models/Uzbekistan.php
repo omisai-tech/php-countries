@@ -79,5 +79,10 @@ class Uzbekistan extends Country
      * French name of the country
      */
     public string $fr = "Ouzbékistan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Uzbequistão";
     
 }

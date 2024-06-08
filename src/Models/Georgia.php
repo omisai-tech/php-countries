@@ -79,5 +79,10 @@ class Georgia extends Country
      * French name of the country
      */
     public string $fr = "Géorgie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Geórgia";
     
 }

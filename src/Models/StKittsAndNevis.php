@@ -79,5 +79,10 @@ class StKittsAndNevis extends Country
      * French name of the country
      */
     public string $fr = "Saint-Kitts-et-Nevis";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "São Cristóvão e Nevis";
     
 }

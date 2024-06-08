@@ -79,5 +79,10 @@ class Malaysia extends Country
      * French name of the country
      */
     public string $fr = "Malaisie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Malásia";
     
 }

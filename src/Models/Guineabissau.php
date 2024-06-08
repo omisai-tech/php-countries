@@ -79,5 +79,10 @@ class Guineabissau extends Country
      * French name of the country
      */
     public string $fr = "Guinée-Bissau";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Guiné-Bissau";
     
 }

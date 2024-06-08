@@ -79,5 +79,10 @@ class TurksAndCaicosIslands extends Country
      * French name of the country
      */
     public string $fr = "îles Turques-et-Caïques";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Turcas e Caicos";
     
 }

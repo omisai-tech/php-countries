@@ -79,5 +79,10 @@ class Egypt extends Country
      * French name of the country
      */
     public string $fr = "Egypte";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Egito";
     
 }

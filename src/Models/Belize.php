@@ -79,5 +79,10 @@ class Belize extends Country
      * French name of the country
      */
     public string $fr = "Bélize";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Belize";
     
 }

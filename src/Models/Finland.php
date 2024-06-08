@@ -79,5 +79,10 @@ class Finland extends Country
      * French name of the country
      */
     public string $fr = "Finlande";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Finlândia";
     
 }

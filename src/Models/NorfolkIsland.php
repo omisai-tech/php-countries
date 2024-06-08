@@ -79,5 +79,10 @@ class NorfolkIsland extends Country
      * French name of the country
      */
     public string $fr = "l'ile de Norfolk";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilha Norfolk";
     
 }

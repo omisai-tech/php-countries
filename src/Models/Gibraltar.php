@@ -79,5 +79,10 @@ class Gibraltar extends Country
      * French name of the country
      */
     public string $fr = "Gibraltar";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Gibraltar";
     
 }

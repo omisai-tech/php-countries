@@ -79,5 +79,10 @@ class Kuwait extends Country
      * French name of the country
      */
     public string $fr = "Koweit";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Kuwait";
     
 }

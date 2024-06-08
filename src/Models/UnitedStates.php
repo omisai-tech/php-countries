@@ -79,5 +79,10 @@ class UnitedStates extends Country
      * French name of the country
      */
     public string $fr = "États-Unis";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Estados Unidos";
     
 }

@@ -79,5 +79,10 @@ class Bahrain extends Country
      * French name of the country
      */
     public string $fr = "Bahreïn";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Bahrein";
     
 }

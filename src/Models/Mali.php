@@ -79,5 +79,10 @@ class Mali extends Country
      * French name of the country
      */
     public string $fr = "Mali";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Mali";
     
 }

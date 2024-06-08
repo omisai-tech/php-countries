@@ -79,5 +79,10 @@ class SouthAfrica extends Country
      * French name of the country
      */
     public string $fr = "Afrique du Sud";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "África do Sul";
     
 }

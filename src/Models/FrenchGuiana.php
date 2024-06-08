@@ -79,5 +79,10 @@ class FrenchGuiana extends Country
      * French name of the country
      */
     public string $fr = "Guyane Française";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Guiana Francesa";
     
 }

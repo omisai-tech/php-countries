@@ -79,5 +79,10 @@ class Qatar extends Country
      * French name of the country
      */
     public string $fr = "Qatar";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Catar";
     
 }

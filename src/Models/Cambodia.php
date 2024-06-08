@@ -79,5 +79,10 @@ class Cambodia extends Country
      * French name of the country
      */
     public string $fr = "Cambodge";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Camboja";
     
 }

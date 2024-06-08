@@ -79,5 +79,10 @@ class AntiguaAndBarbuda extends Country
      * French name of the country
      */
     public string $fr = "Antigua-et-Barbuda";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Antígua e Barbuda";
     
 }

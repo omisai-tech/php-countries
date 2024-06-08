@@ -79,5 +79,10 @@ class SaintBarthlemy extends Country
      * French name of the country
      */
     public string $fr = "Saint Barthélemy";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "São Bartolomeu";
     
 }

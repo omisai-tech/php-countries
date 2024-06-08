@@ -79,5 +79,10 @@ class Anguilla extends Country
      * French name of the country
      */
     public string $fr = "Anguilla";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Anguila";
     
 }

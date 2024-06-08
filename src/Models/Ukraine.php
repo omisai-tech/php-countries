@@ -79,5 +79,10 @@ class Ukraine extends Country
      * French name of the country
      */
     public string $fr = "Ukraine";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ucrânia";
     
 }

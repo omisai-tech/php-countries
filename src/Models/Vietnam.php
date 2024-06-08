@@ -79,5 +79,10 @@ class Vietnam extends Country
      * French name of the country
      */
     public string $fr = "Viêt Nam";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Vietnã";
     
 }

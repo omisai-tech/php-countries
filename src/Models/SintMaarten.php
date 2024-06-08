@@ -79,5 +79,10 @@ class SintMaarten extends Country
      * French name of the country
      */
     public string $fr = "Saint-Martin";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "São Martinho";
     
 }

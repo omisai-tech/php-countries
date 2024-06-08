@@ -79,5 +79,10 @@ class Liechtenstein extends Country
      * French name of the country
      */
     public string $fr = "Liechtenstein";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Liechtenstein";
     
 }

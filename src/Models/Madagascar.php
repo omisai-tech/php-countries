@@ -79,5 +79,10 @@ class Madagascar extends Country
      * French name of the country
      */
     public string $fr = "Madagascar";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Madagáscar";
     
 }

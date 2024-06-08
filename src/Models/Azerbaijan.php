@@ -79,5 +79,10 @@ class Azerbaijan extends Country
      * French name of the country
      */
     public string $fr = "Azerbaïdjan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Azerbaijão";
     
 }

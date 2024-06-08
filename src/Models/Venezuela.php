@@ -79,5 +79,10 @@ class Venezuela extends Country
      * French name of the country
      */
     public string $fr = "Venezuela";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Venezuela";
     
 }

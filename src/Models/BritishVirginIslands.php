@@ -79,5 +79,10 @@ class BritishVirginIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles Vierges britanniques";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Virgens Britânicas";
     
 }

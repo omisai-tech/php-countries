@@ -79,5 +79,10 @@ class Niger extends Country
      * French name of the country
      */
     public string $fr = "Niger";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Níger";
     
 }

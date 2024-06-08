@@ -79,5 +79,10 @@ class Poland extends Country
      * French name of the country
      */
     public string $fr = "Pologne";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Polônia";
     
 }

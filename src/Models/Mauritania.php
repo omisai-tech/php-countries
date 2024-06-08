@@ -79,5 +79,10 @@ class Mauritania extends Country
      * French name of the country
      */
     public string $fr = "Mauritanie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Mauritânia";
     
 }

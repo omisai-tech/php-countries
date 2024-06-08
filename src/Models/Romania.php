@@ -79,5 +79,10 @@ class Romania extends Country
      * French name of the country
      */
     public string $fr = "Roumanie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Romênia";
     
 }

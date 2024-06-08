@@ -79,5 +79,10 @@ class UsOutlyingIslands extends Country
      * French name of the country
      */
     public string $fr = "Îles extérieures des États-Unis";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Distantes dos EUA";
     
 }

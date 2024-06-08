@@ -79,5 +79,10 @@ class Bhutan extends Country
      * French name of the country
      */
     public string $fr = "Bhoutan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Butão";
     
 }

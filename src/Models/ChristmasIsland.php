@@ -79,5 +79,10 @@ class ChristmasIsland extends Country
      * French name of the country
      */
     public string $fr = "L'île de noël";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilha do Natal";
     
 }

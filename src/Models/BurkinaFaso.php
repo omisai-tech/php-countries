@@ -79,5 +79,10 @@ class BurkinaFaso extends Country
      * French name of the country
      */
     public string $fr = "Burkina Faso";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Burkina Faso";
     
 }

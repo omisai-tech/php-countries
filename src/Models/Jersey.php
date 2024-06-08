@@ -79,5 +79,10 @@ class Jersey extends Country
      * French name of the country
      */
     public string $fr = "Jersey";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Jersey";
     
 }

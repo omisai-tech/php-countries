@@ -79,5 +79,10 @@ class Argentina extends Country
      * French name of the country
      */
     public string $fr = "Argentine";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Argentina";
     
 }

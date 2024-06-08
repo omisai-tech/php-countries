@@ -79,5 +79,10 @@ class Rwanda extends Country
      * French name of the country
      */
     public string $fr = "Rwanda";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ruanda";
     
 }

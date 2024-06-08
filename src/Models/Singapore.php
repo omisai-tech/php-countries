@@ -79,5 +79,10 @@ class Singapore extends Country
      * French name of the country
      */
     public string $fr = "Singapour";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Cingapura";
     
 }

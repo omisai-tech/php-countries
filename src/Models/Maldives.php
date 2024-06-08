@@ -79,5 +79,10 @@ class Maldives extends Country
      * French name of the country
      */
     public string $fr = "Maldives";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Maldivas";
     
 }

@@ -79,5 +79,10 @@ class Uganda extends Country
      * French name of the country
      */
     public string $fr = "Ouganda";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Uganda";
     
 }

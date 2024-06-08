@@ -79,5 +79,10 @@ class SouthGeorgiaAndSouthSandwichIslands extends Country
      * French name of the country
      */
     public string $fr = "Géorgie du Sud et îles Sandwich du Sud";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Ilhas Geórgia do Sul e Sandwich do Sul";
     
 }

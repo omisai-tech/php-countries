@@ -79,5 +79,10 @@ class Botswana extends Country
      * French name of the country
      */
     public string $fr = "Botswana";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Botsuana";
     
 }

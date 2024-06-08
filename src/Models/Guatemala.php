@@ -79,5 +79,10 @@ class Guatemala extends Country
      * French name of the country
      */
     public string $fr = "Guatemala";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Guatemala";
     
 }

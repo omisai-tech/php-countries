@@ -79,5 +79,10 @@ class Iran extends Country
      * French name of the country
      */
     public string $fr = "L'Iran";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Irã";
     
 }

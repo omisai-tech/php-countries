@@ -79,5 +79,10 @@ class Hungary extends Country
      * French name of the country
      */
     public string $fr = "Hongrie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Hungria";
     
 }

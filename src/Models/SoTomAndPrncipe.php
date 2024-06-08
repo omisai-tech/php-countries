@@ -79,5 +79,10 @@ class SoTomAndPrncipe extends Country
      * French name of the country
      */
     public string $fr = "São Tomé et Príncipe";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "São Tomé e Príncipe";
     
 }

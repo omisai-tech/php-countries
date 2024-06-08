@@ -79,5 +79,10 @@ class Aruba extends Country
      * French name of the country
      */
     public string $fr = "Aruba";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Aruba";
     
 }

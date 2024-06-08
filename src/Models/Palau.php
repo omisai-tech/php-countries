@@ -79,5 +79,10 @@ class Palau extends Country
      * French name of the country
      */
     public string $fr = "Palaos";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Palau";
     
 }

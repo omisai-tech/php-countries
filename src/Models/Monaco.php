@@ -79,5 +79,10 @@ class Monaco extends Country
      * French name of the country
      */
     public string $fr = "Monaco";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Mônaco";
     
 }

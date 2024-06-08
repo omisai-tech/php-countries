@@ -79,5 +79,10 @@ class Namibia extends Country
      * French name of the country
      */
     public string $fr = "Namibie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Namíbia";
     
 }

@@ -79,5 +79,10 @@ class Macao extends Country
      * French name of the country
      */
     public string $fr = "Macao";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Macau";
     
 }

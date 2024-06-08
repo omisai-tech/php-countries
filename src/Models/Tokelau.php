@@ -79,5 +79,10 @@ class Tokelau extends Country
      * French name of the country
      */
     public string $fr = "Tokélaou";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Toquelau";
     
 }

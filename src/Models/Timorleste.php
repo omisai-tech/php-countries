@@ -79,5 +79,10 @@ class Timorleste extends Country
      * French name of the country
      */
     public string $fr = "Timor oriental";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Timor-Leste";
     
 }

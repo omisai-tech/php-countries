@@ -79,5 +79,10 @@ class Nepal extends Country
      * French name of the country
      */
     public string $fr = "Népal";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Nepal";
     
 }

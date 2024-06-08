@@ -79,5 +79,10 @@ class Pakistan extends Country
      * French name of the country
      */
     public string $fr = "Pakistan";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Paquistão";
     
 }

@@ -79,5 +79,10 @@ class Kiribati extends Country
      * French name of the country
      */
     public string $fr = "Kiribati";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Quiribáti";
     
 }

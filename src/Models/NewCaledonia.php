@@ -79,5 +79,10 @@ class NewCaledonia extends Country
      * French name of the country
      */
     public string $fr = "Nouvelle Calédonie";
+
+    /**
+     * Portugees name of the country
+     */
+    public string $pt = "Nova Caledônia";
     
 }
