@@ -1,7 +1,6 @@
-[![Latest Stable Version](http://poser.pugx.org/omisai/php-countries/v)](https://packagist.org/packages/omisai/php-countries)
-[![Latest Unstable Version](http://poser.pugx.org/omisai/php-countries/v/unstable)](https://packagist.org/packages/omisai/php-countries)
-[![License](http://poser.pugx.org/omisai/php-countries/license)](https://packagist.org/packages/omisai/php-countries)
-[![PHP Version Require](http://poser.pugx.org/omisai/php-countries/require/php)](https://packagist.org/packages/omisai/php-countries)
+[![License](https://img.shields.io/packagist/l/omisai/php-countries?style=for-the-badge)](https://packagist.org/packages/omisai/omisai/php-countries)
+[![Latest Stable Version](https://img.shields.io/packagist/v/omisai/php-countries?style=for-the-badge)](https://packagist.org/packages/omisai/php-countries)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/omisai/php-countries/php?style=for-the-badge)](https://packagist.org/packages/omisai/php-countries)
 
 # PHP Countries Package
 
