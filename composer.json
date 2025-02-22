@@ -21,7 +21,7 @@
         "pestphp/pest": "^3.7.4"
     },
     "scripts": {
-        "test": "./vendor/bin/pest"
+        "test": "./vendor/bin/pest --colors=always"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
