@@ -45,10 +45,10 @@ it('can get the FIPS code', function () {
     expect($country->fipCode)->toBe('GM');
 });
 
-it('can get the phone dial', function () {
+it('can get the telephone country code', function () {
     $country = new Hungary();
 
-    expect($country->dial)->toBe('36');
+    expect($country->callingCode)->toBe('36');
 });
 
 it('can get the capital city', function () {
