@@ -49,7 +49,12 @@ class $className extends Country
     public string \$fipCode = \"{$data[3]}\";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string \$callingCode = \"{$data[4]}\";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string \$dial = \"{$data[4]}\";
 
