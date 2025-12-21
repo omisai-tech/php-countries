@@ -28,7 +28,12 @@ class FaroeIslands extends Country
     public string $fipCode = "FO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "298";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "298";
 
@@ -84,5 +89,5 @@ class FaroeIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "ilhas Faroe";
-
+    
 }

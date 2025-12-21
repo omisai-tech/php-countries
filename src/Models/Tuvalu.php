@@ -28,7 +28,12 @@ class Tuvalu extends Country
     public string $fipCode = "TV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "688";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "688";
 
@@ -84,5 +89,5 @@ class Tuvalu extends Country
      * Portuguese name of the country
      */
     public string $pt = "Tuvalu";
-
+    
 }

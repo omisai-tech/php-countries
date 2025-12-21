@@ -28,7 +28,12 @@ class UsVirginIslands extends Country
     public string $fipCode = "VQ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-340";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-340";
 
@@ -84,5 +89,5 @@ class UsVirginIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Virgens dos EUA";
-
+    
 }

@@ -28,7 +28,12 @@ class Nicaragua extends Country
     public string $fipCode = "NU";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "505";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "505";
 
@@ -84,5 +89,5 @@ class Nicaragua extends Country
      * Portuguese name of the country
      */
     public string $pt = "Nicarágua";
-
+    
 }

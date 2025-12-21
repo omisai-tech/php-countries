@@ -28,7 +28,12 @@ class Guinea extends Country
     public string $fipCode = "GV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "224";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "224";
 
@@ -84,5 +89,5 @@ class Guinea extends Country
      * Portuguese name of the country
      */
     public string $pt = "Guiné";
-
+    
 }

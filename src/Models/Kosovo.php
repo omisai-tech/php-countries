@@ -28,7 +28,12 @@ class Kosovo extends Country
     public string $fipCode = "KV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "#HI�NYZIK";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "#HI�NYZIK";
 
@@ -84,5 +89,5 @@ class Kosovo extends Country
      * Portuguese name of the country
      */
     public string $pt = "Kosovo";
-
+    
 }

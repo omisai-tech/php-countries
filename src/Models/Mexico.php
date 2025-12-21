@@ -28,7 +28,12 @@ class Mexico extends Country
     public string $fipCode = "MX";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "52";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "52";
 
@@ -84,5 +89,5 @@ class Mexico extends Country
      * Portuguese name of the country
      */
     public string $pt = "México";
-
+    
 }

@@ -28,7 +28,12 @@ class Spain extends Country
     public string $fipCode = "SP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "34";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "34";
 
@@ -84,5 +89,5 @@ class Spain extends Country
      * Portuguese name of the country
      */
     public string $pt = "Espanha";
-
+    
 }

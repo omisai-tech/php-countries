@@ -28,7 +28,12 @@ class SierraLeone extends Country
     public string $fipCode = "SL";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "232";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "232";
 
@@ -84,5 +89,5 @@ class SierraLeone extends Country
      * Portuguese name of the country
      */
     public string $pt = "Serra Leoa";
-
+    
 }

@@ -28,7 +28,12 @@ class Gibraltar extends Country
     public string $fipCode = "GI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "350";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "350";
 
@@ -84,5 +89,5 @@ class Gibraltar extends Country
      * Portuguese name of the country
      */
     public string $pt = "Gibraltar";
-
+    
 }

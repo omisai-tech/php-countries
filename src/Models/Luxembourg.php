@@ -28,7 +28,12 @@ class Luxembourg extends Country
     public string $fipCode = "LU";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "352";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "352";
 
@@ -84,5 +89,5 @@ class Luxembourg extends Country
      * Portuguese name of the country
      */
     public string $pt = "Luxemburgo";
-
+    
 }

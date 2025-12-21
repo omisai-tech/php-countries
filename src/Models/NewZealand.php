@@ -28,7 +28,12 @@ class NewZealand extends Country
     public string $fipCode = "NZ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "64";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "64";
 
@@ -84,5 +89,5 @@ class NewZealand extends Country
      * Portuguese name of the country
      */
     public string $pt = "Nova Zelândia";
-
+    
 }

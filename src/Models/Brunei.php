@@ -28,7 +28,12 @@ class Brunei extends Country
     public string $fipCode = "BX";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "673";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "673";
 
@@ -84,5 +89,5 @@ class Brunei extends Country
      * Portuguese name of the country
      */
     public string $pt = "Brunei";
-
+    
 }

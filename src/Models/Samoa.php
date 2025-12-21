@@ -28,7 +28,12 @@ class Samoa extends Country
     public string $fipCode = "WS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "685";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "685";
 
@@ -84,5 +89,5 @@ class Samoa extends Country
      * Portuguese name of the country
      */
     public string $pt = "Samoa";
-
+    
 }

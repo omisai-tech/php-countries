@@ -28,7 +28,12 @@ class CaboVerde extends Country
     public string $fipCode = "CV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "238";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "238";
 
@@ -84,5 +89,5 @@ class CaboVerde extends Country
      * Portuguese name of the country
      */
     public string $pt = "Cabo Verde";
-
+    
 }

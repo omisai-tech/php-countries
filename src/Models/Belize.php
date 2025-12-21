@@ -28,7 +28,12 @@ class Belize extends Country
     public string $fipCode = "BH";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "501";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "501";
 
@@ -84,5 +89,5 @@ class Belize extends Country
      * Portuguese name of the country
      */
     public string $pt = "Belize";
-
+    
 }

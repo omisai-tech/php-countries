@@ -28,7 +28,12 @@ class Niger extends Country
     public string $fipCode = "NG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "227";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "227";
 
@@ -84,5 +89,5 @@ class Niger extends Country
      * Portuguese name of the country
      */
     public string $pt = "Níger";
-
+    
 }

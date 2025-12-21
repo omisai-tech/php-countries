@@ -28,7 +28,12 @@ class SoTomAndPrncipe extends Country
     public string $fipCode = "TP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "239";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "239";
 
@@ -84,5 +89,5 @@ class SoTomAndPrncipe extends Country
      * Portuguese name of the country
      */
     public string $pt = "São Tomé e Príncipe";
-
+    
 }

@@ -28,7 +28,12 @@ class Georgia extends Country
     public string $fipCode = "GG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "995";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "995";
 
@@ -84,5 +89,5 @@ class Georgia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Geórgia";
-
+    
 }

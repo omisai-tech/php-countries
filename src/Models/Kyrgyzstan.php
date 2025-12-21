@@ -28,7 +28,12 @@ class Kyrgyzstan extends Country
     public string $fipCode = "KG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "996";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "996";
 
@@ -84,5 +89,5 @@ class Kyrgyzstan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Quirguistão";
-
+    
 }

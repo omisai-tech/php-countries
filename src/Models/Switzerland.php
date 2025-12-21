@@ -28,7 +28,12 @@ class Switzerland extends Country
     public string $fipCode = "SZ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "41";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "41";
 
@@ -84,5 +89,5 @@ class Switzerland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Suíça";
-
+    
 }

@@ -28,7 +28,12 @@ class FrenchGuiana extends Country
     public string $fipCode = "FG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "594";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "594";
 
@@ -84,5 +89,5 @@ class FrenchGuiana extends Country
      * Portuguese name of the country
      */
     public string $pt = "Guiana Francesa";
-
+    
 }

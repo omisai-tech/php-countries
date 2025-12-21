@@ -28,7 +28,12 @@ class Taiwan extends Country
     public string $fipCode = "TW";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "886";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "886";
 
@@ -84,5 +89,5 @@ class Taiwan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Taiwan";
-
+    
 }

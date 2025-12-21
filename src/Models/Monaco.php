@@ -28,7 +28,12 @@ class Monaco extends Country
     public string $fipCode = "MN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "377";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "377";
 
@@ -84,5 +89,5 @@ class Monaco extends Country
      * Portuguese name of the country
      */
     public string $pt = "Mônaco";
-
+    
 }

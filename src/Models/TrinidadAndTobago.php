@@ -28,7 +28,12 @@ class TrinidadAndTobago extends Country
     public string $fipCode = "TD";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-868";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-868";
 
@@ -84,5 +89,5 @@ class TrinidadAndTobago extends Country
      * Portuguese name of the country
      */
     public string $pt = "Trinidad e Tobago";
-
+    
 }

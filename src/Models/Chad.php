@@ -28,7 +28,12 @@ class Chad extends Country
     public string $fipCode = "CD";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "235";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "235";
 
@@ -84,5 +89,5 @@ class Chad extends Country
      * Portuguese name of the country
      */
     public string $pt = "Chade";
-
+    
 }

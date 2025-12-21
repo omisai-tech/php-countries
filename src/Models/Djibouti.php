@@ -28,7 +28,12 @@ class Djibouti extends Country
     public string $fipCode = "DJ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "253";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "253";
 
@@ -84,5 +89,5 @@ class Djibouti extends Country
      * Portuguese name of the country
      */
     public string $pt = "Djibuti";
-
+    
 }

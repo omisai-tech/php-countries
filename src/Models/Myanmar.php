@@ -28,7 +28,12 @@ class Myanmar extends Country
     public string $fipCode = "BM";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "95";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "95";
 
@@ -84,5 +89,5 @@ class Myanmar extends Country
      * Portuguese name of the country
      */
     public string $pt = "Mianmar";
-
+    
 }

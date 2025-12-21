@@ -28,7 +28,12 @@ class TheNetherlands extends Country
     public string $fipCode = "NL";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "31";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "31";
 
@@ -84,5 +89,5 @@ class TheNetherlands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Os Países Baixos";
-
+    
 }

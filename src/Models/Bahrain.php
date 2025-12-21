@@ -28,7 +28,12 @@ class Bahrain extends Country
     public string $fipCode = "BA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "973";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "973";
 
@@ -84,5 +89,5 @@ class Bahrain extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bahrein";
-
+    
 }

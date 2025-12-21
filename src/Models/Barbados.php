@@ -28,7 +28,12 @@ class Barbados extends Country
     public string $fipCode = "BB";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-246";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-246";
 
@@ -84,5 +89,5 @@ class Barbados extends Country
      * Portuguese name of the country
      */
     public string $pt = "Barbados";
-
+    
 }

@@ -28,7 +28,12 @@ class Kuwait extends Country
     public string $fipCode = "KU";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "965";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "965";
 
@@ -84,5 +89,5 @@ class Kuwait extends Country
      * Portuguese name of the country
      */
     public string $pt = "Kuwait";
-
+    
 }

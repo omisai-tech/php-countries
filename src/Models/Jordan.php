@@ -28,7 +28,12 @@ class Jordan extends Country
     public string $fipCode = "JO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "962";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "962";
 
@@ -84,5 +89,5 @@ class Jordan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Jordânia";
-
+    
 }

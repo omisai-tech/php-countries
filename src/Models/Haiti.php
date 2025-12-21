@@ -28,7 +28,12 @@ class Haiti extends Country
     public string $fipCode = "HA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "509";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "509";
 
@@ -84,5 +89,5 @@ class Haiti extends Country
      * Portuguese name of the country
      */
     public string $pt = "Haiti";
-
+    
 }

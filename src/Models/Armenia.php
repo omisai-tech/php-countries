@@ -28,7 +28,12 @@ class Armenia extends Country
     public string $fipCode = "AM";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "374";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "374";
 
@@ -84,5 +89,5 @@ class Armenia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Armênia";
-
+    
 }

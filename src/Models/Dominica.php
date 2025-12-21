@@ -28,7 +28,12 @@ class Dominica extends Country
     public string $fipCode = "DO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-767";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-767";
 
@@ -84,5 +89,5 @@ class Dominica extends Country
      * Portuguese name of the country
      */
     public string $pt = "Domínica";
-
+    
 }

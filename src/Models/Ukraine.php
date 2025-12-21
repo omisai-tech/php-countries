@@ -28,7 +28,12 @@ class Ukraine extends Country
     public string $fipCode = "UP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "380";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "380";
 
@@ -84,5 +89,5 @@ class Ukraine extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ucrânia";
-
+    
 }

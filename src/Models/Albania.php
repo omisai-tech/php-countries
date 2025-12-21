@@ -28,7 +28,12 @@ class Albania extends Country
     public string $fipCode = "AL";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "355";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "355";
 
@@ -84,5 +89,5 @@ class Albania extends Country
      * Portuguese name of the country
      */
     public string $pt = "Albânia";
-
+    
 }

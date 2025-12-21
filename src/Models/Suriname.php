@@ -28,7 +28,12 @@ class Suriname extends Country
     public string $fipCode = "NS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "597";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "597";
 
@@ -84,5 +89,5 @@ class Suriname extends Country
      * Portuguese name of the country
      */
     public string $pt = "Suriname";
-
+    
 }

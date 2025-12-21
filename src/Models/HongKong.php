@@ -28,7 +28,12 @@ class HongKong extends Country
     public string $fipCode = "HK";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "852";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "852";
 
@@ -84,5 +89,5 @@ class HongKong extends Country
      * Portuguese name of the country
      */
     public string $pt = "Hong Kong";
-
+    
 }

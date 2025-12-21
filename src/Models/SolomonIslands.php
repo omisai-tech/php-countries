@@ -28,7 +28,12 @@ class SolomonIslands extends Country
     public string $fipCode = "BP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "677";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "677";
 
@@ -84,5 +89,5 @@ class SolomonIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Salomão";
-
+    
 }

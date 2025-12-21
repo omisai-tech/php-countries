@@ -28,7 +28,12 @@ class Ghana extends Country
     public string $fipCode = "GH";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "233";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "233";
 
@@ -84,5 +89,5 @@ class Ghana extends Country
      * Portuguese name of the country
      */
     public string $pt = "Gana";
-
+    
 }

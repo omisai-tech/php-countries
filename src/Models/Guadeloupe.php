@@ -28,7 +28,12 @@ class Guadeloupe extends Country
     public string $fipCode = "GP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "590";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "590";
 
@@ -84,5 +89,5 @@ class Guadeloupe extends Country
      * Portuguese name of the country
      */
     public string $pt = "Guadalupe";
-
+    
 }

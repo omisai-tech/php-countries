@@ -28,7 +28,12 @@ class Zimbabwe extends Country
     public string $fipCode = "ZI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "263";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "263";
 
@@ -84,5 +89,5 @@ class Zimbabwe extends Country
      * Portuguese name of the country
      */
     public string $pt = "Zimbábue";
-
+    
 }

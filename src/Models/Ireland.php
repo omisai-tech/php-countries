@@ -28,7 +28,12 @@ class Ireland extends Country
     public string $fipCode = "EI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "353";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "353";
 
@@ -84,5 +89,5 @@ class Ireland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Irlanda";
-
+    
 }

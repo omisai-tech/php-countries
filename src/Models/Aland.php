@@ -28,7 +28,12 @@ class Aland extends Country
     public string $fipCode = "";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "358";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "358";
 
@@ -84,5 +89,5 @@ class Aland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Uma terra";
-
+    
 }

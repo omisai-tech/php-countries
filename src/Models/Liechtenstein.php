@@ -28,7 +28,12 @@ class Liechtenstein extends Country
     public string $fipCode = "LS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "423";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "423";
 
@@ -84,5 +89,5 @@ class Liechtenstein extends Country
      * Portuguese name of the country
      */
     public string $pt = "Liechtenstein";
-
+    
 }

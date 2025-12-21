@@ -28,7 +28,12 @@ class Estonia extends Country
     public string $fipCode = "EN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "372";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "372";
 
@@ -84,5 +89,5 @@ class Estonia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Estônia";
-
+    
 }

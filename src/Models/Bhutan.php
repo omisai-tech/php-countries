@@ -28,7 +28,12 @@ class Bhutan extends Country
     public string $fipCode = "BT";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "975";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "975";
 
@@ -84,5 +89,5 @@ class Bhutan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Butão";
-
+    
 }

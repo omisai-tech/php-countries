@@ -28,7 +28,12 @@ class Benin extends Country
     public string $fipCode = "BN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "229";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "229";
 
@@ -84,5 +89,5 @@ class Benin extends Country
      * Portuguese name of the country
      */
     public string $pt = "Benim";
-
+    
 }

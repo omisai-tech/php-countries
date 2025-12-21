@@ -28,7 +28,12 @@ class Honduras extends Country
     public string $fipCode = "HO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "504";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "504";
 
@@ -84,5 +89,5 @@ class Honduras extends Country
      * Portuguese name of the country
      */
     public string $pt = "Honduras";
-
+    
 }

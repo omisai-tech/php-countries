@@ -28,7 +28,12 @@ class TurksAndCaicosIslands extends Country
     public string $fipCode = "TK";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-649";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-649";
 
@@ -84,5 +89,5 @@ class TurksAndCaicosIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Turcas e Caicos";
-
+    
 }

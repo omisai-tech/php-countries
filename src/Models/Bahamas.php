@@ -28,7 +28,12 @@ class Bahamas extends Country
     public string $fipCode = "BF";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-242";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-242";
 
@@ -84,5 +89,5 @@ class Bahamas extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bahamas";
-
+    
 }

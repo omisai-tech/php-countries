@@ -28,7 +28,12 @@ class Montserrat extends Country
     public string $fipCode = "MH";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-664";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-664";
 
@@ -84,5 +89,5 @@ class Montserrat extends Country
      * Portuguese name of the country
      */
     public string $pt = "Montserrate";
-
+    
 }

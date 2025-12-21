@@ -28,7 +28,12 @@ class SaintLucia extends Country
     public string $fipCode = "ST";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-758";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-758";
 
@@ -84,5 +89,5 @@ class SaintLucia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Santa Lúcia";
-
+    
 }

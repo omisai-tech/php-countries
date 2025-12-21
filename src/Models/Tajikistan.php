@@ -28,7 +28,12 @@ class Tajikistan extends Country
     public string $fipCode = "TI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "992";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "992";
 
@@ -84,5 +89,5 @@ class Tajikistan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Tadjiquistão";
-
+    
 }

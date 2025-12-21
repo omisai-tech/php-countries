@@ -28,7 +28,12 @@ class BouvetIsland extends Country
     public string $fipCode = "BV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "47";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "47";
 
@@ -84,5 +89,5 @@ class BouvetIsland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilha Bouvet";
-
+    
 }

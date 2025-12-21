@@ -28,7 +28,12 @@ class Thailand extends Country
     public string $fipCode = "TH";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "66";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "66";
 
@@ -84,5 +89,5 @@ class Thailand extends Country
      * Portuguese name of the country
      */
     public string $pt = "Tailândia";
-
+    
 }

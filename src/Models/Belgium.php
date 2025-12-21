@@ -28,7 +28,12 @@ class Belgium extends Country
     public string $fipCode = "BE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "32";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "32";
 
@@ -84,5 +89,5 @@ class Belgium extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bélgica";
-
+    
 }

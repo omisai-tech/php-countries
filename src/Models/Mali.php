@@ -28,7 +28,12 @@ class Mali extends Country
     public string $fipCode = "ML";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "223";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "223";
 
@@ -84,5 +89,5 @@ class Mali extends Country
      * Portuguese name of the country
      */
     public string $pt = "Mali";
-
+    
 }

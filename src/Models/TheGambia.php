@@ -28,7 +28,12 @@ class TheGambia extends Country
     public string $fipCode = "GA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "220";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "220";
 
@@ -84,5 +89,5 @@ class TheGambia extends Country
      * Portuguese name of the country
      */
     public string $pt = "A Gâmbia";
-
+    
 }

@@ -28,7 +28,12 @@ class NorthKorea extends Country
     public string $fipCode = "KN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "850";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "850";
 
@@ -84,5 +89,5 @@ class NorthKorea extends Country
      * Portuguese name of the country
      */
     public string $pt = "Coréia do Norte";
-
+    
 }

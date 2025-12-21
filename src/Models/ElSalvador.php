@@ -28,7 +28,12 @@ class ElSalvador extends Country
     public string $fipCode = "ES";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "503";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "503";
 
@@ -84,5 +89,5 @@ class ElSalvador extends Country
      * Portuguese name of the country
      */
     public string $pt = "El Salvador";
-
+    
 }

@@ -28,7 +28,12 @@ class Bangladesh extends Country
     public string $fipCode = "BG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "880";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "880";
 
@@ -84,5 +89,5 @@ class Bangladesh extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bangladesh";
-
+    
 }

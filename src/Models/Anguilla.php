@@ -28,7 +28,12 @@ class Anguilla extends Country
     public string $fipCode = "AV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-264";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-264";
 
@@ -84,5 +89,5 @@ class Anguilla extends Country
      * Portuguese name of the country
      */
     public string $pt = "Anguila";
-
+    
 }

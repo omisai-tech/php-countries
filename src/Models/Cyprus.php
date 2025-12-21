@@ -28,7 +28,12 @@ class Cyprus extends Country
     public string $fipCode = "CY";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "357";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "357";
 
@@ -84,5 +89,5 @@ class Cyprus extends Country
      * Portuguese name of the country
      */
     public string $pt = "Chipre";
-
+    
 }

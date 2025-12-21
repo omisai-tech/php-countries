@@ -28,7 +28,12 @@ class UsOutlyingIslands extends Country
     public string $fipCode = "";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = " ";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = " ";
 
@@ -84,5 +89,5 @@ class UsOutlyingIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Distantes dos EUA";
-
+    
 }

@@ -28,7 +28,12 @@ class Lesotho extends Country
     public string $fipCode = "LT";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "266";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "266";
 
@@ -84,5 +89,5 @@ class Lesotho extends Country
      * Portuguese name of the country
      */
     public string $pt = "Lesoto";
-
+    
 }

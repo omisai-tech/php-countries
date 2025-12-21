@@ -28,7 +28,12 @@ class Guam extends Country
     public string $fipCode = "GQ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-671";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-671";
 
@@ -84,5 +89,5 @@ class Guam extends Country
      * Portuguese name of the country
      */
     public string $pt = "Guam";
-
+    
 }

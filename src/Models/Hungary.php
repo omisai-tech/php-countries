@@ -28,7 +28,12 @@ class Hungary extends Country
     public string $fipCode = "HU";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "36";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "36";
 
@@ -84,5 +89,5 @@ class Hungary extends Country
      * Portuguese name of the country
      */
     public string $pt = "Hungria";
-
+    
 }

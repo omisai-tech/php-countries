@@ -28,7 +28,12 @@ class CaymanIslands extends Country
     public string $fipCode = "CJ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-345";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-345";
 
@@ -84,5 +89,5 @@ class CaymanIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Cayman";
-
+    
 }

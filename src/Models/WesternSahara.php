@@ -28,7 +28,12 @@ class WesternSahara extends Country
     public string $fipCode = "WI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "212";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "212";
 
@@ -84,5 +89,5 @@ class WesternSahara extends Country
      * Portuguese name of the country
      */
     public string $pt = "Saara Ocidental";
-
+    
 }

@@ -28,7 +28,12 @@ class Belarus extends Country
     public string $fipCode = "BO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "375";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "375";
 
@@ -84,5 +89,5 @@ class Belarus extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bielorrússia";
-
+    
 }

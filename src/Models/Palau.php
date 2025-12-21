@@ -28,7 +28,12 @@ class Palau extends Country
     public string $fipCode = "PS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "680";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "680";
 
@@ -84,5 +89,5 @@ class Palau extends Country
      * Portuguese name of the country
      */
     public string $pt = "Palau";
-
+    
 }

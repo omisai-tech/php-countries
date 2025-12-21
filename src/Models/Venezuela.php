@@ -28,7 +28,12 @@ class Venezuela extends Country
     public string $fipCode = "VE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "58";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "58";
 
@@ -84,5 +89,5 @@ class Venezuela extends Country
      * Portuguese name of the country
      */
     public string $pt = "Venezuela";
-
+    
 }

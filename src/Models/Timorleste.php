@@ -28,7 +28,12 @@ class Timorleste extends Country
     public string $fipCode = "TT";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "670";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "670";
 
@@ -84,5 +89,5 @@ class Timorleste extends Country
      * Portuguese name of the country
      */
     public string $pt = "Timor-Leste";
-
+    
 }

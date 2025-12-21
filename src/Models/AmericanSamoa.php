@@ -28,7 +28,12 @@ class AmericanSamoa extends Country
     public string $fipCode = "AQ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-684";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-684";
 
@@ -84,5 +89,5 @@ class AmericanSamoa extends Country
      * Portuguese name of the country
      */
     public string $pt = "Samoa Americana";
-
+    
 }

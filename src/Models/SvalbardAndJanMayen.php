@@ -28,7 +28,12 @@ class SvalbardAndJanMayen extends Country
     public string $fipCode = "SV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "47";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "47";
 
@@ -84,5 +89,5 @@ class SvalbardAndJanMayen extends Country
      * Portuguese name of the country
      */
     public string $pt = "Svalbard e Jan Mayen";
-
+    
 }

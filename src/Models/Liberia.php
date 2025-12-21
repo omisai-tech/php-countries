@@ -28,7 +28,12 @@ class Liberia extends Country
     public string $fipCode = "LI";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "231";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "231";
 
@@ -84,5 +89,5 @@ class Liberia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Libéria";
-
+    
 }

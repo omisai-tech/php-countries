@@ -28,7 +28,12 @@ class Tunisia extends Country
     public string $fipCode = "TS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "216";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "216";
 
@@ -84,5 +89,5 @@ class Tunisia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Tunísia";
-
+    
 }

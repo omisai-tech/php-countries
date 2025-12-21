@@ -28,7 +28,12 @@ class BosniaAndHerzegovina extends Country
     public string $fipCode = "BK";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "387";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "387";
 
@@ -84,5 +89,5 @@ class BosniaAndHerzegovina extends Country
      * Portuguese name of the country
      */
     public string $pt = "Bósnia e Herzegovina";
-
+    
 }

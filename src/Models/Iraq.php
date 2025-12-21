@@ -28,7 +28,12 @@ class Iraq extends Country
     public string $fipCode = "IZ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "964";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "964";
 
@@ -84,5 +89,5 @@ class Iraq extends Country
      * Portuguese name of the country
      */
     public string $pt = "Iraque";
-
+    
 }

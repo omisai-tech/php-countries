@@ -28,7 +28,12 @@ class Tokelau extends Country
     public string $fipCode = "TL";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "690";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "690";
 
@@ -84,5 +89,5 @@ class Tokelau extends Country
      * Portuguese name of the country
      */
     public string $pt = "Toquelau";
-
+    
 }

@@ -28,7 +28,12 @@ class Lebanon extends Country
     public string $fipCode = "LE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "961";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "961";
 
@@ -84,5 +89,5 @@ class Lebanon extends Country
      * Portuguese name of the country
      */
     public string $pt = "Líbano";
-
+    
 }

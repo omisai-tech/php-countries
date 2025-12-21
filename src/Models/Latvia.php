@@ -28,7 +28,12 @@ class Latvia extends Country
     public string $fipCode = "LG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "371";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "371";
 
@@ -84,5 +89,5 @@ class Latvia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Letônia";
-
+    
 }

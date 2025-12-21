@@ -28,7 +28,12 @@ class Ethiopia extends Country
     public string $fipCode = "ET";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "251";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "251";
 
@@ -84,5 +89,5 @@ class Ethiopia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Etiópia";
-
+    
 }

@@ -28,7 +28,12 @@ class PapuaNewGuinea extends Country
     public string $fipCode = "PP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "675";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "675";
 
@@ -84,5 +89,5 @@ class PapuaNewGuinea extends Country
      * Portuguese name of the country
      */
     public string $pt = "Papua Nova Guiné";
-
+    
 }

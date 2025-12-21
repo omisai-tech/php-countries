@@ -28,7 +28,12 @@ class IvoryCoast extends Country
     public string $fipCode = "IV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "225";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "225";
 
@@ -84,5 +89,5 @@ class IvoryCoast extends Country
      * Portuguese name of the country
      */
     public string $pt = "Costa do Marfim";
-
+    
 }

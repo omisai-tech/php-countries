@@ -28,7 +28,12 @@ class Maldives extends Country
     public string $fipCode = "MV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "960";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "960";
 
@@ -84,5 +89,5 @@ class Maldives extends Country
      * Portuguese name of the country
      */
     public string $pt = "Maldivas";
-
+    
 }

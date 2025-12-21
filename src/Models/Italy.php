@@ -28,7 +28,12 @@ class Italy extends Country
     public string $fipCode = "IT";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "39";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "39";
 
@@ -84,5 +89,5 @@ class Italy extends Country
      * Portuguese name of the country
      */
     public string $pt = "Itália";
-
+    
 }

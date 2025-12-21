@@ -28,7 +28,12 @@ class SintMaarten extends Country
     public string $fipCode = "NN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-721";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-721";
 
@@ -84,5 +89,5 @@ class SintMaarten extends Country
      * Portuguese name of the country
      */
     public string $pt = "São Martinho";
-
+    
 }

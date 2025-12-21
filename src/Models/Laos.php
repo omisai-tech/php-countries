@@ -28,7 +28,12 @@ class Laos extends Country
     public string $fipCode = "LA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "856";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "856";
 
@@ -84,5 +89,5 @@ class Laos extends Country
      * Portuguese name of the country
      */
     public string $pt = "Laos";
-
+    
 }

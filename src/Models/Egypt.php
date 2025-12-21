@@ -28,7 +28,12 @@ class Egypt extends Country
     public string $fipCode = "EG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "20";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "20";
 
@@ -84,5 +89,5 @@ class Egypt extends Country
      * Portuguese name of the country
      */
     public string $pt = "Egito";
-
+    
 }

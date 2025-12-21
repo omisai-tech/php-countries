@@ -28,7 +28,12 @@ class NewCaledonia extends Country
     public string $fipCode = "NC";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "687";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "687";
 
@@ -84,5 +89,5 @@ class NewCaledonia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Nova Caledônia";
-
+    
 }

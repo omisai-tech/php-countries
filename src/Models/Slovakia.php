@@ -28,7 +28,12 @@ class Slovakia extends Country
     public string $fipCode = "LO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "421";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "421";
 
@@ -84,5 +89,5 @@ class Slovakia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Eslováquia";
-
+    
 }

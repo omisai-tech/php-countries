@@ -28,7 +28,12 @@ class Niue extends Country
     public string $fipCode = "NE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "683";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "683";
 
@@ -84,5 +89,5 @@ class Niue extends Country
      * Portuguese name of the country
      */
     public string $pt = "Niue";
-
+    
 }

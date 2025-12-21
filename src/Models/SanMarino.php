@@ -28,7 +28,12 @@ class SanMarino extends Country
     public string $fipCode = "SM";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "378";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "378";
 
@@ -84,5 +89,5 @@ class SanMarino extends Country
      * Portuguese name of the country
      */
     public string $pt = "São Marino";
-
+    
 }

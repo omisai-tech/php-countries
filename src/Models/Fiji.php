@@ -28,7 +28,12 @@ class Fiji extends Country
     public string $fipCode = "FJ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "679";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "679";
 
@@ -84,5 +89,5 @@ class Fiji extends Country
      * Portuguese name of the country
      */
     public string $pt = "Fiji";
-
+    
 }

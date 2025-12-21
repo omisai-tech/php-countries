@@ -28,7 +28,12 @@ class Czechia extends Country
     public string $fipCode = "EZ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "420";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "420";
 
@@ -84,5 +89,5 @@ class Czechia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Tcheca";
-
+    
 }

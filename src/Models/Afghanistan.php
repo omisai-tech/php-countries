@@ -28,7 +28,12 @@ class Afghanistan extends Country
     public string $fipCode = "AF";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "93";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "93";
 
@@ -84,5 +89,5 @@ class Afghanistan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Afeganistão";
-
+    
 }

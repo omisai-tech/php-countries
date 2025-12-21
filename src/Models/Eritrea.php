@@ -28,7 +28,12 @@ class Eritrea extends Country
     public string $fipCode = "ER";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "291";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "291";
 
@@ -84,5 +89,5 @@ class Eritrea extends Country
      * Portuguese name of the country
      */
     public string $pt = "Eritreia";
-
+    
 }

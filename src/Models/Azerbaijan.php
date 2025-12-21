@@ -28,7 +28,12 @@ class Azerbaijan extends Country
     public string $fipCode = "AJ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "994";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "994";
 
@@ -84,5 +89,5 @@ class Azerbaijan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Azerbaijão";
-
+    
 }

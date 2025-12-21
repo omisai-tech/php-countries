@@ -28,7 +28,12 @@ class Uganda extends Country
     public string $fipCode = "UG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "256";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "256";
 
@@ -84,5 +89,5 @@ class Uganda extends Country
      * Portuguese name of the country
      */
     public string $pt = "Uganda";
-
+    
 }

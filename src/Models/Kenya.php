@@ -28,7 +28,12 @@ class Kenya extends Country
     public string $fipCode = "KE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "254";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "254";
 
@@ -84,5 +89,5 @@ class Kenya extends Country
      * Portuguese name of the country
      */
     public string $pt = "Quênia";
-
+    
 }

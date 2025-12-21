@@ -28,7 +28,12 @@ class Senegal extends Country
     public string $fipCode = "SG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "221";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "221";
 
@@ -84,5 +89,5 @@ class Senegal extends Country
      * Portuguese name of the country
      */
     public string $pt = "Senegal";
-
+    
 }

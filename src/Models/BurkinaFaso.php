@@ -28,7 +28,12 @@ class BurkinaFaso extends Country
     public string $fipCode = "UV";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "226";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "226";
 
@@ -84,5 +89,5 @@ class BurkinaFaso extends Country
      * Portuguese name of the country
      */
     public string $pt = "Burkina Faso";
-
+    
 }

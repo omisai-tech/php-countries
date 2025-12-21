@@ -28,7 +28,12 @@ class Iceland extends Country
     public string $fipCode = "IC";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "354";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "354";
 
@@ -84,5 +89,5 @@ class Iceland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Islândia";
-
+    
 }

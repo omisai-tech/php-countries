@@ -28,7 +28,12 @@ class SouthSudan extends Country
     public string $fipCode = "OD";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "211";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "211";
 
@@ -84,5 +89,5 @@ class SouthSudan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Sudão do Sul";
-
+    
 }

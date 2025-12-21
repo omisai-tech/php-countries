@@ -28,7 +28,12 @@ class SaintMartin extends Country
     public string $fipCode = "RN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "590";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "590";
 
@@ -84,5 +89,5 @@ class SaintMartin extends Country
      * Portuguese name of the country
      */
     public string $pt = "são Martinho";
-
+    
 }

@@ -28,7 +28,12 @@ class Gabon extends Country
     public string $fipCode = "GB";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "241";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "241";
 
@@ -84,5 +89,5 @@ class Gabon extends Country
      * Portuguese name of the country
      */
     public string $pt = "Gabão";
-
+    
 }

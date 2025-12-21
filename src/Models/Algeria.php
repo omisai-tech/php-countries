@@ -28,7 +28,12 @@ class Algeria extends Country
     public string $fipCode = "AG";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "213";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "213";
 
@@ -84,5 +89,5 @@ class Algeria extends Country
      * Portuguese name of the country
      */
     public string $pt = "Argélia";
-
+    
 }

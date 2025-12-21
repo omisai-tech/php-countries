@@ -28,7 +28,12 @@ class Paraguay extends Country
     public string $fipCode = "PA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "595";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "595";
 
@@ -84,5 +89,5 @@ class Paraguay extends Country
      * Portuguese name of the country
      */
     public string $pt = "Paraguai";
-
+    
 }

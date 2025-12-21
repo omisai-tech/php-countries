@@ -28,7 +28,12 @@ class Runion extends Country
     public string $fipCode = "RE";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "262";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "262";
 
@@ -84,5 +89,5 @@ class Runion extends Country
      * Portuguese name of the country
      */
     public string $pt = "Reunião";
-
+    
 }

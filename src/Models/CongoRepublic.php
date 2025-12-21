@@ -28,7 +28,12 @@ class CongoRepublic extends Country
     public string $fipCode = "CF";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "242";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "242";
 
@@ -84,5 +89,5 @@ class CongoRepublic extends Country
      * Portuguese name of the country
      */
     public string $pt = "República do Congo";
-
+    
 }

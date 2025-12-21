@@ -28,7 +28,12 @@ class Mauritius extends Country
     public string $fipCode = "MP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "230";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "230";
 
@@ -84,5 +89,5 @@ class Mauritius extends Country
      * Portuguese name of the country
      */
     public string $pt = "Maurício";
-
+    
 }

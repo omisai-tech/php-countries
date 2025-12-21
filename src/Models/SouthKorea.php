@@ -28,7 +28,12 @@ class SouthKorea extends Country
     public string $fipCode = "KS";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "82";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "82";
 
@@ -84,5 +89,5 @@ class SouthKorea extends Country
      * Portuguese name of the country
      */
     public string $pt = "Coreia do Sul";
-
+    
 }

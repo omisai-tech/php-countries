@@ -28,7 +28,12 @@ class Kiribati extends Country
     public string $fipCode = "KR";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "686";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "686";
 
@@ -84,5 +89,5 @@ class Kiribati extends Country
      * Portuguese name of the country
      */
     public string $pt = "Quiribáti";
-
+    
 }

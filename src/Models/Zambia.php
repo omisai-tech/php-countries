@@ -28,7 +28,12 @@ class Zambia extends Country
     public string $fipCode = "ZA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "260";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "260";
 
@@ -84,5 +89,5 @@ class Zambia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Zâmbia";
-
+    
 }

@@ -28,7 +28,12 @@ class FalklandIslands extends Country
     public string $fipCode = "FK";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "500";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "500";
 
@@ -84,5 +89,5 @@ class FalklandIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Malvinas";
-
+    
 }

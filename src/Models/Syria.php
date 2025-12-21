@@ -28,7 +28,12 @@ class Syria extends Country
     public string $fipCode = "SY";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "963";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "963";
 
@@ -84,5 +89,5 @@ class Syria extends Country
      * Portuguese name of the country
      */
     public string $pt = "Síria";
-
+    
 }

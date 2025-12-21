@@ -28,7 +28,12 @@ class Croatia extends Country
     public string $fipCode = "HR";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "385";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "385";
 
@@ -84,5 +89,5 @@ class Croatia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Croácia";
-
+    
 }

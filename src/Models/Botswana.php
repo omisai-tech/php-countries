@@ -28,7 +28,12 @@ class Botswana extends Country
     public string $fipCode = "BC";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "267";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "267";
 
@@ -84,5 +89,5 @@ class Botswana extends Country
      * Portuguese name of the country
      */
     public string $pt = "Botsuana";
-
+    
 }

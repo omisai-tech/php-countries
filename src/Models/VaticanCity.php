@@ -28,7 +28,12 @@ class VaticanCity extends Country
     public string $fipCode = "VT";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "39-06";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "39-06";
 
@@ -84,5 +89,5 @@ class VaticanCity extends Country
      * Portuguese name of the country
      */
     public string $pt = "Cidade do Vaticano";
-
+    
 }

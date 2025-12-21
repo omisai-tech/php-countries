@@ -28,7 +28,12 @@ class Singapore extends Country
     public string $fipCode = "SN";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "65";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "65";
 
@@ -84,5 +89,5 @@ class Singapore extends Country
      * Portuguese name of the country
      */
     public string $pt = "Cingapura";
-
+    
 }

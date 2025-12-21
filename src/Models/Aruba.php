@@ -28,7 +28,12 @@ class Aruba extends Country
     public string $fipCode = "AA";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "297";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "297";
 
@@ -84,5 +89,5 @@ class Aruba extends Country
      * Portuguese name of the country
      */
     public string $pt = "Aruba";
-
+    
 }

@@ -28,7 +28,12 @@ class Portugal extends Country
     public string $fipCode = "PO";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "351";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "351";
 
@@ -84,5 +89,5 @@ class Portugal extends Country
      * Portuguese name of the country
      */
     public string $pt = "Portugal";
-
+    
 }

@@ -28,7 +28,12 @@ class SaintHelena extends Country
     public string $fipCode = "SH";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "290";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "290";
 
@@ -84,5 +89,5 @@ class SaintHelena extends Country
      * Portuguese name of the country
      */
     public string $pt = "Santa Helena";
-
+    
 }

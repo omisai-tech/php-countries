@@ -28,7 +28,12 @@ class NorthMacedonia extends Country
     public string $fipCode = "MK";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "389";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "389";
 
@@ -84,5 +89,5 @@ class NorthMacedonia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Macedônia do Norte";
-
+    
 }

@@ -28,7 +28,12 @@ class Indonesia extends Country
     public string $fipCode = "ID";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "62";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "62";
 
@@ -84,5 +89,5 @@ class Indonesia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Indonésia";
-
+    
 }

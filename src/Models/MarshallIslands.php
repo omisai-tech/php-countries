@@ -28,7 +28,12 @@ class MarshallIslands extends Country
     public string $fipCode = "RM";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "692";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "692";
 
@@ -84,5 +89,5 @@ class MarshallIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilhas Marshall";
-
+    
 }

@@ -28,7 +28,12 @@ class DominicanRepublic extends Country
     public string $fipCode = "DR";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "1-809,1-829,1-849";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "1-809,1-829,1-849";
 
@@ -84,5 +89,5 @@ class DominicanRepublic extends Country
      * Portuguese name of the country
      */
     public string $pt = "República Dominicana";
-
+    
 }

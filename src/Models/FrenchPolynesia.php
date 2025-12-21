@@ -28,7 +28,12 @@ class FrenchPolynesia extends Country
     public string $fipCode = "FP";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "689";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "689";
 
@@ -84,5 +89,5 @@ class FrenchPolynesia extends Country
      * Portuguese name of the country
      */
     public string $pt = "Polinésia Francesa";
-
+    
 }

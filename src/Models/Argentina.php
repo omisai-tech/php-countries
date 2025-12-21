@@ -28,7 +28,12 @@ class Argentina extends Country
     public string $fipCode = "AR";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "54";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "54";
 
@@ -84,5 +89,5 @@ class Argentina extends Country
      * Portuguese name of the country
      */
     public string $pt = "Argentina";
-
+    
 }

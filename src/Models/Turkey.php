@@ -28,7 +28,12 @@ class Turkey extends Country
     public string $fipCode = "TU";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "90";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "90";
 
@@ -84,5 +89,5 @@ class Turkey extends Country
      * Portuguese name of the country
      */
     public string $pt = "Peru";
-
+    
 }

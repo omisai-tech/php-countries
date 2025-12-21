@@ -28,7 +28,12 @@ class Eswatini extends Country
     public string $fipCode = "WZ";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "268";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "268";
 
@@ -84,5 +89,5 @@ class Eswatini extends Country
      * Portuguese name of the country
      */
     public string $pt = "Essuatíni";
-
+    
 }

@@ -28,7 +28,12 @@ class NorfolkIsland extends Country
     public string $fipCode = "NF";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "672";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "672";
 
@@ -84,5 +89,5 @@ class NorfolkIsland extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilha Norfolk";
-
+    
 }

@@ -28,7 +28,12 @@ class IsleOfMan extends Country
     public string $fipCode = "IM";
 
     /**
-     * Phone dial code
+     * Telephone country code
+     */
+    public string $callingCode = "44";
+
+    /**
+     * @deprecated - will be removed in next major version. Use callingCode instead.
      */
     public string $dial = "44";
 
@@ -84,5 +89,5 @@ class IsleOfMan extends Country
      * Portuguese name of the country
      */
     public string $pt = "Ilha de Man";
-
+    
 }
