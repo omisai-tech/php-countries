@@ -120,4 +120,4 @@ If you discover any security-related issues, please email [security@omisai.com](
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+This package is open-sourced software licensed under the [MIT license](LICENSE).
