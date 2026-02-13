@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class IvoryCoast extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CI";
+    public string $alpha2 = 'CI';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CIV";
+    public string $alpha3 = 'CIV';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "384";
+    public string $numeric = '384';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IV";
+    public string $fipCode = 'IV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "225";
+    public string $callingCode = '225';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "225";
+    public string $dial = '225';
 
     /**
      * Capital city
      */
-    public string $capital = "Yamoussoukro";
+    public string $capital = 'Yamoussoukro';
 
     /**
      * Continent
@@ -53,27 +53,27 @@ class IvoryCoast extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Ivory Coast";
+    public string $en = 'Ivory Coast';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Elefántcsontpart";
+    public string $hu = 'Elefántcsontpart';
 
     /**
      * German name of the country
      */
-    public string $de = "Elfenbeinküste";
+    public string $de = 'Elfenbeinküste';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Costa de Marfil";
+    public string $es = 'Costa de Marfil';
 
     /**
      * Italian name of the country
@@ -88,6 +88,5 @@ class IvoryCoast extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Costa do Marfim";
-    
+    public string $pt = 'Costa do Marfim';
 }

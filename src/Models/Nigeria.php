@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Nigeria extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NG";
+    public string $alpha2 = 'NG';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NGA";
+    public string $alpha3 = 'NGA';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "566";
+    public string $numeric = '566';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NI";
+    public string $fipCode = 'NI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "234";
+    public string $callingCode = '234';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "234";
+    public string $dial = '234';
 
     /**
      * Capital city
      */
-    public string $capital = "Abuja";
+    public string $capital = 'Abuja';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Nigeria extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Nigeria";
+    public string $en = 'Nigeria';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Nigéria";
+    public string $hu = 'Nigéria';
 
     /**
      * German name of the country
      */
-    public string $de = "Nigeria";
+    public string $de = 'Nigeria';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Nigeria";
+    public string $es = 'Nigeria';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nigeria";
+    public string $it = 'Nigeria';
 
     /**
      * French name of the country
      */
-    public string $fr = "Nigeria";
+    public string $fr = 'Nigeria';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Nigéria";
-    
+    public string $pt = 'Nigéria';
 }

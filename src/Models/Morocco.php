@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Morocco extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MA";
+    public string $alpha2 = 'MA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MAR";
+    public string $alpha3 = 'MAR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "504";
+    public string $numeric = '504';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MO";
+    public string $fipCode = 'MO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "212";
+    public string $callingCode = '212';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "212";
+    public string $dial = '212';
 
     /**
      * Capital city
      */
-    public string $capital = "Rabat";
+    public string $capital = 'Rabat';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Morocco extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Morocco";
+    public string $en = 'Morocco';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Marokkó";
+    public string $hu = 'Marokkó';
 
     /**
      * German name of the country
      */
-    public string $de = "Marokko";
+    public string $de = 'Marokko';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Marruecos";
+    public string $es = 'Marruecos';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Marocco";
+    public string $it = 'Marocco';
 
     /**
      * French name of the country
      */
-    public string $fr = "Maroc";
+    public string $fr = 'Maroc';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Marrocos";
-    
+    public string $pt = 'Marrocos';
 }

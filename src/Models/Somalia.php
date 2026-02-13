@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Somalia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SO";
+    public string $alpha2 = 'SO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SOM";
+    public string $alpha3 = 'SOM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "706";
+    public string $numeric = '706';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SO";
+    public string $fipCode = 'SO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "252";
+    public string $callingCode = '252';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "252";
+    public string $dial = '252';
 
     /**
      * Capital city
      */
-    public string $capital = "Mogadishu";
+    public string $capital = 'Mogadishu';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Somalia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Somalia";
+    public string $en = 'Somalia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Szomália";
+    public string $hu = 'Szomália';
 
     /**
      * German name of the country
      */
-    public string $de = "Somalia";
+    public string $de = 'Somalia';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Somalia";
+    public string $es = 'Somalia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Somalia";
+    public string $it = 'Somalia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Somalie";
+    public string $fr = 'Somalie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Somália";
-    
+    public string $pt = 'Somália';
 }

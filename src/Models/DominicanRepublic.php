@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class DominicanRepublic extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "DO";
+    public string $alpha2 = 'DO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "DOM";
+    public string $alpha3 = 'DOM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "214";
+    public string $numeric = '214';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "DR";
+    public string $fipCode = 'DR';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "1-809,1-829,1-849";
+    public string $callingCode = '1-809,1-829,1-849';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "1-809,1-829,1-849";
+    public string $dial = '1-809,1-829,1-849';
 
     /**
      * Capital city
      */
-    public string $capital = "Santo Domingo";
+    public string $capital = 'Santo Domingo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class DominicanRepublic extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Dominican Republic";
+    public string $en = 'Dominican Republic';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Dominikai Köztársaság";
+    public string $hu = 'Dominikai Köztársaság';
 
     /**
      * German name of the country
      */
-    public string $de = "Dominikanische Republik";
+    public string $de = 'Dominikanische Republik';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "República Dominicana";
+    public string $es = 'República Dominicana';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Repubblica Dominicana";
+    public string $it = 'Repubblica Dominicana';
 
     /**
      * French name of the country
      */
-    public string $fr = "République dominicaine";
+    public string $fr = 'République dominicaine';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "República Dominicana";
-    
+    public string $pt = 'República Dominicana';
 }

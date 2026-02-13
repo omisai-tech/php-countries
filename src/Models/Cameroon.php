@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Cameroon extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CM";
+    public string $alpha2 = 'CM';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CMR";
+    public string $alpha3 = 'CMR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "120";
+    public string $numeric = '120';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "CM";
+    public string $fipCode = 'CM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "237";
+    public string $callingCode = '237';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "237";
+    public string $dial = '237';
 
     /**
      * Capital city
      */
-    public string $capital = "Yaounde";
+    public string $capital = 'Yaounde';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Cameroon extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Cameroon";
+    public string $en = 'Cameroon';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Kamerun";
+    public string $hu = 'Kamerun';
 
     /**
      * German name of the country
      */
-    public string $de = "Kamerun";
+    public string $de = 'Kamerun';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Camerún";
+    public string $es = 'Camerún';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Camerun";
+    public string $it = 'Camerun';
 
     /**
      * French name of the country
      */
-    public string $fr = "Cameroun";
+    public string $fr = 'Cameroun';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Camarões";
-    
+    public string $pt = 'Camarões';
 }

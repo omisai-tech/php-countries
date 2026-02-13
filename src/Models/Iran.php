@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Iran extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IR";
+    public string $alpha2 = 'IR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "IRN";
+    public string $alpha3 = 'IRN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "364";
+    public string $numeric = '364';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IR";
+    public string $fipCode = 'IR';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "98";
+    public string $callingCode = '98';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "98";
+    public string $dial = '98';
 
     /**
      * Capital city
      */
-    public string $capital = "Tehran";
+    public string $capital = 'Tehran';
 
     /**
      * Continent
@@ -53,32 +53,32 @@ class Iran extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Iran";
+    public string $en = 'Iran';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Irán";
+    public string $hu = 'Irán';
 
     /**
      * German name of the country
      */
-    public string $de = "Iran";
+    public string $de = 'Iran';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Irán";
+    public string $es = 'Irán';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Iran";
+    public string $it = 'Iran';
 
     /**
      * French name of the country
@@ -88,6 +88,5 @@ class Iran extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Irã";
-    
+    public string $pt = 'Irã';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class MarshallIslands extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MH";
+    public string $alpha2 = 'MH';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MHL";
+    public string $alpha3 = 'MHL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "584";
+    public string $numeric = '584';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "RM";
+    public string $fipCode = 'RM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "692";
+    public string $callingCode = '692';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "692";
+    public string $dial = '692';
 
     /**
      * Capital city
      */
-    public string $capital = "Majuro";
+    public string $capital = 'Majuro';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class MarshallIslands extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Marshall Islands";
+    public string $en = 'Marshall Islands';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Marshall-szigetek";
+    public string $hu = 'Marshall-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Marshallinseln";
+    public string $de = 'Marshallinseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Marshall";
+    public string $es = 'Islas Marshall';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Marshall";
+    public string $it = 'Isole Marshall';
 
     /**
      * French name of the country
      */
-    public string $fr = "Iles Marshall";
+    public string $fr = 'Iles Marshall';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilhas Marshall";
-    
+    public string $pt = 'Ilhas Marshall';
 }

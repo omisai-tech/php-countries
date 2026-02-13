@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SvalbardAndJanMayen extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SJ";
+    public string $alpha2 = 'SJ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SJM";
+    public string $alpha3 = 'SJM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "744";
+    public string $numeric = '744';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SV";
+    public string $fipCode = 'SV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "47";
+    public string $callingCode = '47';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "47";
+    public string $dial = '47';
 
     /**
      * Capital city
      */
-    public string $capital = "Longyearbyen";
+    public string $capital = 'Longyearbyen';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SvalbardAndJanMayen extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Svalbard and Jan Mayen";
+    public string $en = 'Svalbard and Jan Mayen';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Svalbard és Jan Mayen";
+    public string $hu = 'Svalbard és Jan Mayen';
 
     /**
      * German name of the country
      */
-    public string $de = "Spitzbergen und Jan Mayen";
+    public string $de = 'Spitzbergen und Jan Mayen';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Svalbard y Jan Mayen";
+    public string $es = 'Svalbard y Jan Mayen';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Svalbard e Jan Mayen";
+    public string $it = 'Svalbard e Jan Mayen';
 
     /**
      * French name of the country
      */
-    public string $fr = "Svalbard et Jan Mayen";
+    public string $fr = 'Svalbard et Jan Mayen';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Svalbard e Jan Mayen";
-    
+    public string $pt = 'Svalbard e Jan Mayen';
 }

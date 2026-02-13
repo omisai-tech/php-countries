@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Yemen extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "YE";
+    public string $alpha2 = 'YE';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "YEM";
+    public string $alpha3 = 'YEM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "887";
+    public string $numeric = '887';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "YM";
+    public string $fipCode = 'YM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "967";
+    public string $callingCode = '967';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "967";
+    public string $dial = '967';
 
     /**
      * Capital city
      */
-    public string $capital = "Sanaa";
+    public string $capital = 'Sanaa';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Yemen extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Yemen";
+    public string $en = 'Yemen';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Jemen";
+    public string $hu = 'Jemen';
 
     /**
      * German name of the country
      */
-    public string $de = "Jemen";
+    public string $de = 'Jemen';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Yemen";
+    public string $es = 'Yemen';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Yemen";
+    public string $it = 'Yemen';
 
     /**
      * French name of the country
      */
-    public string $fr = "Yémen";
+    public string $fr = 'Yémen';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Iémen";
-    
+    public string $pt = 'Iémen';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SaudiArabia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SA";
+    public string $alpha2 = 'SA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SAU";
+    public string $alpha3 = 'SAU';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "682";
+    public string $numeric = '682';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SA";
+    public string $fipCode = 'SA';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "966";
+    public string $callingCode = '966';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "966";
+    public string $dial = '966';
 
     /**
      * Capital city
      */
-    public string $capital = "Riyadh";
+    public string $capital = 'Riyadh';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SaudiArabia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Saudi Arabia";
+    public string $en = 'Saudi Arabia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Szaud-Arábia";
+    public string $hu = 'Szaud-Arábia';
 
     /**
      * German name of the country
      */
-    public string $de = "Saudi-Arabien";
+    public string $de = 'Saudi-Arabien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Arabia Saudita";
+    public string $es = 'Arabia Saudita';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Arabia Saudita";
+    public string $it = 'Arabia Saudita';
 
     /**
      * French name of the country
      */
-    public string $fr = "Arabie Saoudite";
+    public string $fr = 'Arabie Saoudite';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Arábia Saudita";
-    
+    public string $pt = 'Arábia Saudita';
 }

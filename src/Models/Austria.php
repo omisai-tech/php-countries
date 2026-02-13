@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Austria extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AT";
+    public string $alpha2 = 'AT';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "AUT";
+    public string $alpha3 = 'AUT';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "40";
+    public string $numeric = '40';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AU";
+    public string $fipCode = 'AU';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "43";
+    public string $callingCode = '43';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "43";
+    public string $dial = '43';
 
     /**
      * Capital city
      */
-    public string $capital = "Vienna";
+    public string $capital = 'Vienna';
 
     /**
      * Continent
@@ -53,32 +53,32 @@ class Austria extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Austria";
+    public string $en = 'Austria';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Ausztria";
+    public string $hu = 'Ausztria';
 
     /**
      * German name of the country
      */
-    public string $de = "Österreich";
+    public string $de = 'Österreich';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Austria";
+    public string $es = 'Austria';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Austria";
+    public string $it = 'Austria';
 
     /**
      * French name of the country
@@ -88,6 +88,5 @@ class Austria extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Áustria";
-    
+    public string $pt = 'Áustria';
 }

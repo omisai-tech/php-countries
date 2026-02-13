@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Honduras extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "HN";
+    public string $alpha2 = 'HN';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "HND";
+    public string $alpha3 = 'HND';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "340";
+    public string $numeric = '340';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "HO";
+    public string $fipCode = 'HO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "504";
+    public string $callingCode = '504';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "504";
+    public string $dial = '504';
 
     /**
      * Capital city
      */
-    public string $capital = "Tegucigalpa";
+    public string $capital = 'Tegucigalpa';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Honduras extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Honduras";
+    public string $en = 'Honduras';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Honduras";
+    public string $hu = 'Honduras';
 
     /**
      * German name of the country
      */
-    public string $de = "Honduras";
+    public string $de = 'Honduras';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Honduras";
+    public string $es = 'Honduras';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Honduras";
+    public string $it = 'Honduras';
 
     /**
      * French name of the country
      */
-    public string $fr = "Honduras";
+    public string $fr = 'Honduras';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Honduras";
-    
+    public string $pt = 'Honduras';
 }

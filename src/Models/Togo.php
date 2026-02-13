@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Togo extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TG";
+    public string $alpha2 = 'TG';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TGO";
+    public string $alpha3 = 'TGO';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "768";
+    public string $numeric = '768';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TO";
+    public string $fipCode = 'TO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "228";
+    public string $callingCode = '228';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "228";
+    public string $dial = '228';
 
     /**
      * Capital city
      */
-    public string $capital = "Lome";
+    public string $capital = 'Lome';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Togo extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Togo";
+    public string $en = 'Togo';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Menni";
+    public string $hu = 'Menni';
 
     /**
      * German name of the country
      */
-    public string $de = "Gehen";
+    public string $de = 'Gehen';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Ir";
+    public string $es = 'Ir';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Andare";
+    public string $it = 'Andare';
 
     /**
      * French name of the country
      */
-    public string $fr = "Aller";
+    public string $fr = 'Aller';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ir";
-    
+    public string $pt = 'Ir';
 }

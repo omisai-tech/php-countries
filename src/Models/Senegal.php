@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Senegal extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SN";
+    public string $alpha2 = 'SN';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SEN";
+    public string $alpha3 = 'SEN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "686";
+    public string $numeric = '686';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SG";
+    public string $fipCode = 'SG';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "221";
+    public string $callingCode = '221';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "221";
+    public string $dial = '221';
 
     /**
      * Capital city
      */
-    public string $capital = "Dakar";
+    public string $capital = 'Dakar';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Senegal extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Senegal";
+    public string $en = 'Senegal';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Szenegál";
+    public string $hu = 'Szenegál';
 
     /**
      * German name of the country
      */
-    public string $de = "Senegal";
+    public string $de = 'Senegal';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Senegal";
+    public string $es = 'Senegal';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Senegal";
+    public string $it = 'Senegal';
 
     /**
      * French name of the country
      */
-    public string $fr = "Sénégal";
+    public string $fr = 'Sénégal';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Senegal";
-    
+    public string $pt = 'Senegal';
 }

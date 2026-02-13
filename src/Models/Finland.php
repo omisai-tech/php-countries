@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Finland extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "FI";
+    public string $alpha2 = 'FI';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "FIN";
+    public string $alpha3 = 'FIN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "246";
+    public string $numeric = '246';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "FI";
+    public string $fipCode = 'FI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "358";
+    public string $callingCode = '358';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "358";
+    public string $dial = '358';
 
     /**
      * Capital city
      */
-    public string $capital = "Helsinki";
+    public string $capital = 'Helsinki';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Finland extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Finland";
+    public string $en = 'Finland';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Finnország";
+    public string $hu = 'Finnország';
 
     /**
      * German name of the country
      */
-    public string $de = "Finnland";
+    public string $de = 'Finnland';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Finlandia";
+    public string $es = 'Finlandia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Finlandia";
+    public string $it = 'Finlandia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Finlande";
+    public string $fr = 'Finlande';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Finlândia";
-    
+    public string $pt = 'Finlândia';
 }

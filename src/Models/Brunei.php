@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Brunei extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BN";
+    public string $alpha2 = 'BN';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BRN";
+    public string $alpha3 = 'BRN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "96";
+    public string $numeric = '96';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BX";
+    public string $fipCode = 'BX';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "673";
+    public string $callingCode = '673';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "673";
+    public string $dial = '673';
 
     /**
      * Capital city
      */
-    public string $capital = "Bandar Seri Begawan";
+    public string $capital = 'Bandar Seri Begawan';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Brunei extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Brunei";
+    public string $en = 'Brunei';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Brunei";
+    public string $hu = 'Brunei';
 
     /**
      * German name of the country
      */
-    public string $de = "Brunei";
+    public string $de = 'Brunei';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Brunéi";
+    public string $es = 'Brunéi';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Brunei";
+    public string $it = 'Brunei';
 
     /**
      * French name of the country
      */
-    public string $fr = "Brunéi";
+    public string $fr = 'Brunéi';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Brunei";
-    
+    public string $pt = 'Brunei';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Mexico extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MX";
+    public string $alpha2 = 'MX';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MEX";
+    public string $alpha3 = 'MEX';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "484";
+    public string $numeric = '484';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MX";
+    public string $fipCode = 'MX';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "52";
+    public string $callingCode = '52';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "52";
+    public string $dial = '52';
 
     /**
      * Capital city
      */
-    public string $capital = "Mexico City";
+    public string $capital = 'Mexico City';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Mexico extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Mexico";
+    public string $en = 'Mexico';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Mexikó";
+    public string $hu = 'Mexikó';
 
     /**
      * German name of the country
      */
-    public string $de = "Mexiko";
+    public string $de = 'Mexiko';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "México";
+    public string $es = 'México';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Messico";
+    public string $it = 'Messico';
 
     /**
      * French name of the country
      */
-    public string $fr = "Mexique";
+    public string $fr = 'Mexique';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "México";
-    
+    public string $pt = 'México';
 }

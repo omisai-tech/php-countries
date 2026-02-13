@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SouthKorea extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "KR";
+    public string $alpha2 = 'KR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "KOR";
+    public string $alpha3 = 'KOR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "410";
+    public string $numeric = '410';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "KS";
+    public string $fipCode = 'KS';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "82";
+    public string $callingCode = '82';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "82";
+    public string $dial = '82';
 
     /**
      * Capital city
      */
-    public string $capital = "Seoul";
+    public string $capital = 'Seoul';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SouthKorea extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "South Korea";
+    public string $en = 'South Korea';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Dél-Korea";
+    public string $hu = 'Dél-Korea';
 
     /**
      * German name of the country
      */
-    public string $de = "Südkorea";
+    public string $de = 'Südkorea';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Corea del Sur";
+    public string $es = 'Corea del Sur';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Corea del Sud";
+    public string $it = 'Corea del Sud';
 
     /**
      * French name of the country
      */
-    public string $fr = "Corée du Sud";
+    public string $fr = 'Corée du Sud';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Coreia do Sul";
-    
+    public string $pt = 'Coreia do Sul';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Guatemala extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GT";
+    public string $alpha2 = 'GT';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GTM";
+    public string $alpha3 = 'GTM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "320";
+    public string $numeric = '320';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GT";
+    public string $fipCode = 'GT';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "502";
+    public string $callingCode = '502';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "502";
+    public string $dial = '502';
 
     /**
      * Capital city
      */
-    public string $capital = "Guatemala City";
+    public string $capital = 'Guatemala City';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Guatemala extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Guatemala";
+    public string $en = 'Guatemala';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Guatemala";
+    public string $hu = 'Guatemala';
 
     /**
      * German name of the country
      */
-    public string $de = "Guatemala";
+    public string $de = 'Guatemala';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Guatemala";
+    public string $es = 'Guatemala';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Guatemala";
+    public string $it = 'Guatemala';
 
     /**
      * French name of the country
      */
-    public string $fr = "Guatemala";
+    public string $fr = 'Guatemala';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Guatemala";
-    
+    public string $pt = 'Guatemala';
 }

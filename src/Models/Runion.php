@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Runion extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "RE";
+    public string $alpha2 = 'RE';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "REU";
+    public string $alpha3 = 'REU';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "638";
+    public string $numeric = '638';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "RE";
+    public string $fipCode = 'RE';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "262";
+    public string $callingCode = '262';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "262";
+    public string $dial = '262';
 
     /**
      * Capital city
      */
-    public string $capital = "Saint-Denis";
+    public string $capital = 'Saint-Denis';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Runion extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Réunion";
+    public string $en = 'Réunion';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Réunion";
+    public string $hu = 'Réunion';
 
     /**
      * German name of the country
      */
-    public string $de = "Wiedervereinigung";
+    public string $de = 'Wiedervereinigung';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Reunión";
+    public string $es = 'Reunión';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Riunione";
+    public string $it = 'Riunione';
 
     /**
      * French name of the country
      */
-    public string $fr = "Réunion";
+    public string $fr = 'Réunion';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Reunião";
-    
+    public string $pt = 'Reunião';
 }

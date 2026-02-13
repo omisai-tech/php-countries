@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Russia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "RU";
+    public string $alpha2 = 'RU';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "RUS";
+    public string $alpha3 = 'RUS';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "643";
+    public string $numeric = '643';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "RS";
+    public string $fipCode = 'RS';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "7";
+    public string $callingCode = '7';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "7";
+    public string $dial = '7';
 
     /**
      * Capital city
      */
-    public string $capital = "Moscow";
+    public string $capital = 'Moscow';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Russia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Russia";
+    public string $en = 'Russia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Oroszország";
+    public string $hu = 'Oroszország';
 
     /**
      * German name of the country
      */
-    public string $de = "Russland";
+    public string $de = 'Russland';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Rusia";
+    public string $es = 'Rusia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Russia";
+    public string $it = 'Russia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Russie";
+    public string $fr = 'Russie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Rússia";
-    
+    public string $pt = 'Rússia';
 }

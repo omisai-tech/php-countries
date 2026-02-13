@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Martinique extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MQ";
+    public string $alpha2 = 'MQ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MTQ";
+    public string $alpha3 = 'MTQ';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "474";
+    public string $numeric = '474';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MB";
+    public string $fipCode = 'MB';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "596";
+    public string $callingCode = '596';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "596";
+    public string $dial = '596';
 
     /**
      * Capital city
      */
-    public string $capital = "Fort-de-France";
+    public string $capital = 'Fort-de-France';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Martinique extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Martinique";
+    public string $en = 'Martinique';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Martinique";
+    public string $hu = 'Martinique';
 
     /**
      * German name of the country
      */
-    public string $de = "Martinique";
+    public string $de = 'Martinique';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Martinica";
+    public string $es = 'Martinica';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Martinica";
+    public string $it = 'Martinica';
 
     /**
      * French name of the country
      */
-    public string $fr = "Martinique";
+    public string $fr = 'Martinique';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Martinica";
-    
+    public string $pt = 'Martinica';
 }

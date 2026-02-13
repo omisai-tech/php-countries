@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class BouvetIsland extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BV";
+    public string $alpha2 = 'BV';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BVT";
+    public string $alpha3 = 'BVT';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "74";
+    public string $numeric = '74';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BV";
+    public string $fipCode = 'BV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "47";
+    public string $callingCode = '47';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "47";
+    public string $dial = '47';
 
     /**
      * Capital city
      */
-    public string $capital = "";
+    public string $capital = '';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class BouvetIsland extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AN";
+    public string $continent = 'AN';
 
     /**
      * English name of the country
      */
-    public string $en = "Bouvet Island";
+    public string $en = 'Bouvet Island';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Bouvet-sziget";
+    public string $hu = 'Bouvet-sziget';
 
     /**
      * German name of the country
      */
-    public string $de = "Bouvetinsel";
+    public string $de = 'Bouvetinsel';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Isla Bouvet";
+    public string $es = 'Isla Bouvet';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isola Bouvet";
+    public string $it = 'Isola Bouvet';
 
     /**
      * French name of the country
      */
-    public string $fr = "Île Bouvet";
+    public string $fr = 'Île Bouvet';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilha Bouvet";
-    
+    public string $pt = 'Ilha Bouvet';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class WallisAndFutuna extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "WF";
+    public string $alpha2 = 'WF';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "WLF";
+    public string $alpha3 = 'WLF';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "876";
+    public string $numeric = '876';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "WF";
+    public string $fipCode = 'WF';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "681";
+    public string $callingCode = '681';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "681";
+    public string $dial = '681';
 
     /**
      * Capital city
      */
-    public string $capital = "Mata Utu";
+    public string $capital = 'Mata Utu';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class WallisAndFutuna extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Wallis and Futuna";
+    public string $en = 'Wallis and Futuna';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Wallis és Futuna";
+    public string $hu = 'Wallis és Futuna';
 
     /**
      * German name of the country
      */
-    public string $de = "Wallis und Futuna";
+    public string $de = 'Wallis und Futuna';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Wallis y Futuna";
+    public string $es = 'Wallis y Futuna';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Wallis e Futuna";
+    public string $it = 'Wallis e Futuna';
 
     /**
      * French name of the country
      */
-    public string $fr = "Wallis et Futuna";
+    public string $fr = 'Wallis et Futuna';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Wallis e Futuna";
-    
+    public string $pt = 'Wallis e Futuna';
 }

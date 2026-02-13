@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class FalklandIslands extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "FK";
+    public string $alpha2 = 'FK';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "FLK";
+    public string $alpha3 = 'FLK';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "238";
+    public string $numeric = '238';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "FK";
+    public string $fipCode = 'FK';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "500";
+    public string $callingCode = '500';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "500";
+    public string $dial = '500';
 
     /**
      * Capital city
      */
-    public string $capital = "Stanley";
+    public string $capital = 'Stanley';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class FalklandIslands extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "SA";
+    public string $continent = 'SA';
 
     /**
      * English name of the country
      */
-    public string $en = "Falkland Islands";
+    public string $en = 'Falkland Islands';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Falkland-szigetek";
+    public string $hu = 'Falkland-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Falkland Inseln";
+    public string $de = 'Falkland Inseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Malvinas";
+    public string $es = 'Islas Malvinas';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Falkland";
+    public string $it = 'Isole Falkland';
 
     /**
      * French name of the country
      */
-    public string $fr = "les îles Falkland";
+    public string $fr = 'les îles Falkland';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilhas Malvinas";
-    
+    public string $pt = 'Ilhas Malvinas';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Zimbabwe extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "ZW";
+    public string $alpha2 = 'ZW';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ZWE";
+    public string $alpha3 = 'ZWE';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "716";
+    public string $numeric = '716';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "ZI";
+    public string $fipCode = 'ZI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "263";
+    public string $callingCode = '263';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "263";
+    public string $dial = '263';
 
     /**
      * Capital city
      */
-    public string $capital = "Harare";
+    public string $capital = 'Harare';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Zimbabwe extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Zimbabwe";
+    public string $en = 'Zimbabwe';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Zimbabwe";
+    public string $hu = 'Zimbabwe';
 
     /**
      * German name of the country
      */
-    public string $de = "Zimbabwe";
+    public string $de = 'Zimbabwe';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Zimbabue";
+    public string $es = 'Zimbabue';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Zimbabwe";
+    public string $it = 'Zimbabwe';
 
     /**
      * French name of the country
      */
-    public string $fr = "Zimbabwe";
+    public string $fr = 'Zimbabwe';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Zimbábue";
-    
+    public string $pt = 'Zimbábue';
 }

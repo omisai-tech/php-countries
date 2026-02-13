@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Eswatini extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SZ";
+    public string $alpha2 = 'SZ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SWZ";
+    public string $alpha3 = 'SWZ';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "748";
+    public string $numeric = '748';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "WZ";
+    public string $fipCode = 'WZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "268";
+    public string $callingCode = '268';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "268";
+    public string $dial = '268';
 
     /**
      * Capital city
      */
-    public string $capital = "Mbabane";
+    public string $capital = 'Mbabane';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Eswatini extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Eswatini";
+    public string $en = 'Eswatini';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Eswatini";
+    public string $hu = 'Eswatini';
 
     /**
      * German name of the country
      */
-    public string $de = "Eswatini";
+    public string $de = 'Eswatini';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Esuatini";
+    public string $es = 'Esuatini';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Swaziland";
+    public string $it = 'Swaziland';
 
     /**
      * French name of the country
      */
-    public string $fr = "Eswatini";
+    public string $fr = 'Eswatini';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Essuatíni";
-    
+    public string $pt = 'Essuatíni';
 }

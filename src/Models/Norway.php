@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Norway extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NO";
+    public string $alpha2 = 'NO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NOR";
+    public string $alpha3 = 'NOR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "578";
+    public string $numeric = '578';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NO";
+    public string $fipCode = 'NO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "47";
+    public string $callingCode = '47';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "47";
+    public string $dial = '47';
 
     /**
      * Capital city
      */
-    public string $capital = "Oslo";
+    public string $capital = 'Oslo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Norway extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Norway";
+    public string $en = 'Norway';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Norvégia";
+    public string $hu = 'Norvégia';
 
     /**
      * German name of the country
      */
-    public string $de = "Norwegen";
+    public string $de = 'Norwegen';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Noruega";
+    public string $es = 'Noruega';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Norvegia";
+    public string $it = 'Norvegia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Norvège";
+    public string $fr = 'Norvège';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Noruega";
-    
+    public string $pt = 'Noruega';
 }

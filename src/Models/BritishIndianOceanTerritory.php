@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class BritishIndianOceanTerritory extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IO";
+    public string $alpha2 = 'IO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "IOT";
+    public string $alpha3 = 'IOT';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "86";
+    public string $numeric = '86';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IO";
+    public string $fipCode = 'IO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "246";
+    public string $callingCode = '246';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "246";
+    public string $dial = '246';
 
     /**
      * Capital city
      */
-    public string $capital = "Diego Garcia";
+    public string $capital = 'Diego Garcia';
 
     /**
      * Continent
@@ -53,27 +53,27 @@ class BritishIndianOceanTerritory extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "British Indian Ocean Territory";
+    public string $en = 'British Indian Ocean Territory';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Brit Indiai-óceáni Terület";
+    public string $hu = 'Brit Indiai-óceáni Terület';
 
     /**
      * German name of the country
      */
-    public string $de = "Britisches Territorium des Indischen Ozeans";
+    public string $de = 'Britisches Territorium des Indischen Ozeans';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Territorio Británico del Océano Índico";
+    public string $es = 'Territorio Británico del Océano Índico';
 
     /**
      * Italian name of the country
@@ -88,6 +88,5 @@ class BritishIndianOceanTerritory extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Território Britânico do Oceano Índico";
-    
+    public string $pt = 'Território Britânico do Oceano Índico';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Nepal extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NP";
+    public string $alpha2 = 'NP';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NPL";
+    public string $alpha3 = 'NPL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "524";
+    public string $numeric = '524';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NP";
+    public string $fipCode = 'NP';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "977";
+    public string $callingCode = '977';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "977";
+    public string $dial = '977';
 
     /**
      * Capital city
      */
-    public string $capital = "Kathmandu";
+    public string $capital = 'Kathmandu';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Nepal extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Nepal";
+    public string $en = 'Nepal';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Nepál";
+    public string $hu = 'Nepál';
 
     /**
      * German name of the country
      */
-    public string $de = "Nepal";
+    public string $de = 'Nepal';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Nepal";
+    public string $es = 'Nepal';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nepal";
+    public string $it = 'Nepal';
 
     /**
      * French name of the country
      */
-    public string $fr = "Népal";
+    public string $fr = 'Népal';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Nepal";
-    
+    public string $pt = 'Nepal';
 }

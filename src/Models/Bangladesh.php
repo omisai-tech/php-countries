@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Bangladesh extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BD";
+    public string $alpha2 = 'BD';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BGD";
+    public string $alpha3 = 'BGD';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "50";
+    public string $numeric = '50';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BG";
+    public string $fipCode = 'BG';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "880";
+    public string $callingCode = '880';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "880";
+    public string $dial = '880';
 
     /**
      * Capital city
      */
-    public string $capital = "Dhaka";
+    public string $capital = 'Dhaka';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Bangladesh extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Bangladesh";
+    public string $en = 'Bangladesh';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Banglades";
+    public string $hu = 'Banglades';
 
     /**
      * German name of the country
      */
-    public string $de = "Bangladesch";
+    public string $de = 'Bangladesch';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Bangladesh";
+    public string $es = 'Bangladesh';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Bangladesh";
+    public string $it = 'Bangladesh';
 
     /**
      * French name of the country
      */
-    public string $fr = "Bangladesh";
+    public string $fr = 'Bangladesh';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Bangladesh";
-    
+    public string $pt = 'Bangladesh';
 }

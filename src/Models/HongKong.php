@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class HongKong extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "HK";
+    public string $alpha2 = 'HK';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "HKG";
+    public string $alpha3 = 'HKG';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "344";
+    public string $numeric = '344';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "HK";
+    public string $fipCode = 'HK';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "852";
+    public string $callingCode = '852';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "852";
+    public string $dial = '852';
 
     /**
      * Capital city
      */
-    public string $capital = "Hong Kong";
+    public string $capital = 'Hong Kong';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class HongKong extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Hong Kong";
+    public string $en = 'Hong Kong';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Hong Kong";
+    public string $hu = 'Hong Kong';
 
     /**
      * German name of the country
      */
-    public string $de = "Hongkong";
+    public string $de = 'Hongkong';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Hong Kong";
+    public string $es = 'Hong Kong';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Hong Kong";
+    public string $it = 'Hong Kong';
 
     /**
      * French name of the country
      */
-    public string $fr = "Hong Kong";
+    public string $fr = 'Hong Kong';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Hong Kong";
-    
+    public string $pt = 'Hong Kong';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Tanzania extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TZ";
+    public string $alpha2 = 'TZ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TZA";
+    public string $alpha3 = 'TZA';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "834";
+    public string $numeric = '834';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TZ";
+    public string $fipCode = 'TZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "255";
+    public string $callingCode = '255';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "255";
+    public string $dial = '255';
 
     /**
      * Capital city
      */
-    public string $capital = "Dodoma";
+    public string $capital = 'Dodoma';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Tanzania extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Tanzania";
+    public string $en = 'Tanzania';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Tanzánia";
+    public string $hu = 'Tanzánia';
 
     /**
      * German name of the country
      */
-    public string $de = "Tansania";
+    public string $de = 'Tansania';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Tanzania";
+    public string $es = 'Tanzania';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Tanzania";
+    public string $it = 'Tanzania';
 
     /**
      * French name of the country
      */
-    public string $fr = "Tanzanie";
+    public string $fr = 'Tanzanie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Tanzânia";
-    
+    public string $pt = 'Tanzânia';
 }

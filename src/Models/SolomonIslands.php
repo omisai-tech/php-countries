@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SolomonIslands extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SB";
+    public string $alpha2 = 'SB';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SLB";
+    public string $alpha3 = 'SLB';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "90";
+    public string $numeric = '90';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BP";
+    public string $fipCode = 'BP';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "677";
+    public string $callingCode = '677';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "677";
+    public string $dial = '677';
 
     /**
      * Capital city
      */
-    public string $capital = "Honiara";
+    public string $capital = 'Honiara';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SolomonIslands extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Solomon Islands";
+    public string $en = 'Solomon Islands';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Salamon-szigetek";
+    public string $hu = 'Salamon-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Salomon-Inseln";
+    public string $de = 'Salomon-Inseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Salomón";
+    public string $es = 'Islas Salomón';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Salomone";
+    public string $it = 'Isole Salomone';
 
     /**
      * French name of the country
      */
-    public string $fr = "Les îles Salomon";
+    public string $fr = 'Les îles Salomon';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilhas Salomão";
-    
+    public string $pt = 'Ilhas Salomão';
 }

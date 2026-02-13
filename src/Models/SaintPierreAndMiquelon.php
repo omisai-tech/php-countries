@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SaintPierreAndMiquelon extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "PM";
+    public string $alpha2 = 'PM';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SPM";
+    public string $alpha3 = 'SPM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "666";
+    public string $numeric = '666';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SB";
+    public string $fipCode = 'SB';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "508";
+    public string $callingCode = '508';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "508";
+    public string $dial = '508';
 
     /**
      * Capital city
      */
-    public string $capital = "Saint-Pierre";
+    public string $capital = 'Saint-Pierre';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SaintPierreAndMiquelon extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Saint Pierre and Miquelon";
+    public string $en = 'Saint Pierre and Miquelon';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Saint Pierre és Miquelon";
+    public string $hu = 'Saint Pierre és Miquelon';
 
     /**
      * German name of the country
      */
-    public string $de = "Saint-Pierre und Miquelon";
+    public string $de = 'Saint-Pierre und Miquelon';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "San Pedro y Miquelón";
+    public string $es = 'San Pedro y Miquelón';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Saint Pierre e Miquelon";
+    public string $it = 'Saint Pierre e Miquelon';
 
     /**
      * French name of the country
      */
-    public string $fr = "Saint-Pierre-et-Miquelon";
+    public string $fr = 'Saint-Pierre-et-Miquelon';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "São Pedro e Miquelon";
-    
+    public string $pt = 'São Pedro e Miquelon';
 }

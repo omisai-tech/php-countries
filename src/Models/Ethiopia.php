@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Ethiopia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "ET";
+    public string $alpha2 = 'ET';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ETH";
+    public string $alpha3 = 'ETH';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "231";
+    public string $numeric = '231';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "ET";
+    public string $fipCode = 'ET';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "251";
+    public string $callingCode = '251';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "251";
+    public string $dial = '251';
 
     /**
      * Capital city
      */
-    public string $capital = "Addis Ababa";
+    public string $capital = 'Addis Ababa';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Ethiopia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Ethiopia";
+    public string $en = 'Ethiopia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Etiópia";
+    public string $hu = 'Etiópia';
 
     /**
      * German name of the country
      */
-    public string $de = "Äthiopien";
+    public string $de = 'Äthiopien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Etiopía";
+    public string $es = 'Etiopía';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Etiopia";
+    public string $it = 'Etiopia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Ethiopie";
+    public string $fr = 'Ethiopie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Etiópia";
-    
+    public string $pt = 'Etiópia';
 }

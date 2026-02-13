@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Mozambique extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MZ";
+    public string $alpha2 = 'MZ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MOZ";
+    public string $alpha3 = 'MOZ';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "508";
+    public string $numeric = '508';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MZ";
+    public string $fipCode = 'MZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "258";
+    public string $callingCode = '258';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "258";
+    public string $dial = '258';
 
     /**
      * Capital city
      */
-    public string $capital = "Maputo";
+    public string $capital = 'Maputo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Mozambique extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Mozambique";
+    public string $en = 'Mozambique';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Mozambik";
+    public string $hu = 'Mozambik';
 
     /**
      * German name of the country
      */
-    public string $de = "Mosambik";
+    public string $de = 'Mosambik';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Mozambique";
+    public string $es = 'Mozambique';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Mozambico";
+    public string $it = 'Mozambico';
 
     /**
      * French name of the country
      */
-    public string $fr = "Mozambique";
+    public string $fr = 'Mozambique';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Moçambique";
-    
+    public string $pt = 'Moçambique';
 }

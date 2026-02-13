@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Monaco extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MC";
+    public string $alpha2 = 'MC';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MCO";
+    public string $alpha3 = 'MCO';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "492";
+    public string $numeric = '492';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MN";
+    public string $fipCode = 'MN';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "377";
+    public string $callingCode = '377';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "377";
+    public string $dial = '377';
 
     /**
      * Capital city
      */
-    public string $capital = "Monaco";
+    public string $capital = 'Monaco';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Monaco extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Monaco";
+    public string $en = 'Monaco';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Monaco";
+    public string $hu = 'Monaco';
 
     /**
      * German name of the country
      */
-    public string $de = "Monaco";
+    public string $de = 'Monaco';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Mónaco";
+    public string $es = 'Mónaco';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Monaco";
+    public string $it = 'Monaco';
 
     /**
      * French name of the country
      */
-    public string $fr = "Monaco";
+    public string $fr = 'Monaco';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Mônaco";
-    
+    public string $pt = 'Mônaco';
 }

@@ -4,7 +4,7 @@ use Omisai\Countries\Collection;
 use Omisai\Countries\Country;
 
 it('loads countries on construction', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountries();
 
     expect($countries)->toBeArray();
@@ -15,7 +15,7 @@ it('loads countries on construction', function () {
 });
 
 it('returns country by alpha2', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByAlpha2('US');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -23,14 +23,14 @@ it('returns country by alpha2', function () {
 });
 
 it('returns null when country by alpha2 is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByAlpha2('ZZ');
 
     expect($country)->toBeNull();
 });
 
 it('returns country by alpha3', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByAlpha3('USA');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -38,14 +38,14 @@ it('returns country by alpha3', function () {
 });
 
 it('returns null when country by alpha3 is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByAlpha3('ZZZ');
 
     expect($country)->toBeNull();
 });
 
 it('returns country by numeric', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByNumeric('840');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -53,14 +53,14 @@ it('returns country by numeric', function () {
 });
 
 it('returns null when country by numeric is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByNumeric('999');
 
     expect($country)->toBeNull();
 });
 
 it('returns country by FIPS code', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByFipCode('US');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -68,14 +68,14 @@ it('returns country by FIPS code', function () {
 });
 
 it('returns null when country by FIPS code is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByFipCode('ZZ');
 
     expect($country)->toBeNull();
 });
 
 it('returns country by capital', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByCapital('Budapest');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -83,14 +83,14 @@ it('returns country by capital', function () {
 });
 
 it('returns null when country by capital is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByCapital('ZZZ');
 
     expect($country)->toBeNull();
 });
 
 it('returns country by dial', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByDial('36');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -98,14 +98,14 @@ it('returns country by dial', function () {
 });
 
 it('returns null when country by dial is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByDial('9999999');
 
     expect($country)->toBeNull();
 });
 
 it('returns countries by continent', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesByContinent('NA');
 
     expect($countries)->toBeArray();
@@ -117,12 +117,12 @@ it('returns countries by continent', function () {
 });
 
 it('throws an exception for invalid continent code', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $collection->getCountriesByContinent('XX');
 })->throws(\InvalidArgumentException::class);
 
 it('returns country by name', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByName('United States');
 
     expect($country)->toBeInstanceOf(Country::class);
@@ -130,14 +130,14 @@ it('returns country by name', function () {
 });
 
 it('returns null when country by name is not found', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $country = $collection->getCountryByName('Unknown Country');
 
     expect($country)->toBeNull();
 });
 
 it('returns countries with names', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesName();
 
     expect($countries)->toBeArray();
@@ -149,7 +149,7 @@ it('returns countries with names', function () {
 });
 
 it('returns countries with alpha2 codes', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesAlpha2();
 
     expect($countries)->toBeArray();
@@ -161,7 +161,7 @@ it('returns countries with alpha2 codes', function () {
 });
 
 it('returns countries with alpha3 codes', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesAlpha3();
 
     expect($countries)->toBeArray();
@@ -173,7 +173,7 @@ it('returns countries with alpha3 codes', function () {
 });
 
 it('returns countries with numeric codes', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesNumeric();
 
     expect($countries)->toBeArray();
@@ -185,7 +185,7 @@ it('returns countries with numeric codes', function () {
 });
 
 it('returns countries with FIPS codes', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $countries = $collection->getCountriesFipCode();
 
     expect($countries)->toBeArray();
@@ -197,6 +197,6 @@ it('returns countries with FIPS codes', function () {
 });
 
 it('throws an exception for invalid locale', function () {
-    $collection = new Collection();
+    $collection = new Collection;
     $collection->validateLocale('xx');
 })->throws(\InvalidArgumentException::class);

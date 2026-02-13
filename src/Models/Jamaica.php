@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Jamaica extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "JM";
+    public string $alpha2 = 'JM';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "JAM";
+    public string $alpha3 = 'JAM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "388";
+    public string $numeric = '388';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "JM";
+    public string $fipCode = 'JM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "1-876";
+    public string $callingCode = '1-876';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "1-876";
+    public string $dial = '1-876';
 
     /**
      * Capital city
      */
-    public string $capital = "Kingston";
+    public string $capital = 'Kingston';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Jamaica extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Jamaica";
+    public string $en = 'Jamaica';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Jamaica";
+    public string $hu = 'Jamaica';
 
     /**
      * German name of the country
      */
-    public string $de = "Jamaika";
+    public string $de = 'Jamaika';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Jamaica";
+    public string $es = 'Jamaica';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Giamaica";
+    public string $it = 'Giamaica';
 
     /**
      * French name of the country
      */
-    public string $fr = "Jamaïque";
+    public string $fr = 'Jamaïque';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Jamaica";
-    
+    public string $pt = 'Jamaica';
 }

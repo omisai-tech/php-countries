@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Tunisia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TN";
+    public string $alpha2 = 'TN';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TUN";
+    public string $alpha3 = 'TUN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "788";
+    public string $numeric = '788';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TS";
+    public string $fipCode = 'TS';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "216";
+    public string $callingCode = '216';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "216";
+    public string $dial = '216';
 
     /**
      * Capital city
      */
-    public string $capital = "Tunis";
+    public string $capital = 'Tunis';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Tunisia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Tunisia";
+    public string $en = 'Tunisia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Tunézia";
+    public string $hu = 'Tunézia';
 
     /**
      * German name of the country
      */
-    public string $de = "Tunesien";
+    public string $de = 'Tunesien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Túnez";
+    public string $es = 'Túnez';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Tunisia";
+    public string $it = 'Tunisia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Tunisie";
+    public string $fr = 'Tunisie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Tunísia";
-    
+    public string $pt = 'Tunísia';
 }

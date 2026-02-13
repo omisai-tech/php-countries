@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Belarus extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BY";
+    public string $alpha2 = 'BY';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BLR";
+    public string $alpha3 = 'BLR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "112";
+    public string $numeric = '112';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BO";
+    public string $fipCode = 'BO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "375";
+    public string $callingCode = '375';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "375";
+    public string $dial = '375';
 
     /**
      * Capital city
      */
-    public string $capital = "Minsk";
+    public string $capital = 'Minsk';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Belarus extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Belarus";
+    public string $en = 'Belarus';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Fehéroroszország";
+    public string $hu = 'Fehéroroszország';
 
     /**
      * German name of the country
      */
-    public string $de = "Weißrussland";
+    public string $de = 'Weißrussland';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Bielorrusia";
+    public string $es = 'Bielorrusia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Bielorussia";
+    public string $it = 'Bielorussia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Biélorussie";
+    public string $fr = 'Biélorussie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Bielorrússia";
-    
+    public string $pt = 'Bielorrússia';
 }

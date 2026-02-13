@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class UnitedStates extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "US";
+    public string $alpha2 = 'US';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "USA";
+    public string $alpha3 = 'USA';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "840";
+    public string $numeric = '840';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "US";
+    public string $fipCode = 'US';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "1";
+    public string $callingCode = '1';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "1";
+    public string $dial = '1';
 
     /**
      * Capital city
      */
-    public string $capital = "Washington";
+    public string $capital = 'Washington';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class UnitedStates extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "United States";
+    public string $en = 'United States';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Egyesült Államok";
+    public string $hu = 'Egyesült Államok';
 
     /**
      * German name of the country
      */
-    public string $de = "Vereinigte Staaten";
+    public string $de = 'Vereinigte Staaten';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Estados Unidos";
+    public string $es = 'Estados Unidos';
 
     /**
      * Italian name of the country
      */
-    public string $it = "stati Uniti";
+    public string $it = 'stati Uniti';
 
     /**
      * French name of the country
      */
-    public string $fr = "États-Unis";
+    public string $fr = 'États-Unis';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Estados Unidos";
-    
+    public string $pt = 'Estados Unidos';
 }

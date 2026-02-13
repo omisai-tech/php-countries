@@ -15,8 +15,8 @@ function getClassName($string)
     return $string;
 }
 
-if (($handle = fopen($csvFilePath, 'r')) !== FALSE) {
-    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+if (($handle = fopen($csvFilePath, 'r')) !== false) {
+    while (($data = fgetcsv($handle, 1000, ',')) !== false) {
         $className = getClassName($data[9]);
 
         $classContent = "<?php
@@ -113,7 +113,7 @@ class $className extends Country
     \n}
 ";
 
-        $filePath = $destinationDirectory . $className . '.php';
+        $filePath = $destinationDirectory.$className.'.php';
 
         file_put_contents($filePath, $classContent);
     }

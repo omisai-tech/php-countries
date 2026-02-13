@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Nicaragua extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NI";
+    public string $alpha2 = 'NI';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NIC";
+    public string $alpha3 = 'NIC';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "558";
+    public string $numeric = '558';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NU";
+    public string $fipCode = 'NU';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "505";
+    public string $callingCode = '505';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "505";
+    public string $dial = '505';
 
     /**
      * Capital city
      */
-    public string $capital = "Managua";
+    public string $capital = 'Managua';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Nicaragua extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Nicaragua";
+    public string $en = 'Nicaragua';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Nicaragua";
+    public string $hu = 'Nicaragua';
 
     /**
      * German name of the country
      */
-    public string $de = "Nicaragua";
+    public string $de = 'Nicaragua';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Nicaragua";
+    public string $es = 'Nicaragua';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nicaragua";
+    public string $it = 'Nicaragua';
 
     /**
      * French name of the country
      */
-    public string $fr = "Nicaragua";
+    public string $fr = 'Nicaragua';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Nicarágua";
-    
+    public string $pt = 'Nicarágua';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Comoros extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "KM";
+    public string $alpha2 = 'KM';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "COM";
+    public string $alpha3 = 'COM';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "174";
+    public string $numeric = '174';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "CN";
+    public string $fipCode = 'CN';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "269";
+    public string $callingCode = '269';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "269";
+    public string $dial = '269';
 
     /**
      * Capital city
      */
-    public string $capital = "Moroni";
+    public string $capital = 'Moroni';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Comoros extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Comoros";
+    public string $en = 'Comoros';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Comore-szigetek";
+    public string $hu = 'Comore-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Komoren-Inseln";
+    public string $de = 'Komoren-Inseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Comoras";
+    public string $es = 'Islas Comoras';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Comore";
+    public string $it = 'Isole Comore';
 
     /**
      * French name of the country
      */
-    public string $fr = "Îles Comores";
+    public string $fr = 'Îles Comores';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Comores";
-    
+    public string $pt = 'Comores';
 }

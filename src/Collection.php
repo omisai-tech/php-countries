@@ -13,13 +13,13 @@ class Collection
 
     protected function loadCountries(): void
     {
-        $directory = new \DirectoryIterator(__DIR__ . '/Models');
+        $directory = new \DirectoryIterator(__DIR__.'/Models');
         foreach ($directory as $fileinfo) {
             if ($fileinfo->isFile() && $fileinfo->getExtension() === 'php') {
                 $className = $fileinfo->getBasename('.php');
                 $classFullName = "Omisai\\Countries\\Models\\$className";
                 if (class_exists($classFullName)) {
-                    $this->countries[] = new $classFullName();
+                    $this->countries[] = new $classFullName;
                 }
             }
         }

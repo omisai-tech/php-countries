@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class DrCongo extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CD";
+    public string $alpha2 = 'CD';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "COD";
+    public string $alpha3 = 'COD';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "180";
+    public string $numeric = '180';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "CG";
+    public string $fipCode = 'CG';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "243";
+    public string $callingCode = '243';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "243";
+    public string $dial = '243';
 
     /**
      * Capital city
      */
-    public string $capital = "Kinshasa";
+    public string $capital = 'Kinshasa';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class DrCongo extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "DR Congo";
+    public string $en = 'DR Congo';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Kongói DR";
+    public string $hu = 'Kongói DR';
 
     /**
      * German name of the country
      */
-    public string $de = "Kongolesische DR";
+    public string $de = 'Kongolesische DR';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "República Democrática del Congo";
+    public string $es = 'República Democrática del Congo';
 
     /**
      * Italian name of the country
      */
-    public string $it = "DR congolese";
+    public string $it = 'DR congolese';
 
     /**
      * French name of the country
      */
-    public string $fr = "RD Congolaise";
+    public string $fr = 'RD Congolaise';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "RD Congo";
-    
+    public string $pt = 'RD Congo';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class NewCaledonia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NC";
+    public string $alpha2 = 'NC';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NCL";
+    public string $alpha3 = 'NCL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "540";
+    public string $numeric = '540';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NC";
+    public string $fipCode = 'NC';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "687";
+    public string $callingCode = '687';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "687";
+    public string $dial = '687';
 
     /**
      * Capital city
      */
-    public string $capital = "Noumea";
+    public string $capital = 'Noumea';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class NewCaledonia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "New Caledonia";
+    public string $en = 'New Caledonia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Új-Kaledónia";
+    public string $hu = 'Új-Kaledónia';
 
     /**
      * German name of the country
      */
-    public string $de = "Neu-Kaledonien";
+    public string $de = 'Neu-Kaledonien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Nueva Caledonia";
+    public string $es = 'Nueva Caledonia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nuova Caledonia";
+    public string $it = 'Nuova Caledonia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Nouvelle Calédonie";
+    public string $fr = 'Nouvelle Calédonie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Nova Caledônia";
-    
+    public string $pt = 'Nova Caledônia';
 }

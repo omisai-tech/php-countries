@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class FrenchPolynesia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "PF";
+    public string $alpha2 = 'PF';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "PYF";
+    public string $alpha3 = 'PYF';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "258";
+    public string $numeric = '258';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "FP";
+    public string $fipCode = 'FP';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "689";
+    public string $callingCode = '689';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "689";
+    public string $dial = '689';
 
     /**
      * Capital city
      */
-    public string $capital = "Papeete";
+    public string $capital = 'Papeete';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class FrenchPolynesia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "French Polynesia";
+    public string $en = 'French Polynesia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Francia Polinézia";
+    public string $hu = 'Francia Polinézia';
 
     /**
      * German name of the country
      */
-    public string $de = "Französisch Polynesien";
+    public string $de = 'Französisch Polynesien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Polinesia francés";
+    public string $es = 'Polinesia francés';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Polinesia francese";
+    public string $it = 'Polinesia francese';
 
     /**
      * French name of the country
      */
-    public string $fr = "Polynésie française";
+    public string $fr = 'Polynésie française';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Polinésia Francesa";
-    
+    public string $pt = 'Polinésia Francesa';
 }

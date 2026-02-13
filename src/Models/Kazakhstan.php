@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Kazakhstan extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "KZ";
+    public string $alpha2 = 'KZ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "KAZ";
+    public string $alpha3 = 'KAZ';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "398";
+    public string $numeric = '398';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "KZ";
+    public string $fipCode = 'KZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "7";
+    public string $callingCode = '7';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "7";
+    public string $dial = '7';
 
     /**
      * Capital city
      */
-    public string $capital = "Nur-Sultan";
+    public string $capital = 'Nur-Sultan';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Kazakhstan extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Kazakhstan";
+    public string $en = 'Kazakhstan';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Kazahsztán";
+    public string $hu = 'Kazahsztán';
 
     /**
      * German name of the country
      */
-    public string $de = "Kasachstan";
+    public string $de = 'Kasachstan';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Kazajstán";
+    public string $es = 'Kazajstán';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Kazakistan";
+    public string $it = 'Kazakistan';
 
     /**
      * French name of the country
      */
-    public string $fr = "Kazakhstan";
+    public string $fr = 'Kazakhstan';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Cazaquistão";
-    
+    public string $pt = 'Cazaquistão';
 }

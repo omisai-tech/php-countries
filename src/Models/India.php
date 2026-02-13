@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class India extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IN";
+    public string $alpha2 = 'IN';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "IND";
+    public string $alpha3 = 'IND';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "356";
+    public string $numeric = '356';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IN";
+    public string $fipCode = 'IN';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "91";
+    public string $callingCode = '91';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "91";
+    public string $dial = '91';
 
     /**
      * Capital city
      */
-    public string $capital = "New Delhi";
+    public string $capital = 'New Delhi';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class India extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "India";
+    public string $en = 'India';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "India";
+    public string $hu = 'India';
 
     /**
      * German name of the country
      */
-    public string $de = "Indien";
+    public string $de = 'Indien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "India";
+    public string $es = 'India';
 
     /**
      * Italian name of the country
      */
-    public string $it = "India";
+    public string $it = 'India';
 
     /**
      * French name of the country
      */
-    public string $fr = "Inde";
+    public string $fr = 'Inde';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Índia";
-    
+    public string $pt = 'Índia';
 }

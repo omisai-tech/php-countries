@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Gibraltar extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GI";
+    public string $alpha2 = 'GI';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GIB";
+    public string $alpha3 = 'GIB';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "292";
+    public string $numeric = '292';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GI";
+    public string $fipCode = 'GI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "350";
+    public string $callingCode = '350';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "350";
+    public string $dial = '350';
 
     /**
      * Capital city
      */
-    public string $capital = "Gibraltar";
+    public string $capital = 'Gibraltar';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Gibraltar extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Gibraltar";
+    public string $en = 'Gibraltar';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Gibraltár";
+    public string $hu = 'Gibraltár';
 
     /**
      * German name of the country
      */
-    public string $de = "Gibraltar";
+    public string $de = 'Gibraltar';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Gibraltar";
+    public string $es = 'Gibraltar';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Gibilterra";
+    public string $it = 'Gibilterra';
 
     /**
      * French name of the country
      */
-    public string $fr = "Gibraltar";
+    public string $fr = 'Gibraltar';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Gibraltar";
-    
+    public string $pt = 'Gibraltar';
 }

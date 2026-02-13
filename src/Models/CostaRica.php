@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class CostaRica extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CR";
+    public string $alpha2 = 'CR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CRI";
+    public string $alpha3 = 'CRI';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "188";
+    public string $numeric = '188';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "CS";
+    public string $fipCode = 'CS';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "506";
+    public string $callingCode = '506';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "506";
+    public string $dial = '506';
 
     /**
      * Capital city
      */
-    public string $capital = "San Jose";
+    public string $capital = 'San Jose';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class CostaRica extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Costa Rica";
+    public string $en = 'Costa Rica';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Costa Rica";
+    public string $hu = 'Costa Rica';
 
     /**
      * German name of the country
      */
-    public string $de = "Costa Rica";
+    public string $de = 'Costa Rica';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Costa Rica";
+    public string $es = 'Costa Rica';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Costa Rica";
+    public string $it = 'Costa Rica';
 
     /**
      * French name of the country
      */
-    public string $fr = "Costa Rica";
+    public string $fr = 'Costa Rica';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Costa Rica";
-    
+    public string $pt = 'Costa Rica';
 }

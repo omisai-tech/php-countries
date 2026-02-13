@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class FaroeIslands extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "FO";
+    public string $alpha2 = 'FO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "FRO";
+    public string $alpha3 = 'FRO';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "234";
+    public string $numeric = '234';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "FO";
+    public string $fipCode = 'FO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "298";
+    public string $callingCode = '298';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "298";
+    public string $dial = '298';
 
     /**
      * Capital city
      */
-    public string $capital = "Torshavn";
+    public string $capital = 'Torshavn';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class FaroeIslands extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Faroe Islands";
+    public string $en = 'Faroe Islands';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Faroe Szigetek";
+    public string $hu = 'Faroe Szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Färöer Inseln";
+    public string $de = 'Färöer Inseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Faroe";
+    public string $es = 'Islas Faroe';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Faroe";
+    public string $it = 'Isole Faroe';
 
     /**
      * French name of the country
      */
-    public string $fr = "Îles Féroé";
+    public string $fr = 'Îles Féroé';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "ilhas Faroe";
-    
+    public string $pt = 'ilhas Faroe';
 }

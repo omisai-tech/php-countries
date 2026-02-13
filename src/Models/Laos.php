@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Laos extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "LA";
+    public string $alpha2 = 'LA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "LAO";
+    public string $alpha3 = 'LAO';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "418";
+    public string $numeric = '418';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "LA";
+    public string $fipCode = 'LA';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "856";
+    public string $callingCode = '856';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "856";
+    public string $dial = '856';
 
     /**
      * Capital city
      */
-    public string $capital = "Vientiane";
+    public string $capital = 'Vientiane';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Laos extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Laos";
+    public string $en = 'Laos';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Laosz";
+    public string $hu = 'Laosz';
 
     /**
      * German name of the country
      */
-    public string $de = "Laos";
+    public string $de = 'Laos';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Laos";
+    public string $es = 'Laos';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Laos";
+    public string $it = 'Laos';
 
     /**
      * French name of the country
      */
-    public string $fr = "Laos";
+    public string $fr = 'Laos';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Laos";
-    
+    public string $pt = 'Laos';
 }

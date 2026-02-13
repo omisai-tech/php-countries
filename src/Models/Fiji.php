@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Fiji extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "FJ";
+    public string $alpha2 = 'FJ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "FJI";
+    public string $alpha3 = 'FJI';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "242";
+    public string $numeric = '242';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "FJ";
+    public string $fipCode = 'FJ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "679";
+    public string $callingCode = '679';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "679";
+    public string $dial = '679';
 
     /**
      * Capital city
      */
-    public string $capital = "Suva";
+    public string $capital = 'Suva';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Fiji extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Fiji";
+    public string $en = 'Fiji';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Fidzsi-szigetek";
+    public string $hu = 'Fidzsi-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Fidschi-Inseln";
+    public string $de = 'Fidschi-Inseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Islas Fiyi";
+    public string $es = 'Islas Fiyi';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isole Fiji";
+    public string $it = 'Isole Fiji';
 
     /**
      * French name of the country
      */
-    public string $fr = "Îles Fidji";
+    public string $fr = 'Îles Fidji';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Fiji";
-    
+    public string $pt = 'Fiji';
 }

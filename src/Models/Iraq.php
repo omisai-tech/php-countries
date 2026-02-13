@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Iraq extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IQ";
+    public string $alpha2 = 'IQ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "IRQ";
+    public string $alpha3 = 'IRQ';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "368";
+    public string $numeric = '368';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IZ";
+    public string $fipCode = 'IZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "964";
+    public string $callingCode = '964';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "964";
+    public string $dial = '964';
 
     /**
      * Capital city
      */
-    public string $capital = "Baghdad";
+    public string $capital = 'Baghdad';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Iraq extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Iraq";
+    public string $en = 'Iraq';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Irak";
+    public string $hu = 'Irak';
 
     /**
      * German name of the country
      */
-    public string $de = "Irak";
+    public string $de = 'Irak';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Irak";
+    public string $es = 'Irak';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Iraq";
+    public string $it = 'Iraq';
 
     /**
      * French name of the country
      */
-    public string $fr = "Irak";
+    public string $fr = 'Irak';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Iraque";
-    
+    public string $pt = 'Iraque';
 }

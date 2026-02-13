@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Benin extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BJ";
+    public string $alpha2 = 'BJ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BEN";
+    public string $alpha3 = 'BEN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "204";
+    public string $numeric = '204';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BN";
+    public string $fipCode = 'BN';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "229";
+    public string $callingCode = '229';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "229";
+    public string $dial = '229';
 
     /**
      * Capital city
      */
-    public string $capital = "Porto-Novo";
+    public string $capital = 'Porto-Novo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Benin extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Benin";
+    public string $en = 'Benin';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Benin";
+    public string $hu = 'Benin';
 
     /**
      * German name of the country
      */
-    public string $de = "In Benin";
+    public string $de = 'In Benin';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "En Benín";
+    public string $es = 'En Benín';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nel Benin";
+    public string $it = 'Nel Benin';
 
     /**
      * French name of the country
      */
-    public string $fr = "Au Bénin";
+    public string $fr = 'Au Bénin';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Benim";
-    
+    public string $pt = 'Benim';
 }

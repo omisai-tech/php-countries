@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Guadeloupe extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GP";
+    public string $alpha2 = 'GP';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GLP";
+    public string $alpha3 = 'GLP';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "312";
+    public string $numeric = '312';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GP";
+    public string $fipCode = 'GP';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "590";
+    public string $callingCode = '590';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "590";
+    public string $dial = '590';
 
     /**
      * Capital city
      */
-    public string $capital = "Basse-Terre";
+    public string $capital = 'Basse-Terre';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Guadeloupe extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Guadeloupe";
+    public string $en = 'Guadeloupe';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Guadeloupe";
+    public string $hu = 'Guadeloupe';
 
     /**
      * German name of the country
      */
-    public string $de = "Guadeloupe";
+    public string $de = 'Guadeloupe';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Guadalupe";
+    public string $es = 'Guadalupe';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Guadalupa";
+    public string $it = 'Guadalupa';
 
     /**
      * French name of the country
      */
-    public string $fr = "Guadeloupe";
+    public string $fr = 'Guadeloupe';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Guadalupe";
-    
+    public string $pt = 'Guadalupe';
 }

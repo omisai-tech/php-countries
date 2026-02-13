@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Barbados extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BB";
+    public string $alpha2 = 'BB';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BRB";
+    public string $alpha3 = 'BRB';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "52";
+    public string $numeric = '52';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BB";
+    public string $fipCode = 'BB';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "1-246";
+    public string $callingCode = '1-246';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "1-246";
+    public string $dial = '1-246';
 
     /**
      * Capital city
      */
-    public string $capital = "Bridgetown";
+    public string $capital = 'Bridgetown';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Barbados extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Barbados";
+    public string $en = 'Barbados';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Barbados";
+    public string $hu = 'Barbados';
 
     /**
      * German name of the country
      */
-    public string $de = "Barbados";
+    public string $de = 'Barbados';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Barbados";
+    public string $es = 'Barbados';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Barbados";
+    public string $it = 'Barbados';
 
     /**
      * French name of the country
      */
-    public string $fr = "Barbade";
+    public string $fr = 'Barbade';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Barbados";
-    
+    public string $pt = 'Barbados';
 }

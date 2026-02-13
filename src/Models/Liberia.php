@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Liberia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "LR";
+    public string $alpha2 = 'LR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "LBR";
+    public string $alpha3 = 'LBR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "430";
+    public string $numeric = '430';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "LI";
+    public string $fipCode = 'LI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "231";
+    public string $callingCode = '231';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "231";
+    public string $dial = '231';
 
     /**
      * Capital city
      */
-    public string $capital = "Monrovia";
+    public string $capital = 'Monrovia';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Liberia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Liberia";
+    public string $en = 'Liberia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Libéria";
+    public string $hu = 'Libéria';
 
     /**
      * German name of the country
      */
-    public string $de = "Liberia";
+    public string $de = 'Liberia';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Liberia";
+    public string $es = 'Liberia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Liberia";
+    public string $it = 'Liberia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Libéria";
+    public string $fr = 'Libéria';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Libéria";
-    
+    public string $pt = 'Libéria';
 }

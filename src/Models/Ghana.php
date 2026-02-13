@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Ghana extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GH";
+    public string $alpha2 = 'GH';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GHA";
+    public string $alpha3 = 'GHA';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "288";
+    public string $numeric = '288';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GH";
+    public string $fipCode = 'GH';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "233";
+    public string $callingCode = '233';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "233";
+    public string $dial = '233';
 
     /**
      * Capital city
      */
-    public string $capital = "Accra";
+    public string $capital = 'Accra';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Ghana extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Ghana";
+    public string $en = 'Ghana';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Ghána";
+    public string $hu = 'Ghána';
 
     /**
      * German name of the country
      */
-    public string $de = "Ghana";
+    public string $de = 'Ghana';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Ghana";
+    public string $es = 'Ghana';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Ghana";
+    public string $it = 'Ghana';
 
     /**
      * French name of the country
      */
-    public string $fr = "Ghana";
+    public string $fr = 'Ghana';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Gana";
-    
+    public string $pt = 'Gana';
 }

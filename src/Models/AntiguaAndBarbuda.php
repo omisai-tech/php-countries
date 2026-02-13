@@ -1,41 +1,41 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class AntiguaAndBarbuda extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AG";
+    public string $alpha2 = 'AG';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ATG";
+    public string $alpha3 = 'ATG';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "28";
+    public string $numeric = '28';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AC";
+    public string $fipCode = 'AC';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "1-268";
+    public string $callingCode = '1-268';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "1-268";
+    public string $dial = '1-268';
 
     /**
      * Capital city
@@ -53,41 +53,40 @@ class AntiguaAndBarbuda extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Antigua and Barbuda";
+    public string $en = 'Antigua and Barbuda';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Antigua és Barbuda";
+    public string $hu = 'Antigua és Barbuda';
 
     /**
      * German name of the country
      */
-    public string $de = "Antigua und Barbuda";
+    public string $de = 'Antigua und Barbuda';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Antigua y Barbuda";
+    public string $es = 'Antigua y Barbuda';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Antigua e Barbuda";
+    public string $it = 'Antigua e Barbuda';
 
     /**
      * French name of the country
      */
-    public string $fr = "Antigua-et-Barbuda";
+    public string $fr = 'Antigua-et-Barbuda';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Antígua e Barbuda";
-    
+    public string $pt = 'Antígua e Barbuda';
 }

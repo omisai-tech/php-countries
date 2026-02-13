@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Nauru extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NR";
+    public string $alpha2 = 'NR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NRU";
+    public string $alpha3 = 'NRU';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "520";
+    public string $numeric = '520';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NR";
+    public string $fipCode = 'NR';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "674";
+    public string $callingCode = '674';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "674";
+    public string $dial = '674';
 
     /**
      * Capital city
      */
-    public string $capital = "Yaren";
+    public string $capital = 'Yaren';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Nauru extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Nauru";
+    public string $en = 'Nauru';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Nauru";
+    public string $hu = 'Nauru';
 
     /**
      * German name of the country
      */
-    public string $de = "Nauru";
+    public string $de = 'Nauru';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Nauru";
+    public string $es = 'Nauru';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Nauru";
+    public string $it = 'Nauru';
 
     /**
      * French name of the country
      */
-    public string $fr = "Nauru";
+    public string $fr = 'Nauru';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Nauru";
-    
+    public string $pt = 'Nauru';
 }

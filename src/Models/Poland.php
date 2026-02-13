@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Poland extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "PL";
+    public string $alpha2 = 'PL';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "POL";
+    public string $alpha3 = 'POL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "616";
+    public string $numeric = '616';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "PL";
+    public string $fipCode = 'PL';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "48";
+    public string $callingCode = '48';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "48";
+    public string $dial = '48';
 
     /**
      * Capital city
      */
-    public string $capital = "Warsaw";
+    public string $capital = 'Warsaw';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Poland extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Poland";
+    public string $en = 'Poland';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Lengyelország";
+    public string $hu = 'Lengyelország';
 
     /**
      * German name of the country
      */
-    public string $de = "Polen";
+    public string $de = 'Polen';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Polonia";
+    public string $es = 'Polonia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Polonia";
+    public string $it = 'Polonia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Pologne";
+    public string $fr = 'Pologne';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Polônia";
-    
+    public string $pt = 'Polônia';
 }

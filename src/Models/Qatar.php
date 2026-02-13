@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Qatar extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "QA";
+    public string $alpha2 = 'QA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "QAT";
+    public string $alpha3 = 'QAT';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "634";
+    public string $numeric = '634';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "QA";
+    public string $fipCode = 'QA';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "974";
+    public string $callingCode = '974';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "974";
+    public string $dial = '974';
 
     /**
      * Capital city
      */
-    public string $capital = "Doha";
+    public string $capital = 'Doha';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Qatar extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Qatar";
+    public string $en = 'Qatar';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Katar";
+    public string $hu = 'Katar';
 
     /**
      * German name of the country
      */
-    public string $de = "Katar";
+    public string $de = 'Katar';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Katar";
+    public string $es = 'Katar';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Qatar";
+    public string $it = 'Qatar';
 
     /**
      * French name of the country
      */
-    public string $fr = "Qatar";
+    public string $fr = 'Qatar';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Catar";
-    
+    public string $pt = 'Catar';
 }

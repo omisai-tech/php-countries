@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Maldives extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MV";
+    public string $alpha2 = 'MV';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MDV";
+    public string $alpha3 = 'MDV';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "462";
+    public string $numeric = '462';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MV";
+    public string $fipCode = 'MV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "960";
+    public string $callingCode = '960';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "960";
+    public string $dial = '960';
 
     /**
      * Capital city
      */
-    public string $capital = "Male";
+    public string $capital = 'Male';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Maldives extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Maldives";
+    public string $en = 'Maldives';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Maldív-szigetek";
+    public string $hu = 'Maldív-szigetek';
 
     /**
      * German name of the country
      */
-    public string $de = "Malediven";
+    public string $de = 'Malediven';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Maldivas";
+    public string $es = 'Maldivas';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Maldive";
+    public string $it = 'Maldive';
 
     /**
      * French name of the country
      */
-    public string $fr = "Maldives";
+    public string $fr = 'Maldives';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Maldivas";
-    
+    public string $pt = 'Maldivas';
 }

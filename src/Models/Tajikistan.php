@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Tajikistan extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TJ";
+    public string $alpha2 = 'TJ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TJK";
+    public string $alpha3 = 'TJK';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "762";
+    public string $numeric = '762';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TI";
+    public string $fipCode = 'TI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "992";
+    public string $callingCode = '992';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "992";
+    public string $dial = '992';
 
     /**
      * Capital city
      */
-    public string $capital = "Dushanbe";
+    public string $capital = 'Dushanbe';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Tajikistan extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Tajikistan";
+    public string $en = 'Tajikistan';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Tádzsikisztán";
+    public string $hu = 'Tádzsikisztán';
 
     /**
      * German name of the country
      */
-    public string $de = "Tadschikistan";
+    public string $de = 'Tadschikistan';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Tayikistán";
+    public string $es = 'Tayikistán';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Tagikistan";
+    public string $it = 'Tagikistan';
 
     /**
      * French name of the country
      */
-    public string $fr = "Tadjikistan";
+    public string $fr = 'Tadjikistan';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Tadjiquistão";
-    
+    public string $pt = 'Tadjiquistão';
 }

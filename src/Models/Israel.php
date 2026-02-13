@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Israel extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IL";
+    public string $alpha2 = 'IL';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ISR";
+    public string $alpha3 = 'ISR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "376";
+    public string $numeric = '376';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IS";
+    public string $fipCode = 'IS';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "972";
+    public string $callingCode = '972';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "972";
+    public string $dial = '972';
 
     /**
      * Capital city
      */
-    public string $capital = "Jerusalem";
+    public string $capital = 'Jerusalem';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Israel extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Israel";
+    public string $en = 'Israel';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Izrael";
+    public string $hu = 'Izrael';
 
     /**
      * German name of the country
      */
-    public string $de = "Israel";
+    public string $de = 'Israel';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Israel";
+    public string $es = 'Israel';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Israele";
+    public string $it = 'Israele';
 
     /**
      * French name of the country
      */
-    public string $fr = "Israël";
+    public string $fr = 'Israël';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Israel";
-    
+    public string $pt = 'Israel';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Czechia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CZ";
+    public string $alpha2 = 'CZ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CZE";
+    public string $alpha3 = 'CZE';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "203";
+    public string $numeric = '203';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "EZ";
+    public string $fipCode = 'EZ';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "420";
+    public string $callingCode = '420';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "420";
+    public string $dial = '420';
 
     /**
      * Capital city
      */
-    public string $capital = "Prague";
+    public string $capital = 'Prague';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Czechia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Czechia";
+    public string $en = 'Czechia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Csehország";
+    public string $hu = 'Csehország';
 
     /**
      * German name of the country
      */
-    public string $de = "Tschechien";
+    public string $de = 'Tschechien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "República Checa";
+    public string $es = 'República Checa';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Repubblica Ceca";
+    public string $it = 'Repubblica Ceca';
 
     /**
      * French name of the country
      */
-    public string $fr = "République tchèque";
+    public string $fr = 'République tchèque';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Tcheca";
-    
+    public string $pt = 'Tcheca';
 }

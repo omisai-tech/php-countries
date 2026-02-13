@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class NorfolkIsland extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "NF";
+    public string $alpha2 = 'NF';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "NFK";
+    public string $alpha3 = 'NFK';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "574";
+    public string $numeric = '574';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "NF";
+    public string $fipCode = 'NF';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "672";
+    public string $callingCode = '672';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "672";
+    public string $dial = '672';
 
     /**
      * Capital city
      */
-    public string $capital = "Kingston";
+    public string $capital = 'Kingston';
 
     /**
      * Continent
@@ -53,32 +53,32 @@ class NorfolkIsland extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Norfolk Island";
+    public string $en = 'Norfolk Island';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Norfolk-sziget";
+    public string $hu = 'Norfolk-sziget';
 
     /**
      * German name of the country
      */
-    public string $de = "Norfolkinsel";
+    public string $de = 'Norfolkinsel';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Isla Norfolk";
+    public string $es = 'Isla Norfolk';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isola Norfolk";
+    public string $it = 'Isola Norfolk';
 
     /**
      * French name of the country
@@ -88,6 +88,5 @@ class NorfolkIsland extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilha Norfolk";
-    
+    public string $pt = 'Ilha Norfolk';
 }

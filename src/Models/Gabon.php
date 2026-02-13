@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Gabon extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GA";
+    public string $alpha2 = 'GA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GAB";
+    public string $alpha3 = 'GAB';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "266";
+    public string $numeric = '266';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GB";
+    public string $fipCode = 'GB';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "241";
+    public string $callingCode = '241';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "241";
+    public string $dial = '241';
 
     /**
      * Capital city
      */
-    public string $capital = "Libreville";
+    public string $capital = 'Libreville';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Gabon extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Gabon";
+    public string $en = 'Gabon';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Gabon";
+    public string $hu = 'Gabon';
 
     /**
      * German name of the country
      */
-    public string $de = "Gabun";
+    public string $de = 'Gabun';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Gabón";
+    public string $es = 'Gabón';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Gabon";
+    public string $it = 'Gabon';
 
     /**
      * French name of the country
      */
-    public string $fr = "Gabon";
+    public string $fr = 'Gabon';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Gabão";
-    
+    public string $pt = 'Gabão';
 }

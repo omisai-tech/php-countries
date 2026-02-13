@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Bolivia extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "BO";
+    public string $alpha2 = 'BO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "BOL";
+    public string $alpha3 = 'BOL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "68";
+    public string $numeric = '68';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "BL";
+    public string $fipCode = 'BL';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "591";
+    public string $callingCode = '591';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "591";
+    public string $dial = '591';
 
     /**
      * Capital city
      */
-    public string $capital = "Sucre";
+    public string $capital = 'Sucre';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Bolivia extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "SA";
+    public string $continent = 'SA';
 
     /**
      * English name of the country
      */
-    public string $en = "Bolivia";
+    public string $en = 'Bolivia';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Bolívia";
+    public string $hu = 'Bolívia';
 
     /**
      * German name of the country
      */
-    public string $de = "Bolivien";
+    public string $de = 'Bolivien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "bolivia";
+    public string $es = 'bolivia';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Bolivia";
+    public string $it = 'Bolivia';
 
     /**
      * French name of the country
      */
-    public string $fr = "Bolivie";
+    public string $fr = 'Bolivie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Bolívia";
-    
+    public string $pt = 'Bolívia';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class UnitedArabEmirates extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AE";
+    public string $alpha2 = 'AE';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ARE";
+    public string $alpha3 = 'ARE';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "784";
+    public string $numeric = '784';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AE";
+    public string $fipCode = 'AE';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "971";
+    public string $callingCode = '971';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "971";
+    public string $dial = '971';
 
     /**
      * Capital city
      */
-    public string $capital = "Abu Dhabi";
+    public string $capital = 'Abu Dhabi';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class UnitedArabEmirates extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "United Arab Emirates";
+    public string $en = 'United Arab Emirates';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Egyesült Arab Emírségek";
+    public string $hu = 'Egyesült Arab Emírségek';
 
     /**
      * German name of the country
      */
-    public string $de = "Vereinigte Arabische Emirate";
+    public string $de = 'Vereinigte Arabische Emirate';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Emiratos Árabes Unidos";
+    public string $es = 'Emiratos Árabes Unidos';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Emirati Arabi Uniti";
+    public string $it = 'Emirati Arabi Uniti';
 
     /**
      * French name of the country
      */
-    public string $fr = "Emirats Arabes Unis";
+    public string $fr = 'Emirats Arabes Unis';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Emirados Árabes Unidos";
-    
+    public string $pt = 'Emirados Árabes Unidos';
 }

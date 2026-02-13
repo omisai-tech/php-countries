@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Argentina extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AR";
+    public string $alpha2 = 'AR';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ARG";
+    public string $alpha3 = 'ARG';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "32";
+    public string $numeric = '32';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AR";
+    public string $fipCode = 'AR';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "54";
+    public string $callingCode = '54';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "54";
+    public string $dial = '54';
 
     /**
      * Capital city
      */
-    public string $capital = "Buenos Aires";
+    public string $capital = 'Buenos Aires';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Argentina extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "SA";
+    public string $continent = 'SA';
 
     /**
      * English name of the country
      */
-    public string $en = "Argentina";
+    public string $en = 'Argentina';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Argentína";
+    public string $hu = 'Argentína';
 
     /**
      * German name of the country
      */
-    public string $de = "Argentinien";
+    public string $de = 'Argentinien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Argentina";
+    public string $es = 'Argentina';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Argentina";
+    public string $it = 'Argentina';
 
     /**
      * French name of the country
      */
-    public string $fr = "Argentine";
+    public string $fr = 'Argentine';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Argentina";
-    
+    public string $pt = 'Argentina';
 }

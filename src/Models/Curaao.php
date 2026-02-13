@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Curaao extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CW";
+    public string $alpha2 = 'CW';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CUW";
+    public string $alpha3 = 'CUW';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "531";
+    public string $numeric = '531';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "UC";
+    public string $fipCode = 'UC';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "599";
+    public string $callingCode = '599';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "599";
+    public string $dial = '599';
 
     /**
      * Capital city
      */
-    public string $capital = "Willemstad";
+    public string $capital = 'Willemstad';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Curaao extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Curaçao";
+    public string $en = 'Curaçao';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Curaçao";
+    public string $hu = 'Curaçao';
 
     /**
      * German name of the country
      */
-    public string $de = "Curacao";
+    public string $de = 'Curacao';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Curazao";
+    public string $es = 'Curazao';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Curacao";
+    public string $it = 'Curacao';
 
     /**
      * French name of the country
      */
-    public string $fr = "Curacao";
+    public string $fr = 'Curacao';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Curaçau";
-    
+    public string $pt = 'Curaçau';
 }

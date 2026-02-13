@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Ecuador extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "EC";
+    public string $alpha2 = 'EC';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ECU";
+    public string $alpha3 = 'ECU';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "218";
+    public string $numeric = '218';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "EC";
+    public string $fipCode = 'EC';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "593";
+    public string $callingCode = '593';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "593";
+    public string $dial = '593';
 
     /**
      * Capital city
      */
-    public string $capital = "Quito";
+    public string $capital = 'Quito';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Ecuador extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "SA";
+    public string $continent = 'SA';
 
     /**
      * English name of the country
      */
-    public string $en = "Ecuador";
+    public string $en = 'Ecuador';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Ecuador";
+    public string $hu = 'Ecuador';
 
     /**
      * German name of the country
      */
-    public string $de = "Ecuador";
+    public string $de = 'Ecuador';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Ecuador";
+    public string $es = 'Ecuador';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Ecuador";
+    public string $it = 'Ecuador';
 
     /**
      * French name of the country
      */
-    public string $fr = "Équateur";
+    public string $fr = 'Équateur';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Equador";
-    
+    public string $pt = 'Equador';
 }

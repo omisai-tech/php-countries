@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Syria extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "SY";
+    public string $alpha2 = 'SY';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "SYR";
+    public string $alpha3 = 'SYR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "760";
+    public string $numeric = '760';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "SY";
+    public string $fipCode = 'SY';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "963";
+    public string $callingCode = '963';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "963";
+    public string $dial = '963';
 
     /**
      * Capital city
      */
-    public string $capital = "Damascus";
+    public string $capital = 'Damascus';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Syria extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Syria";
+    public string $en = 'Syria';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Szíria";
+    public string $hu = 'Szíria';
 
     /**
      * German name of the country
      */
-    public string $de = "Syrien";
+    public string $de = 'Syrien';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Siria";
+    public string $es = 'Siria';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Siria";
+    public string $it = 'Siria';
 
     /**
      * French name of the country
      */
-    public string $fr = "Syrie";
+    public string $fr = 'Syrie';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Síria";
-    
+    public string $pt = 'Síria';
 }

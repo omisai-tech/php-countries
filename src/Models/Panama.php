@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Panama extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "PA";
+    public string $alpha2 = 'PA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "PAN";
+    public string $alpha3 = 'PAN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "591";
+    public string $numeric = '591';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "PM";
+    public string $fipCode = 'PM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "507";
+    public string $callingCode = '507';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "507";
+    public string $dial = '507';
 
     /**
      * Capital city
      */
-    public string $capital = "Panama City";
+    public string $capital = 'Panama City';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Panama extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "NA";
+    public string $continent = 'NA';
 
     /**
      * English name of the country
      */
-    public string $en = "Panama";
+    public string $en = 'Panama';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Panama";
+    public string $hu = 'Panama';
 
     /**
      * German name of the country
      */
-    public string $de = "Panama";
+    public string $de = 'Panama';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Panamá";
+    public string $es = 'Panamá';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Panama";
+    public string $it = 'Panama';
 
     /**
      * French name of the country
      */
-    public string $fr = "Panama";
+    public string $fr = 'Panama';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Panamá";
-    
+    public string $pt = 'Panamá';
 }

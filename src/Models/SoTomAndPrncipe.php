@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class SoTomAndPrncipe extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "ST";
+    public string $alpha2 = 'ST';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "STP";
+    public string $alpha3 = 'STP';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "678";
+    public string $numeric = '678';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TP";
+    public string $fipCode = 'TP';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "239";
+    public string $callingCode = '239';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "239";
+    public string $dial = '239';
 
     /**
      * Capital city
      */
-    public string $capital = "Sao Tome";
+    public string $capital = 'Sao Tome';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class SoTomAndPrncipe extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "São Tomé and Príncipe";
+    public string $en = 'São Tomé and Príncipe';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "São Tomé és Príncipe";
+    public string $hu = 'São Tomé és Príncipe';
 
     /**
      * German name of the country
      */
-    public string $de = "São Tomé und Príncipe";
+    public string $de = 'São Tomé und Príncipe';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Santo Tomé y Príncipe";
+    public string $es = 'Santo Tomé y Príncipe';
 
     /**
      * Italian name of the country
      */
-    public string $it = "San Tommaso e Principe";
+    public string $it = 'San Tommaso e Principe';
 
     /**
      * French name of the country
      */
-    public string $fr = "São Tomé et Príncipe";
+    public string $fr = 'São Tomé et Príncipe';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "São Tomé e Príncipe";
-    
+    public string $pt = 'São Tomé e Príncipe';
 }

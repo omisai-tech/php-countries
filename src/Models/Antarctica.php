@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Antarctica extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AQ";
+    public string $alpha2 = 'AQ';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ATA";
+    public string $alpha3 = 'ATA';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "10";
+    public string $numeric = '10';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AY";
+    public string $fipCode = 'AY';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "672";
+    public string $callingCode = '672';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "672";
+    public string $dial = '672';
 
     /**
      * Capital city
      */
-    public string $capital = "";
+    public string $capital = '';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Antarctica extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AN";
+    public string $continent = 'AN';
 
     /**
      * English name of the country
      */
-    public string $en = "Antarctica";
+    public string $en = 'Antarctica';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Antarktisz";
+    public string $hu = 'Antarktisz';
 
     /**
      * German name of the country
      */
-    public string $de = "Antarktis";
+    public string $de = 'Antarktis';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Antártida";
+    public string $es = 'Antártida';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Antartide";
+    public string $it = 'Antartide';
 
     /**
      * French name of the country
      */
-    public string $fr = "Antarctique";
+    public string $fr = 'Antarctique';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Antártica";
-    
+    public string $pt = 'Antártica';
 }

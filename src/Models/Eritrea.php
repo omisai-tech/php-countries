@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Eritrea extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "ER";
+    public string $alpha2 = 'ER';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ERI";
+    public string $alpha3 = 'ERI';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "232";
+    public string $numeric = '232';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "ER";
+    public string $fipCode = 'ER';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "291";
+    public string $callingCode = '291';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "291";
+    public string $dial = '291';
 
     /**
      * Capital city
      */
-    public string $capital = "Asmara";
+    public string $capital = 'Asmara';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Eritrea extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Eritrea";
+    public string $en = 'Eritrea';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Eritrea";
+    public string $hu = 'Eritrea';
 
     /**
      * German name of the country
      */
-    public string $de = "Eritrea";
+    public string $de = 'Eritrea';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Eritrea";
+    public string $es = 'Eritrea';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Eritrea";
+    public string $it = 'Eritrea';
 
     /**
      * French name of the country
      */
-    public string $fr = "Érythrée";
+    public string $fr = 'Érythrée';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Eritreia";
-    
+    public string $pt = 'Eritreia';
 }

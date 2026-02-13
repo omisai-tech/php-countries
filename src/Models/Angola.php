@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Angola extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "AO";
+    public string $alpha2 = 'AO';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "AGO";
+    public string $alpha3 = 'AGO';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "24";
+    public string $numeric = '24';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "AO";
+    public string $fipCode = 'AO';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "244";
+    public string $callingCode = '244';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "244";
+    public string $dial = '244';
 
     /**
      * Capital city
      */
-    public string $capital = "Luanda";
+    public string $capital = 'Luanda';
 
     /**
      * Continent
@@ -53,27 +53,27 @@ class Angola extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Angola";
+    public string $en = 'Angola';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Angola";
+    public string $hu = 'Angola';
 
     /**
      * German name of the country
      */
-    public string $de = "Angola";
+    public string $de = 'Angola';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Angola";
+    public string $es = 'Angola';
 
     /**
      * Italian name of the country
@@ -83,11 +83,10 @@ class Angola extends Country
     /**
      * French name of the country
      */
-    public string $fr = "Angola";
+    public string $fr = 'Angola';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Angola";
-    
+    public string $pt = 'Angola';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Kiribati extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "KI";
+    public string $alpha2 = 'KI';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "KIR";
+    public string $alpha3 = 'KIR';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "296";
+    public string $numeric = '296';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "KR";
+    public string $fipCode = 'KR';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "686";
+    public string $callingCode = '686';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "686";
+    public string $dial = '686';
 
     /**
      * Capital city
      */
-    public string $capital = "Tarawa";
+    public string $capital = 'Tarawa';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Kiribati extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Kiribati";
+    public string $en = 'Kiribati';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Kiribati";
+    public string $hu = 'Kiribati';
 
     /**
      * German name of the country
      */
-    public string $de = "Kiribati";
+    public string $de = 'Kiribati';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Kiribati";
+    public string $es = 'Kiribati';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Kiribati";
+    public string $it = 'Kiribati';
 
     /**
      * French name of the country
      */
-    public string $fr = "Kiribati";
+    public string $fr = 'Kiribati';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Quiribáti";
-    
+    public string $pt = 'Quiribáti';
 }

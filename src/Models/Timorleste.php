@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Timorleste extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TL";
+    public string $alpha2 = 'TL';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TLS";
+    public string $alpha3 = 'TLS';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "626";
+    public string $numeric = '626';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TT";
+    public string $fipCode = 'TT';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "670";
+    public string $callingCode = '670';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "670";
+    public string $dial = '670';
 
     /**
      * Capital city
      */
-    public string $capital = "Dili";
+    public string $capital = 'Dili';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Timorleste extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Timor-Leste";
+    public string $en = 'Timor-Leste';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Kelet-Timor";
+    public string $hu = 'Kelet-Timor';
 
     /**
      * German name of the country
      */
-    public string $de = "Osttimor";
+    public string $de = 'Osttimor';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Timor Oriental";
+    public string $es = 'Timor Oriental';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Timor Est";
+    public string $it = 'Timor Est';
 
     /**
      * French name of the country
      */
-    public string $fr = "Timor oriental";
+    public string $fr = 'Timor oriental';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Timor-Leste";
-    
+    public string $pt = 'Timor-Leste';
 }

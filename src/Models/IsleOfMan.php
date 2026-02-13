@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class IsleOfMan extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "IM";
+    public string $alpha2 = 'IM';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "IMN";
+    public string $alpha3 = 'IMN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "833";
+    public string $numeric = '833';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "IM";
+    public string $fipCode = 'IM';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "44";
+    public string $callingCode = '44';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "44";
+    public string $dial = '44';
 
     /**
      * Capital city
      */
-    public string $capital = "Douglas";
+    public string $capital = 'Douglas';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class IsleOfMan extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Isle of Man";
+    public string $en = 'Isle of Man';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Man-sziget";
+    public string $hu = 'Man-sziget';
 
     /**
      * German name of the country
      */
-    public string $de = "Isle of Man";
+    public string $de = 'Isle of Man';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Isla del hombre";
+    public string $es = 'Isla del hombre';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Isola di Man";
+    public string $it = 'Isola di Man';
 
     /**
      * French name of the country
      */
-    public string $fr = "île de Man";
+    public string $fr = 'île de Man';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Ilha de Man";
-    
+    public string $pt = 'Ilha de Man';
 }

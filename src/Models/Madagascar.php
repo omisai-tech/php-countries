@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Madagascar extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "MG";
+    public string $alpha2 = 'MG';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "MDG";
+    public string $alpha3 = 'MDG';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "450";
+    public string $numeric = '450';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "MA";
+    public string $fipCode = 'MA';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "261";
+    public string $callingCode = '261';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "261";
+    public string $dial = '261';
 
     /**
      * Capital city
      */
-    public string $capital = "Antananarivo";
+    public string $capital = 'Antananarivo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Madagascar extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Madagascar";
+    public string $en = 'Madagascar';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Madagaszkár";
+    public string $hu = 'Madagaszkár';
 
     /**
      * German name of the country
      */
-    public string $de = "Madagaskar";
+    public string $de = 'Madagaskar';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Madagascar";
+    public string $es = 'Madagascar';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Madagascar";
+    public string $it = 'Madagascar';
 
     /**
      * French name of the country
      */
-    public string $fr = "Madagascar";
+    public string $fr = 'Madagascar';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Madagáscar";
-    
+    public string $pt = 'Madagáscar';
 }

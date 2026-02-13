@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Japan extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "JP";
+    public string $alpha2 = 'JP';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "JPN";
+    public string $alpha3 = 'JPN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "392";
+    public string $numeric = '392';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "JA";
+    public string $fipCode = 'JA';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "81";
+    public string $callingCode = '81';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "81";
+    public string $dial = '81';
 
     /**
      * Capital city
      */
-    public string $capital = "Tokyo";
+    public string $capital = 'Tokyo';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Japan extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Japan";
+    public string $en = 'Japan';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Japán";
+    public string $hu = 'Japán';
 
     /**
      * German name of the country
      */
-    public string $de = "Japan";
+    public string $de = 'Japan';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Japón";
+    public string $es = 'Japón';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Giappone";
+    public string $it = 'Giappone';
 
     /**
      * French name of the country
      */
-    public string $fr = "Japon";
+    public string $fr = 'Japon';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Japão";
-    
+    public string $pt = 'Japão';
 }

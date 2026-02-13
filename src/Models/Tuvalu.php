@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Tuvalu extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TV";
+    public string $alpha2 = 'TV';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TUV";
+    public string $alpha3 = 'TUV';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "798";
+    public string $numeric = '798';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TV";
+    public string $fipCode = 'TV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "688";
+    public string $callingCode = '688';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "688";
+    public string $dial = '688';
 
     /**
      * Capital city
      */
-    public string $capital = "Funafuti";
+    public string $capital = 'Funafuti';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Tuvalu extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Tuvalu";
+    public string $en = 'Tuvalu';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Tuvalu";
+    public string $hu = 'Tuvalu';
 
     /**
      * German name of the country
      */
-    public string $de = "Tuvalu";
+    public string $de = 'Tuvalu';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Tuvalu";
+    public string $es = 'Tuvalu';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Tuvalu";
+    public string $it = 'Tuvalu';
 
     /**
      * French name of the country
      */
-    public string $fr = "Tuvalu";
+    public string $fr = 'Tuvalu';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Tuvalu";
-    
+    public string $pt = 'Tuvalu';
 }

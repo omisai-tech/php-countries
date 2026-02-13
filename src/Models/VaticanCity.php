@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class VaticanCity extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "VA";
+    public string $alpha2 = 'VA';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "VAT";
+    public string $alpha3 = 'VAT';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "336";
+    public string $numeric = '336';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "VT";
+    public string $fipCode = 'VT';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "39-06";
+    public string $callingCode = '39-06';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "39-06";
+    public string $dial = '39-06';
 
     /**
      * Capital city
      */
-    public string $capital = "Vatican City";
+    public string $capital = 'Vatican City';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class VaticanCity extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "EU";
+    public string $continent = 'EU';
 
     /**
      * English name of the country
      */
-    public string $en = "Vatican City";
+    public string $en = 'Vatican City';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Vatikán város";
+    public string $hu = 'Vatikán város';
 
     /**
      * German name of the country
      */
-    public string $de = "Vatikanstadt";
+    public string $de = 'Vatikanstadt';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Ciudad del Vaticano";
+    public string $es = 'Ciudad del Vaticano';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Città del Vaticano";
+    public string $it = 'Città del Vaticano';
 
     /**
      * French name of the country
      */
-    public string $fr = "Cité du Vatican";
+    public string $fr = 'Cité du Vatican';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Cidade do Vaticano";
-    
+    public string $pt = 'Cidade do Vaticano';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Tokelau extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "TK";
+    public string $alpha2 = 'TK';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "TKL";
+    public string $alpha3 = 'TKL';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "772";
+    public string $numeric = '772';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "TL";
+    public string $fipCode = 'TL';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "690";
+    public string $callingCode = '690';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "690";
+    public string $dial = '690';
 
     /**
      * Capital city
      */
-    public string $capital = "";
+    public string $capital = '';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Tokelau extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "OC";
+    public string $continent = 'OC';
 
     /**
      * English name of the country
      */
-    public string $en = "Tokelau";
+    public string $en = 'Tokelau';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Tokelau";
+    public string $hu = 'Tokelau';
 
     /**
      * German name of the country
      */
-    public string $de = "Tokelau";
+    public string $de = 'Tokelau';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Tokelau";
+    public string $es = 'Tokelau';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Tokelau";
+    public string $it = 'Tokelau';
 
     /**
      * French name of the country
      */
-    public string $fr = "Tokélaou";
+    public string $fr = 'Tokélaou';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Toquelau";
-    
+    public string $pt = 'Toquelau';
 }

@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class CaboVerde extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "CV";
+    public string $alpha2 = 'CV';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "CPV";
+    public string $alpha3 = 'CPV';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "132";
+    public string $numeric = '132';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "CV";
+    public string $fipCode = 'CV';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "238";
+    public string $callingCode = '238';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "238";
+    public string $dial = '238';
 
     /**
      * Capital city
      */
-    public string $capital = "Praia";
+    public string $capital = 'Praia';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class CaboVerde extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Cabo Verde";
+    public string $en = 'Cabo Verde';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Cabo Verde";
+    public string $hu = 'Cabo Verde';
 
     /**
      * German name of the country
      */
-    public string $de = "Kap Verde";
+    public string $de = 'Kap Verde';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Cabo Verde";
+    public string $es = 'Cabo Verde';
 
     /**
      * Italian name of the country
      */
-    public string $it = "capo Verde";
+    public string $it = 'capo Verde';
 
     /**
      * French name of the country
      */
-    public string $fr = "Cap-Vert";
+    public string $fr = 'Cap-Vert';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Cabo Verde";
-    
+    public string $pt = 'Cabo Verde';
 }

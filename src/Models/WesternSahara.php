@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class WesternSahara extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "EH";
+    public string $alpha2 = 'EH';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "ESH";
+    public string $alpha3 = 'ESH';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "732";
+    public string $numeric = '732';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "WI";
+    public string $fipCode = 'WI';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "212";
+    public string $callingCode = '212';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "212";
+    public string $dial = '212';
 
     /**
      * Capital city
      */
-    public string $capital = "El-Aaiun";
+    public string $capital = 'El-Aaiun';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class WesternSahara extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AF";
+    public string $continent = 'AF';
 
     /**
      * English name of the country
      */
-    public string $en = "Western Sahara";
+    public string $en = 'Western Sahara';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "nyugat-Szahara";
+    public string $hu = 'nyugat-Szahara';
 
     /**
      * German name of the country
      */
-    public string $de = "Westsahara";
+    public string $de = 'Westsahara';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Sahara Occidental";
+    public string $es = 'Sahara Occidental';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Sahara occidentale";
+    public string $it = 'Sahara occidentale';
 
     /**
      * French name of the country
      */
-    public string $fr = "Sahara occidental";
+    public string $fr = 'Sahara occidental';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Saara Ocidental";
-    
+    public string $pt = 'Saara Ocidental';
 }

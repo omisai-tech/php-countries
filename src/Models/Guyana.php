@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Guyana extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "GY";
+    public string $alpha2 = 'GY';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "GUY";
+    public string $alpha3 = 'GUY';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "328";
+    public string $numeric = '328';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "GY";
+    public string $fipCode = 'GY';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "592";
+    public string $callingCode = '592';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "592";
+    public string $dial = '592';
 
     /**
      * Capital city
      */
-    public string $capital = "Georgetown";
+    public string $capital = 'Georgetown';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Guyana extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "SA";
+    public string $continent = 'SA';
 
     /**
      * English name of the country
      */
-    public string $en = "Guyana";
+    public string $en = 'Guyana';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Guyana";
+    public string $hu = 'Guyana';
 
     /**
      * German name of the country
      */
-    public string $de = "Guayana";
+    public string $de = 'Guayana';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Guayana";
+    public string $es = 'Guayana';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Guiana";
+    public string $it = 'Guiana';
 
     /**
      * French name of the country
      */
-    public string $fr = "Guyane";
+    public string $fr = 'Guyane';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Guiana";
-    
+    public string $pt = 'Guiana';
 }

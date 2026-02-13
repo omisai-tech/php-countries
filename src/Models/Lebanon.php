@@ -1,46 +1,46 @@
 <?php
+
 namespace Omisai\Countries\Models;
 
 use Omisai\Countries\Country;
-use Omisai\Countries\Continent;
 
 class Lebanon extends Country
 {
     /**
      * ISO 3166-1 alpha-2 code
      */
-    public string $alpha2 = "LB";
+    public string $alpha2 = 'LB';
 
     /**
      * ISO 3166-1 alpha-3 code
      */
-    public string $alpha3 = "LBN";
+    public string $alpha3 = 'LBN';
 
     /**
      * ISO 3166-1 numeric code
      */
-    public string $numeric = "422";
+    public string $numeric = '422';
 
     /**
      * FIPS code
      * Federal Information Processing Standard
      */
-    public string $fipCode = "LE";
+    public string $fipCode = 'LE';
 
     /**
      * Telephone country code
      */
-    public string $callingCode = "961";
+    public string $callingCode = '961';
 
     /**
      * @deprecated - will be removed in next major version. Use callingCode instead.
      */
-    public string $dial = "961";
+    public string $dial = '961';
 
     /**
      * Capital city
      */
-    public string $capital = "Beirut";
+    public string $capital = 'Beirut';
 
     /**
      * Continent
@@ -53,41 +53,40 @@ class Lebanon extends Country
      * OC: Oceania
      * SA: South America
      */
-    public string $continent = "AS";
+    public string $continent = 'AS';
 
     /**
      * English name of the country
      */
-    public string $en = "Lebanon";
+    public string $en = 'Lebanon';
 
     /**
      * Hungarian name of the country
      */
-    public string $hu = "Libanon";
+    public string $hu = 'Libanon';
 
     /**
      * German name of the country
      */
-    public string $de = "Libanon";
+    public string $de = 'Libanon';
 
     /**
      * Spanish name of the country
      */
-    public string $es = "Líbano";
+    public string $es = 'Líbano';
 
     /**
      * Italian name of the country
      */
-    public string $it = "Libano";
+    public string $it = 'Libano';
 
     /**
      * French name of the country
      */
-    public string $fr = "Liban";
+    public string $fr = 'Liban';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = "Líbano";
-    
+    public string $pt = 'Líbano';
 }
