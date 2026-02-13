@@ -121,3 +121,9 @@ If you discover any security-related issues, please email [security@omisai.com](
 ## License
 
 This package is open-sourced software licensed under the [MIT license](LICENSE).
+
+## Sponsoring
+
+If you find this package useful, please consider sponsoring the development: [Sponsoring on GitHub](https://github.com/sponsors/omisai-tech)
+
+Your support helps us maintain and improve this open-source project!
