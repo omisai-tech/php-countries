@@ -112,7 +112,7 @@ class $className extends Country
     \n}
 ";
 
-        $filePath = $destinationDirectory.$className.'.php';
+        $filePath = sprintf('%s%s.php', $destinationDirectory, $className);
 
         file_put_contents($filePath, $classContent);
     }
