@@ -23,7 +23,6 @@ if (($handle = fopen($csvFilePath, 'r')) !== false) {
 namespace Omisai\\Countries\\Models;
 
 use Omisai\\Countries\\Country;
-use Omisai\\Countries\\Continent;
 
 class $className extends Country
 {
