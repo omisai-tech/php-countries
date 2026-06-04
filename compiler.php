@@ -63,6 +63,11 @@ class $className extends Country
     public string \$capital = \"{$data[5]}\";
 
     /**
+     * Total area in square kilometers
+     */
+    public string \$area = \"{$data[6]}\";
+
+    /**
      * Continent
      *
      * AF: Africa
