@@ -43,6 +43,11 @@ class NorthMacedonia extends Country
     public string $capital = 'Skopje';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '25,333.0';
+
+    /**
      * Continent
      *
      * AF: Africa

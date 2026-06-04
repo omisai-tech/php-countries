@@ -43,6 +43,11 @@ class Gibraltar extends Country
     public string $capital = 'Gibraltar';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '6.5';
+
+    /**
      * Continent
      *
      * AF: Africa

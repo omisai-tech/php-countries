@@ -43,6 +43,11 @@ class BosniaAndHerzegovina extends Country
     public string $capital = 'Sarajevo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '51,129.0';
+
+    /**
      * Continent
      *
      * AF: Africa

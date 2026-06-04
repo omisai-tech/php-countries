@@ -43,6 +43,11 @@ class Chile extends Country
     public string $capital = 'Santiago';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '756,950.0';
+
+    /**
      * Continent
      *
      * AF: Africa

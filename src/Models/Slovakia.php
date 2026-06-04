@@ -43,6 +43,11 @@ class Slovakia extends Country
     public string $capital = 'Bratislava';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '48,845.0';
+
+    /**
      * Continent
      *
      * AF: Africa

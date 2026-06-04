@@ -43,6 +43,11 @@ class Afghanistan extends Country
     public string $capital = 'Kabul';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '647,500.0';
+
+    /**
      * Continent
      *
      * AF: Africa

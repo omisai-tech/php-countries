@@ -43,6 +43,11 @@ class Suriname extends Country
     public string $capital = 'Paramaribo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '163,270.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Grenada extends Country
     public string $capital = "St. George's";
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '344.0';
+
+    /**
      * Continent
      *
      * AF: Africa

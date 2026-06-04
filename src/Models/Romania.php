@@ -43,6 +43,11 @@ class Romania extends Country
     public string $capital = 'Bucharest';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '237,500.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class India extends Country
     public string $capital = 'New Delhi';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '3,287,590.0';
+
+    /**
      * Continent
      *
      * AF: Africa

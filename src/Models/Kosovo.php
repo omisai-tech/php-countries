@@ -43,6 +43,11 @@ class Kosovo extends Country
     public string $capital = 'Pristina';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '10,908.0';
+
+    /**
      * Continent
      *
      * AF: Africa

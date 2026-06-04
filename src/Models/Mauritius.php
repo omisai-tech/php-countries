@@ -43,6 +43,11 @@ class Mauritius extends Country
     public string $capital = 'Port Louis';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,040.0';
+
+    /**
      * Continent
      *
      * AF: Africa

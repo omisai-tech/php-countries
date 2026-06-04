@@ -43,6 +43,11 @@ class Nigeria extends Country
     public string $capital = 'Abuja';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '923,768.0';
+
+    /**
      * Continent
      *
      * AF: Africa

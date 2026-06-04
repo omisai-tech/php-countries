@@ -43,6 +43,11 @@ class Colombia extends Country
     public string $capital = 'Bogota';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,138,910.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Australia extends Country
     public string $capital = 'Canberra';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '7,686,850.0';
+
+    /**
      * Continent
      *
      * AF: Africa

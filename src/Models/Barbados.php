@@ -43,6 +43,11 @@ class Barbados extends Country
     public string $capital = 'Bridgetown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '431.0';
+
+    /**
      * Continent
      *
      * AF: Africa

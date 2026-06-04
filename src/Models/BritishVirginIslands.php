@@ -43,6 +43,11 @@ class BritishVirginIslands extends Country
     public string $capital = 'Road Town';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '153.0';
+
+    /**
      * Continent
      *
      * AF: Africa

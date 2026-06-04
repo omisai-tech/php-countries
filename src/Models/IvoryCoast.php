@@ -43,6 +43,11 @@ class IvoryCoast extends Country
     public string $capital = 'Yamoussoukro';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '322,460.0';
+
+    /**
      * Continent
      *
      * AF: Africa

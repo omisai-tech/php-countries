@@ -43,6 +43,11 @@ class PuertoRico extends Country
     public string $capital = 'San Juan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '9,104.0';
+
+    /**
      * Continent
      *
      * AF: Africa

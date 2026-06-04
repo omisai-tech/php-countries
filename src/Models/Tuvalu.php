@@ -43,6 +43,11 @@ class Tuvalu extends Country
     public string $capital = 'Funafuti';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '26.0';
+
+    /**
      * Continent
      *
      * AF: Africa

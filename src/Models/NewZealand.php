@@ -43,6 +43,11 @@ class NewZealand extends Country
     public string $capital = 'Wellington';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '268,680.0';
+
+    /**
      * Continent
      *
      * AF: Africa

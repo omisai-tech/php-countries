@@ -43,6 +43,11 @@ class Belize extends Country
     public string $capital = 'Belmopan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '22,966.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Libya extends Country
     public string $capital = 'Tripoli';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,759,540.0';
+
+    /**
      * Continent
      *
      * AF: Africa

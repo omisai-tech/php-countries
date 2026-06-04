@@ -43,6 +43,11 @@ class Thailand extends Country
     public string $capital = 'Bangkok';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '514,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

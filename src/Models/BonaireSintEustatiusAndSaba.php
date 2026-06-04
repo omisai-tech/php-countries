@@ -43,6 +43,11 @@ class BonaireSintEustatiusAndSaba extends Country
     public string $capital = '';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '328.0';
+
+    /**
      * Continent
      *
      * AF: Africa

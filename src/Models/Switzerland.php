@@ -43,6 +43,11 @@ class Switzerland extends Country
     public string $capital = 'Bern';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '41,290.0';
+
+    /**
      * Continent
      *
      * AF: Africa

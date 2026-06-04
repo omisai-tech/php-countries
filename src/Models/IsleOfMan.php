@@ -43,6 +43,11 @@ class IsleOfMan extends Country
     public string $capital = 'Douglas';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '572.0';
+
+    /**
      * Continent
      *
      * AF: Africa

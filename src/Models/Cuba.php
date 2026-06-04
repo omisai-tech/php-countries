@@ -43,6 +43,11 @@ class Cuba extends Country
     public string $capital = 'Havana';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '110,860.0';
+
+    /**
      * Continent
      *
      * AF: Africa

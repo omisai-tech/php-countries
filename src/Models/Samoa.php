@@ -43,6 +43,11 @@ class Samoa extends Country
     public string $capital = 'Apia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,944.0';
+
+    /**
      * Continent
      *
      * AF: Africa

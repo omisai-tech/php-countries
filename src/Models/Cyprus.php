@@ -43,6 +43,11 @@ class Cyprus extends Country
     public string $capital = 'Nicosia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '9,250.0';
+
+    /**
      * Continent
      *
      * AF: Africa

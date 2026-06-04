@@ -43,6 +43,11 @@ class Ghana extends Country
     public string $capital = 'Accra';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '239,460.0';
+
+    /**
      * Continent
      *
      * AF: Africa

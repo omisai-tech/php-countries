@@ -43,6 +43,11 @@ class Kiribati extends Country
     public string $capital = 'Tarawa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '811.0';
+
+    /**
      * Continent
      *
      * AF: Africa

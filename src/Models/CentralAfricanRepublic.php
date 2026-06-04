@@ -43,6 +43,11 @@ class CentralAfricanRepublic extends Country
     public string $capital = 'Bangui';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '622,984.0';
+
+    /**
      * Continent
      *
      * AF: Africa

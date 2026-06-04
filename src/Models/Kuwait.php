@@ -43,6 +43,11 @@ class Kuwait extends Country
     public string $capital = 'Kuwait City';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '17,820.0';
+
+    /**
      * Continent
      *
      * AF: Africa

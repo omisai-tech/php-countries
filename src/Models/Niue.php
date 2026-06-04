@@ -43,6 +43,11 @@ class Niue extends Country
     public string $capital = 'Alofi';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '260.0';
+
+    /**
      * Continent
      *
      * AF: Africa

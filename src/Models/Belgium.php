@@ -43,6 +43,11 @@ class Belgium extends Country
     public string $capital = 'Brussels';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '30,510.0';
+
+    /**
      * Continent
      *
      * AF: Africa

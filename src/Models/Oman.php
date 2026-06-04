@@ -43,6 +43,11 @@ class Oman extends Country
     public string $capital = 'Muscat';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '212,460.0';
+
+    /**
      * Continent
      *
      * AF: Africa

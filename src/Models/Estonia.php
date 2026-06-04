@@ -43,6 +43,11 @@ class Estonia extends Country
     public string $capital = 'Tallinn';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '45,226.0';
+
+    /**
      * Continent
      *
      * AF: Africa

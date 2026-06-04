@@ -43,6 +43,11 @@ class Ireland extends Country
     public string $capital = 'Dublin';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '70,280.0';
+
+    /**
      * Continent
      *
      * AF: Africa

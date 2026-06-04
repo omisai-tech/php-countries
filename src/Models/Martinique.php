@@ -43,6 +43,11 @@ class Martinique extends Country
     public string $capital = 'Fort-de-France';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,100.0';
+
+    /**
      * Continent
      *
      * AF: Africa

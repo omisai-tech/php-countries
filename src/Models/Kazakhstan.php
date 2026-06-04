@@ -43,6 +43,11 @@ class Kazakhstan extends Country
     public string $capital = 'Nur-Sultan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,717,300.0';
+
+    /**
      * Continent
      *
      * AF: Africa

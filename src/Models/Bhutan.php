@@ -43,6 +43,11 @@ class Bhutan extends Country
     public string $capital = 'Thimphu';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '47,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

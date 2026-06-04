@@ -43,6 +43,11 @@ class Guam extends Country
     public string $capital = 'Hagatna';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '549.0';
+
+    /**
      * Continent
      *
      * AF: Africa

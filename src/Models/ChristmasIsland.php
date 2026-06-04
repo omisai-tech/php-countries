@@ -43,6 +43,11 @@ class ChristmasIsland extends Country
     public string $capital = 'Flying Fish Cove';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '135.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class HongKong extends Country
     public string $capital = 'Hong Kong';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,092.0';
+
+    /**
      * Continent
      *
      * AF: Africa

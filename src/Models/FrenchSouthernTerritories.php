@@ -43,6 +43,11 @@ class FrenchSouthernTerritories extends Country
     public string $capital = 'Port-aux-Francais';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '7,829.0';
+
+    /**
      * Continent
      *
      * AF: Africa

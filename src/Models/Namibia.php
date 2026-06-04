@@ -43,6 +43,11 @@ class Namibia extends Country
     public string $capital = 'Windhoek';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '825,418.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Ecuador extends Country
     public string $capital = 'Quito';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '283,560.0';
+
+    /**
      * Continent
      *
      * AF: Africa

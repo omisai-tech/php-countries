@@ -43,6 +43,11 @@ class Madagascar extends Country
     public string $capital = 'Antananarivo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '587,040.0';
+
+    /**
      * Continent
      *
      * AF: Africa

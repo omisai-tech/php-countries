@@ -43,6 +43,11 @@ class SriLanka extends Country
     public string $capital = 'Colombo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '65,610.0';
+
+    /**
      * Continent
      *
      * AF: Africa

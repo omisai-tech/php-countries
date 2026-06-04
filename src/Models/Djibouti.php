@@ -43,6 +43,11 @@ class Djibouti extends Country
     public string $capital = 'Djibouti';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '23,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

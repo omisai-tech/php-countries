@@ -43,6 +43,11 @@ class SaudiArabia extends Country
     public string $capital = 'Riyadh';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,960,582.0';
+
+    /**
      * Continent
      *
      * AF: Africa

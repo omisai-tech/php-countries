@@ -43,6 +43,11 @@ class Gabon extends Country
     public string $capital = 'Libreville';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '267,667.0';
+
+    /**
      * Continent
      *
      * AF: Africa

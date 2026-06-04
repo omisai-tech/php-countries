@@ -43,6 +43,11 @@ class ElSalvador extends Country
     public string $capital = 'San Salvador';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '21,040.0';
+
+    /**
      * Continent
      *
      * AF: Africa

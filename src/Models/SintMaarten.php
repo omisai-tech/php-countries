@@ -43,6 +43,11 @@ class SintMaarten extends Country
     public string $capital = 'Philipsburg';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '21.0';
+
+    /**
      * Continent
      *
      * AF: Africa

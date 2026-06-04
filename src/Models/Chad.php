@@ -43,6 +43,11 @@ class Chad extends Country
     public string $capital = "N'Djamena";
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,284,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Argentina extends Country
     public string $capital = 'Buenos Aires';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,766,890.0';
+
+    /**
      * Continent
      *
      * AF: Africa

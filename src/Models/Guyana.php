@@ -43,6 +43,11 @@ class Guyana extends Country
     public string $capital = 'Georgetown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '214,970.0';
+
+    /**
      * Continent
      *
      * AF: Africa

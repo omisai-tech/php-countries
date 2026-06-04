@@ -43,6 +43,11 @@ class Lesotho extends Country
     public string $capital = 'Maseru';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '30,355.0';
+
+    /**
      * Continent
      *
      * AF: Africa

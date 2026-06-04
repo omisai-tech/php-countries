@@ -43,6 +43,11 @@ class DominicanRepublic extends Country
     public string $capital = 'Santo Domingo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '48,730.0';
+
+    /**
      * Continent
      *
      * AF: Africa

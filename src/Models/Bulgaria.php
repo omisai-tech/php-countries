@@ -43,6 +43,11 @@ class Bulgaria extends Country
     public string $capital = 'Sofia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '110,910.0';
+
+    /**
      * Continent
      *
      * AF: Africa

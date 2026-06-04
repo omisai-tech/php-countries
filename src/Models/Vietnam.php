@@ -43,6 +43,11 @@ class Vietnam extends Country
     public string $capital = 'Hanoi';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '329,560.0';
+
+    /**
      * Continent
      *
      * AF: Africa

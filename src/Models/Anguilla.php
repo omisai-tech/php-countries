@@ -43,6 +43,11 @@ class Anguilla extends Country
     public string $capital = 'The Valley';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '102.0';
+
+    /**
      * Continent
      *
      * AF: Africa

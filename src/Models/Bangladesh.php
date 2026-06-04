@@ -43,6 +43,11 @@ class Bangladesh extends Country
     public string $capital = 'Dhaka';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '144,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

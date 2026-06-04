@@ -43,6 +43,11 @@ class Greenland extends Country
     public string $capital = 'Nuuk';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,166,086.0';
+
+    /**
      * Continent
      *
      * AF: Africa

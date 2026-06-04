@@ -43,6 +43,11 @@ class Croatia extends Country
     public string $capital = 'Zagreb';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '56,542.0';
+
+    /**
      * Continent
      *
      * AF: Africa

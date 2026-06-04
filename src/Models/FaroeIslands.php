@@ -43,6 +43,11 @@ class FaroeIslands extends Country
     public string $capital = 'Torshavn';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,399.0';
+
+    /**
      * Continent
      *
      * AF: Africa

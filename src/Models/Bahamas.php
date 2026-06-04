@@ -43,6 +43,11 @@ class Bahamas extends Country
     public string $capital = 'Nassau';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '13,940.0';
+
+    /**
      * Continent
      *
      * AF: Africa

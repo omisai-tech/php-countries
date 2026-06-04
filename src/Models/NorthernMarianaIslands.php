@@ -43,6 +43,11 @@ class NorthernMarianaIslands extends Country
     public string $capital = 'Saipan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '477.0';
+
+    /**
      * Continent
      *
      * AF: Africa

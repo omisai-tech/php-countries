@@ -43,6 +43,11 @@ class TheGambia extends Country
     public string $capital = 'Banjul';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '11,300.0';
+
+    /**
      * Continent
      *
      * AF: Africa

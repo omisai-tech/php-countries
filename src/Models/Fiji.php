@@ -43,6 +43,11 @@ class Fiji extends Country
     public string $capital = 'Suva';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '18,270.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Kenya extends Country
     public string $capital = 'Nairobi';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '582,650.0';
+
+    /**
      * Continent
      *
      * AF: Africa

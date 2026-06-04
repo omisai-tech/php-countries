@@ -43,6 +43,11 @@ class PapuaNewGuinea extends Country
     public string $capital = 'Port Moresby';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '462,840.0';
+
+    /**
      * Continent
      *
      * AF: Africa

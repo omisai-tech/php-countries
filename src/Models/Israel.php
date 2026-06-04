@@ -43,6 +43,11 @@ class Israel extends Country
     public string $capital = 'Jerusalem';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '20,770.0';
+
+    /**
      * Continent
      *
      * AF: Africa

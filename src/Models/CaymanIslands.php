@@ -43,6 +43,11 @@ class CaymanIslands extends Country
     public string $capital = 'George Town';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '262.0';
+
+    /**
      * Continent
      *
      * AF: Africa

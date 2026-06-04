@@ -43,6 +43,11 @@ class MarshallIslands extends Country
     public string $capital = 'Majuro';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '181.3';
+
+    /**
      * Continent
      *
      * AF: Africa

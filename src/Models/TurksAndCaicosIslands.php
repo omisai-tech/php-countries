@@ -43,6 +43,11 @@ class TurksAndCaicosIslands extends Country
     public string $capital = 'Cockburn Town';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '430.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Turkmenistan extends Country
     public string $capital = 'Ashgabat';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '488,100.0';
+
+    /**
      * Continent
      *
      * AF: Africa

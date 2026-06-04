@@ -43,6 +43,11 @@ class SanMarino extends Country
     public string $capital = 'San Marino';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '61.2';
+
+    /**
      * Continent
      *
      * AF: Africa

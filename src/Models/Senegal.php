@@ -43,6 +43,11 @@ class Senegal extends Country
     public string $capital = 'Dakar';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '196,190.0';
+
+    /**
      * Continent
      *
      * AF: Africa

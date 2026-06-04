@@ -43,6 +43,11 @@ class Russia extends Country
     public string $capital = 'Moscow';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '17,100,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

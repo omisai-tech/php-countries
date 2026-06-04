@@ -43,6 +43,11 @@ class Paraguay extends Country
     public string $capital = 'Asuncion';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '406,750.0';
+
+    /**
      * Continent
      *
      * AF: Africa

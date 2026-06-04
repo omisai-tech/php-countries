@@ -43,6 +43,11 @@ class Panama extends Country
     public string $capital = 'Panama City';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '78,200.0';
+
+    /**
      * Continent
      *
      * AF: Africa

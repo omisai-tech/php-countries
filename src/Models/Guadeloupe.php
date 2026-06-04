@@ -43,6 +43,11 @@ class Guadeloupe extends Country
     public string $capital = 'Basse-Terre';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,780.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Mexico extends Country
     public string $capital = 'Mexico City';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,972,550.0';
+
+    /**
      * Continent
      *
      * AF: Africa

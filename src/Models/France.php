@@ -43,6 +43,11 @@ class France extends Country
     public string $capital = 'Paris';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '547,030.0';
+
+    /**
      * Continent
      *
      * AF: Africa

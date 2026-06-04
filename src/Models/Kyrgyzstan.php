@@ -43,6 +43,11 @@ class Kyrgyzstan extends Country
     public string $capital = 'Bishkek';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '198,500.0';
+
+    /**
      * Continent
      *
      * AF: Africa

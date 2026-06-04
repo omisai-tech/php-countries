@@ -43,6 +43,11 @@ class Italy extends Country
     public string $capital = 'Rome';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '301,230.0';
+
+    /**
      * Continent
      *
      * AF: Africa

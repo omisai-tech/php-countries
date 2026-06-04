@@ -43,6 +43,11 @@ class Norway extends Country
     public string $capital = 'Oslo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '324,220.0';
+
+    /**
      * Continent
      *
      * AF: Africa

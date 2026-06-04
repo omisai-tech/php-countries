@@ -43,6 +43,11 @@ class Brunei extends Country
     public string $capital = 'Bandar Seri Begawan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '5,770.0';
+
+    /**
      * Continent
      *
      * AF: Africa

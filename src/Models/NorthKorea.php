@@ -43,6 +43,11 @@ class NorthKorea extends Country
     public string $capital = 'Pyongyang';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '120,540.0';
+
+    /**
      * Continent
      *
      * AF: Africa

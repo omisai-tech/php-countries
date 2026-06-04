@@ -43,6 +43,11 @@ class SouthKorea extends Country
     public string $capital = 'Seoul';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '98,480.0';
+
+    /**
      * Continent
      *
      * AF: Africa

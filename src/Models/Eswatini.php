@@ -43,6 +43,11 @@ class Eswatini extends Country
     public string $capital = 'Mbabane';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '17,363.0';
+
+    /**
      * Continent
      *
      * AF: Africa

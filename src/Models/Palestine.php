@@ -43,6 +43,11 @@ class Palestine extends Country
     public string $capital = 'East Jerusalem';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '5,970.0';
+
+    /**
      * Continent
      *
      * AF: Africa

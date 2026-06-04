@@ -43,6 +43,11 @@ class StKittsAndNevis extends Country
     public string $capital = 'Basseterre';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '261.0';
+
+    /**
      * Continent
      *
      * AF: Africa

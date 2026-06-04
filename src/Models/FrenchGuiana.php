@@ -43,6 +43,11 @@ class FrenchGuiana extends Country
     public string $capital = 'Cayenne';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '91,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

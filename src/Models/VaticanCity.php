@@ -43,6 +43,11 @@ class VaticanCity extends Country
     public string $capital = 'Vatican City';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '0.4';
+
+    /**
      * Continent
      *
      * AF: Africa

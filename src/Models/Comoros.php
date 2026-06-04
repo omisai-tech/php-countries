@@ -43,6 +43,11 @@ class Comoros extends Country
     public string $capital = 'Moroni';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,170.0';
+
+    /**
      * Continent
      *
      * AF: Africa

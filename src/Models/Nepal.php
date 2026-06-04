@@ -43,6 +43,11 @@ class Nepal extends Country
     public string $capital = 'Kathmandu';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '140,800.0';
+
+    /**
      * Continent
      *
      * AF: Africa

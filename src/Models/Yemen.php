@@ -43,6 +43,11 @@ class Yemen extends Country
     public string $capital = 'Sanaa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '527,970.0';
+
+    /**
      * Continent
      *
      * AF: Africa

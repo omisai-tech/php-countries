@@ -43,6 +43,11 @@ class Belarus extends Country
     public string $capital = 'Minsk';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '207,600.0';
+
+    /**
      * Continent
      *
      * AF: Africa

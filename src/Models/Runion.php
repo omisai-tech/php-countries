@@ -43,6 +43,11 @@ class Runion extends Country
     public string $capital = 'Saint-Denis';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,517.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Andorra extends Country
     public string $capital = 'Andorra la Vella';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '468.0';
+
+    /**
      * Continent
      *
      * AF: Africa

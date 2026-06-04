@@ -43,6 +43,11 @@ class Czechia extends Country
     public string $capital = 'Prague';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '78,866.0';
+
+    /**
      * Continent
      *
      * AF: Africa

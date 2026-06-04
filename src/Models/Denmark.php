@@ -43,6 +43,11 @@ class Denmark extends Country
     public string $capital = 'Copenhagen';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '43,094.0';
+
+    /**
      * Continent
      *
      * AF: Africa

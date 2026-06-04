@@ -43,6 +43,11 @@ class Armenia extends Country
     public string $capital = 'Yerevan';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '29,800.0';
+
+    /**
      * Continent
      *
      * AF: Africa

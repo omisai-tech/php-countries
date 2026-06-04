@@ -43,6 +43,11 @@ class UsVirginIslands extends Country
     public string $capital = 'Charlotte Amalie';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '352.0';
+
+    /**
      * Continent
      *
      * AF: Africa

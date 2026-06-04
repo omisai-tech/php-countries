@@ -43,6 +43,11 @@ class Mayotte extends Country
     public string $capital = 'Mamoudzou';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '374.0';
+
+    /**
      * Continent
      *
      * AF: Africa

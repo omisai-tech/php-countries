@@ -43,6 +43,11 @@ class Timorleste extends Country
     public string $capital = 'Dili';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '15,007.0';
+
+    /**
      * Continent
      *
      * AF: Africa

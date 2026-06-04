@@ -43,6 +43,11 @@ class Malaysia extends Country
     public string $capital = 'Kuala Lumpur';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '329,750.0';
+
+    /**
      * Continent
      *
      * AF: Africa

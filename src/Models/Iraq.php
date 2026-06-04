@@ -43,6 +43,11 @@ class Iraq extends Country
     public string $capital = 'Baghdad';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '437,072.0';
+
+    /**
      * Continent
      *
      * AF: Africa

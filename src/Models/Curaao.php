@@ -43,6 +43,11 @@ class Curaao extends Country
     public string $capital = 'Willemstad';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '444.0';
+
+    /**
      * Continent
      *
      * AF: Africa

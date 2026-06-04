@@ -43,6 +43,11 @@ class SierraLeone extends Country
     public string $capital = 'Freetown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '71,740.0';
+
+    /**
      * Continent
      *
      * AF: Africa

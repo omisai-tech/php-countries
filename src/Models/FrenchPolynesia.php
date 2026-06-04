@@ -43,6 +43,11 @@ class FrenchPolynesia extends Country
     public string $capital = 'Papeete';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '4,167.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Peru extends Country
     public string $capital = 'Lima';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,285,220.0';
+
+    /**
      * Continent
      *
      * AF: Africa

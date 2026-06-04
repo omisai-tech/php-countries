@@ -43,6 +43,11 @@ class AmericanSamoa extends Country
     public string $capital = 'Pago Pago';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '199.0';
+
+    /**
      * Continent
      *
      * AF: Africa

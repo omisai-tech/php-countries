@@ -43,6 +43,11 @@ class StVincentAndGrenadines extends Country
     public string $capital = 'Kingstown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '389.0';
+
+    /**
      * Continent
      *
      * AF: Africa

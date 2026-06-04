@@ -43,6 +43,11 @@ class BritishIndianOceanTerritory extends Country
     public string $capital = 'Diego Garcia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '60.0';
+
+    /**
      * Continent
      *
      * AF: Africa

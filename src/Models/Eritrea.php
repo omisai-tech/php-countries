@@ -43,6 +43,11 @@ class Eritrea extends Country
     public string $capital = 'Asmara';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '121,320.0';
+
+    /**
      * Continent
      *
      * AF: Africa

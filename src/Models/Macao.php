@@ -43,6 +43,11 @@ class Macao extends Country
     public string $capital = 'Macao';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '254.0';
+
+    /**
      * Continent
      *
      * AF: Africa

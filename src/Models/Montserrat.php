@@ -43,6 +43,11 @@ class Montserrat extends Country
     public string $capital = 'Plymouth';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '102.0';
+
+    /**
      * Continent
      *
      * AF: Africa

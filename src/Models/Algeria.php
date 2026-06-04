@@ -43,6 +43,11 @@ class Algeria extends Country
     public string $capital = 'Algiers';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,381,740.0';
+
+    /**
      * Continent
      *
      * AF: Africa

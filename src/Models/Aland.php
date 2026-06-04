@@ -43,6 +43,11 @@ class Aland extends Country
     public string $capital = 'Mariehamn';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,580.0';
+
+    /**
      * Continent
      *
      * AF: Africa

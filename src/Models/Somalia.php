@@ -43,6 +43,11 @@ class Somalia extends Country
     public string $capital = 'Mogadishu';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '637,657.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Japan extends Country
     public string $capital = 'Tokyo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '377,835.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class SaintMartin extends Country
     public string $capital = 'Marigot';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '53.0';
+
+    /**
      * Continent
      *
      * AF: Africa

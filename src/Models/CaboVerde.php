@@ -43,6 +43,11 @@ class CaboVerde extends Country
     public string $capital = 'Praia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '4,033.0';
+
+    /**
      * Continent
      *
      * AF: Africa

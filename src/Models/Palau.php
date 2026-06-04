@@ -43,6 +43,11 @@ class Palau extends Country
     public string $capital = 'Melekeok';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '458.0';
+
+    /**
      * Continent
      *
      * AF: Africa

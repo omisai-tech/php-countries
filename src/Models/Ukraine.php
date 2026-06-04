@@ -43,6 +43,11 @@ class Ukraine extends Country
     public string $capital = 'Kyiv';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '603,700.0';
+
+    /**
      * Continent
      *
      * AF: Africa

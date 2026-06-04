@@ -43,6 +43,11 @@ class Liechtenstein extends Country
     public string $capital = 'Vaduz';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '160.0';
+
+    /**
      * Continent
      *
      * AF: Africa

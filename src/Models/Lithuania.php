@@ -43,6 +43,11 @@ class Lithuania extends Country
     public string $capital = 'Vilnius';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '65,200.0';
+
+    /**
      * Continent
      *
      * AF: Africa

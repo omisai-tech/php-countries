@@ -43,6 +43,11 @@ class WesternSahara extends Country
     public string $capital = 'El-Aaiun';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '266,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class SouthSudan extends Country
     public string $capital = 'Juba';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '644,329.0';
+
+    /**
      * Continent
      *
      * AF: Africa

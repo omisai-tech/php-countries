@@ -43,6 +43,11 @@ class WallisAndFutuna extends Country
     public string $capital = 'Mata Utu';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '274.0';
+
+    /**
      * Continent
      *
      * AF: Africa

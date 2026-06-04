@@ -43,6 +43,11 @@ class Guinea extends Country
     public string $capital = 'Conakry';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '245,857.0';
+
+    /**
      * Continent
      *
      * AF: Africa

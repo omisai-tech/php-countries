@@ -43,6 +43,11 @@ class CocoskeelingIslands extends Country
     public string $capital = 'West Island';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '14.0';
+
+    /**
      * Continent
      *
      * AF: Africa

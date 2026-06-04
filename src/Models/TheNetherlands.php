@@ -43,6 +43,11 @@ class TheNetherlands extends Country
     public string $capital = 'Amsterdam';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '41,526.0';
+
+    /**
      * Continent
      *
      * AF: Africa

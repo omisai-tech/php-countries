@@ -43,6 +43,11 @@ class Monaco extends Country
     public string $capital = 'Monaco';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1.9';
+
+    /**
      * Continent
      *
      * AF: Africa

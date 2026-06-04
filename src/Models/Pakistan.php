@@ -43,6 +43,11 @@ class Pakistan extends Country
     public string $capital = 'Islamabad';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '803,940.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Honduras extends Country
     public string $capital = 'Tegucigalpa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '112,090.0';
+
+    /**
      * Continent
      *
      * AF: Africa

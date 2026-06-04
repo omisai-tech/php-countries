@@ -43,6 +43,11 @@ class Hungary extends Country
     public string $capital = 'Budapest';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '93,030.0';
+
+    /**
      * Continent
      *
      * AF: Africa

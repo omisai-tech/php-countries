@@ -43,6 +43,11 @@ class FalklandIslands extends Country
     public string $capital = 'Stanley';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '12,173.0';
+
+    /**
      * Continent
      *
      * AF: Africa

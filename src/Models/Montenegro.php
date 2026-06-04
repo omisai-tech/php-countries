@@ -43,6 +43,11 @@ class Montenegro extends Country
     public string $capital = 'Podgorica';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '14,026.0';
+
+    /**
      * Continent
      *
      * AF: Africa

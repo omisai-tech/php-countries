@@ -43,6 +43,11 @@ class Micronesia extends Country
     public string $capital = 'Palikir';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '702.0';
+
+    /**
      * Continent
      *
      * AF: Africa

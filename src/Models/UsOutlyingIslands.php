@@ -43,6 +43,11 @@ class UsOutlyingIslands extends Country
     public string $capital = '';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '0.0';
+
+    /**
      * Continent
      *
      * AF: Africa

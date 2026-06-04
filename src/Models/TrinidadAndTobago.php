@@ -43,6 +43,11 @@ class TrinidadAndTobago extends Country
     public string $capital = 'Port of Spain';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '5,128.0';
+
+    /**
      * Continent
      *
      * AF: Africa

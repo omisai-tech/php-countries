@@ -43,6 +43,11 @@ class Iran extends Country
     public string $capital = 'Tehran';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,648,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

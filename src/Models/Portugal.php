@@ -43,6 +43,11 @@ class Portugal extends Country
     public string $capital = 'Lisbon';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '92,391.0';
+
+    /**
      * Continent
      *
      * AF: Africa

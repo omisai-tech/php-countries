@@ -43,6 +43,11 @@ class Latvia extends Country
     public string $capital = 'Riga';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '64,589.0';
+
+    /**
      * Continent
      *
      * AF: Africa

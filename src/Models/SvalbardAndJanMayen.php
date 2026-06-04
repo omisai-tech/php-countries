@@ -43,6 +43,11 @@ class SvalbardAndJanMayen extends Country
     public string $capital = 'Longyearbyen';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '62,049.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Jamaica extends Country
     public string $capital = 'Kingston';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '10,991.0';
+
+    /**
      * Continent
      *
      * AF: Africa

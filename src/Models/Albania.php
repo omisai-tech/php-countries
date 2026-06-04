@@ -43,6 +43,11 @@ class Albania extends Country
     public string $capital = 'Tirana';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '28,748.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Sudan extends Country
     public string $capital = 'Khartoum';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,861,484.0';
+
+    /**
      * Continent
      *
      * AF: Africa

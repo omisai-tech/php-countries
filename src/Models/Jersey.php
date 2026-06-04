@@ -43,6 +43,11 @@ class Jersey extends Country
     public string $capital = 'Saint Helier';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '116.0';
+
+    /**
      * Continent
      *
      * AF: Africa

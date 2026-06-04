@@ -43,6 +43,11 @@ class Turkey extends Country
     public string $capital = 'Ankara';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '780,580.0';
+
+    /**
      * Continent
      *
      * AF: Africa

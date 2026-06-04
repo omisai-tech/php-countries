@@ -43,6 +43,11 @@ class Bermuda extends Country
     public string $capital = 'Hamilton';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '53.0';
+
+    /**
      * Continent
      *
      * AF: Africa

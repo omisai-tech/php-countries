@@ -43,6 +43,11 @@ class SaintPierreAndMiquelon extends Country
     public string $capital = 'Saint-Pierre';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '242.0';
+
+    /**
      * Continent
      *
      * AF: Africa

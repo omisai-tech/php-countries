@@ -43,6 +43,11 @@ class CookIslands extends Country
     public string $capital = 'Avarua';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '240.0';
+
+    /**
      * Continent
      *
      * AF: Africa

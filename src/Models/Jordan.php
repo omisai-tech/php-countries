@@ -43,6 +43,11 @@ class Jordan extends Country
     public string $capital = 'Amman';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '92,300.0';
+
+    /**
      * Continent
      *
      * AF: Africa

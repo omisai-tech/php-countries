@@ -43,6 +43,11 @@ class Greece extends Country
     public string $capital = 'Athens';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '131,940.0';
+
+    /**
      * Continent
      *
      * AF: Africa

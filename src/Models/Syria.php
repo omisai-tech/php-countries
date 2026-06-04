@@ -43,6 +43,11 @@ class Syria extends Country
     public string $capital = 'Damascus';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '185,180.0';
+
+    /**
      * Continent
      *
      * AF: Africa

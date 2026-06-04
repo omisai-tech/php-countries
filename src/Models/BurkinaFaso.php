@@ -43,6 +43,11 @@ class BurkinaFaso extends Country
     public string $capital = 'Ouagadougou';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '274,200.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Luxembourg extends Country
     public string $capital = 'Luxembourg';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,586.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Poland extends Country
     public string $capital = 'Warsaw';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '312,685.0';
+
+    /**
      * Continent
      *
      * AF: Africa

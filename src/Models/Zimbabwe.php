@@ -43,6 +43,11 @@ class Zimbabwe extends Country
     public string $capital = 'Harare';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '390,580.0';
+
+    /**
      * Continent
      *
      * AF: Africa

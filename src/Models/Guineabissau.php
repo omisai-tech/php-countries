@@ -43,6 +43,11 @@ class Guineabissau extends Country
     public string $capital = 'Bissau';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '36,120.0';
+
+    /**
      * Continent
      *
      * AF: Africa

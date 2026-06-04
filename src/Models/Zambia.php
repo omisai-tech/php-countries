@@ -43,6 +43,11 @@ class Zambia extends Country
     public string $capital = 'Lusaka';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '752,614.0';
+
+    /**
      * Continent
      *
      * AF: Africa

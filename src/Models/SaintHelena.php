@@ -43,6 +43,11 @@ class SaintHelena extends Country
     public string $capital = 'Jamestown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '410.0';
+
+    /**
      * Continent
      *
      * AF: Africa

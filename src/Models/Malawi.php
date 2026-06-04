@@ -43,6 +43,11 @@ class Malawi extends Country
     public string $capital = 'Lilongwe';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '118,480.0';
+
+    /**
      * Continent
      *
      * AF: Africa

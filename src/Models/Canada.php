@@ -43,6 +43,11 @@ class Canada extends Country
     public string $capital = 'Ottawa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '9,984,670.0';
+
+    /**
      * Continent
      *
      * AF: Africa

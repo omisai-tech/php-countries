@@ -43,6 +43,11 @@ class Laos extends Country
     public string $capital = 'Vientiane';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '236,800.0';
+
+    /**
      * Continent
      *
      * AF: Africa

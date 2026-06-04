@@ -43,6 +43,11 @@ class Iceland extends Country
     public string $capital = 'Reykjavik';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '103,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

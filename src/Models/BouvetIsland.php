@@ -43,6 +43,11 @@ class BouvetIsland extends Country
     public string $capital = '';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '49.0';
+
+    /**
      * Continent
      *
      * AF: Africa

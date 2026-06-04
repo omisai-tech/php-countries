@@ -43,6 +43,11 @@ class Vanuatu extends Country
     public string $capital = 'Port Vila';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '12,200.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Cameroon extends Country
     public string $capital = 'Yaounde';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '475,440.0';
+
+    /**
      * Continent
      *
      * AF: Africa

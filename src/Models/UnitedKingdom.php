@@ -43,6 +43,11 @@ class UnitedKingdom extends Country
     public string $capital = 'London';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '244,820.0';
+
+    /**
      * Continent
      *
      * AF: Africa

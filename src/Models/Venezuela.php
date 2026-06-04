@@ -43,6 +43,11 @@ class Venezuela extends Country
     public string $capital = 'Caracas';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '912,050.0';
+
+    /**
      * Continent
      *
      * AF: Africa

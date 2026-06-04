@@ -43,6 +43,11 @@ class SaintLucia extends Country
     public string $capital = 'Castries';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '616.0';
+
+    /**
      * Continent
      *
      * AF: Africa

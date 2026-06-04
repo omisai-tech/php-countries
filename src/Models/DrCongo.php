@@ -43,6 +43,11 @@ class DrCongo extends Country
     public string $capital = 'Kinshasa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '2,345,410.0';
+
+    /**
      * Continent
      *
      * AF: Africa

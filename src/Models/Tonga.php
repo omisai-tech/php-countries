@@ -43,6 +43,11 @@ class Tonga extends Country
     public string $capital = "Nuku'alofa";
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '748.0';
+
+    /**
      * Continent
      *
      * AF: Africa

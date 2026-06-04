@@ -43,6 +43,11 @@ class Morocco extends Country
     public string $capital = 'Rabat';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '446,550.0';
+
+    /**
      * Continent
      *
      * AF: Africa

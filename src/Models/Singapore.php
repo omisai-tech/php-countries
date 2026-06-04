@@ -43,6 +43,11 @@ class Singapore extends Country
     public string $capital = 'Singapore';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '692.7';
+
+    /**
      * Continent
      *
      * AF: Africa

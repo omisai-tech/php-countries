@@ -43,6 +43,11 @@ class Mali extends Country
     public string $capital = 'Bamako';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,240,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

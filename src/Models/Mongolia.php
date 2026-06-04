@@ -43,6 +43,11 @@ class Mongolia extends Country
     public string $capital = 'Ulaanbaatar';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,565,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

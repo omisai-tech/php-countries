@@ -43,6 +43,11 @@ class EquatorialGuinea extends Country
     public string $capital = 'Malabo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '28,051.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class UnitedArabEmirates extends Country
     public string $capital = 'Abu Dhabi';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '82,880.0';
+
+    /**
      * Continent
      *
      * AF: Africa

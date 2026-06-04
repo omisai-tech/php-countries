@@ -43,6 +43,11 @@ class Mauritania extends Country
     public string $capital = 'Nouakchott';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,030,700.0';
+
+    /**
      * Continent
      *
      * AF: Africa

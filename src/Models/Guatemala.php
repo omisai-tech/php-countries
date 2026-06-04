@@ -43,6 +43,11 @@ class Guatemala extends Country
     public string $capital = 'Guatemala City';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '108,890.0';
+
+    /**
      * Continent
      *
      * AF: Africa

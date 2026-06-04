@@ -43,6 +43,11 @@ class Serbia extends Country
     public string $capital = 'Belgrade';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '88,361.0';
+
+    /**
      * Continent
      *
      * AF: Africa

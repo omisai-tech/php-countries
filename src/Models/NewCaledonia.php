@@ -43,6 +43,11 @@ class NewCaledonia extends Country
     public string $capital = 'Noumea';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '19,060.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Egypt extends Country
     public string $capital = 'Cairo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,001,450.0';
+
+    /**
      * Continent
      *
      * AF: Africa

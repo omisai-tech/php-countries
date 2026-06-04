@@ -43,6 +43,11 @@ class Haiti extends Country
     public string $capital = 'Port-au-Prince';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '27,750.0';
+
+    /**
      * Continent
      *
      * AF: Africa

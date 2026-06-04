@@ -43,6 +43,11 @@ class Moldova extends Country
     public string $capital = 'Chisinau';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '33,843.0';
+
+    /**
      * Continent
      *
      * AF: Africa

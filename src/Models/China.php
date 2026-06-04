@@ -43,6 +43,11 @@ class China extends Country
     public string $capital = 'Beijing';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '9,596,960.0';
+
+    /**
      * Continent
      *
      * AF: Africa

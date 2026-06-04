@@ -43,6 +43,11 @@ class Austria extends Country
     public string $capital = 'Vienna';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '83,858.0';
+
+    /**
      * Continent
      *
      * AF: Africa

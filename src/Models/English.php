@@ -43,6 +43,11 @@ class English extends Country
     public string $capital = 'Capital city';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = 'Longitude';
+
+    /**
      * Continent
      *
      * AF: Africa

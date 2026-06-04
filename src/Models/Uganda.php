@@ -43,6 +43,11 @@ class Uganda extends Country
     public string $capital = 'Kampala';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '236,040.0';
+
+    /**
      * Continent
      *
      * AF: Africa

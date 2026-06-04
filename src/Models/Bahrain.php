@@ -43,6 +43,11 @@ class Bahrain extends Country
     public string $capital = 'Manama';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '665.0';
+
+    /**
      * Continent
      *
      * AF: Africa

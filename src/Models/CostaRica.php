@@ -43,6 +43,11 @@ class CostaRica extends Country
     public string $capital = 'San Jose';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '51,100.0';
+
+    /**
      * Continent
      *
      * AF: Africa

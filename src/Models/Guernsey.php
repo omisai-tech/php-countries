@@ -43,6 +43,11 @@ class Guernsey extends Country
     public string $capital = 'St Peter Port';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '78.0';
+
+    /**
      * Continent
      *
      * AF: Africa

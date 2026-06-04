@@ -43,6 +43,11 @@ class Benin extends Country
     public string $capital = 'Porto-Novo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '112,620.0';
+
+    /**
      * Continent
      *
      * AF: Africa

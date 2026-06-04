@@ -43,6 +43,11 @@ class NorfolkIsland extends Country
     public string $capital = 'Kingston';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '34.6';
+
+    /**
      * Continent
      *
      * AF: Africa

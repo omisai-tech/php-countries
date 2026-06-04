@@ -43,6 +43,11 @@ class Indonesia extends Country
     public string $capital = 'Jakarta';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,919,440.0';
+
+    /**
      * Continent
      *
      * AF: Africa

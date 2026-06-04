@@ -43,6 +43,11 @@ class Azerbaijan extends Country
     public string $capital = 'Baku';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '86,600.0';
+
+    /**
      * Continent
      *
      * AF: Africa

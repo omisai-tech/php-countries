@@ -43,6 +43,11 @@ class Uzbekistan extends Country
     public string $capital = 'Tashkent';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '447,400.0';
+
+    /**
      * Continent
      *
      * AF: Africa

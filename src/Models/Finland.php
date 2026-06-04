@@ -43,6 +43,11 @@ class Finland extends Country
     public string $capital = 'Helsinki';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '337,030.0';
+
+    /**
      * Continent
      *
      * AF: Africa

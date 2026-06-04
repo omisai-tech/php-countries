@@ -43,6 +43,11 @@ class PitcairnIslands extends Country
     public string $capital = 'Adamstown';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '47.0';
+
+    /**
      * Continent
      *
      * AF: Africa

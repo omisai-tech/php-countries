@@ -43,6 +43,11 @@ class Seychelles extends Country
     public string $capital = 'Victoria';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '455.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Rwanda extends Country
     public string $capital = 'Kigali';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '26,338.0';
+
+    /**
      * Continent
      *
      * AF: Africa

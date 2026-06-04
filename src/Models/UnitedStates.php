@@ -43,6 +43,11 @@ class UnitedStates extends Country
     public string $capital = 'Washington';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '9,629,091.0';
+
+    /**
      * Continent
      *
      * AF: Africa

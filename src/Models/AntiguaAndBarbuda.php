@@ -43,6 +43,11 @@ class AntiguaAndBarbuda extends Country
     public string $capital = "St. John's";
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '443.0';
+
+    /**
      * Continent
      *
      * AF: Africa

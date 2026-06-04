@@ -43,6 +43,11 @@ class Uruguay extends Country
     public string $capital = 'Montevideo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '176,220.0';
+
+    /**
      * Continent
      *
      * AF: Africa

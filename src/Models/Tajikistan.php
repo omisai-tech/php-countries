@@ -43,6 +43,11 @@ class Tajikistan extends Country
     public string $capital = 'Dushanbe';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '143,100.0';
+
+    /**
      * Continent
      *
      * AF: Africa

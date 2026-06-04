@@ -43,6 +43,11 @@ class Nicaragua extends Country
     public string $capital = 'Managua';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '129,494.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Liberia extends Country
     public string $capital = 'Monrovia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '111,370.0';
+
+    /**
      * Continent
      *
      * AF: Africa

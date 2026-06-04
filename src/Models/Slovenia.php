@@ -43,6 +43,11 @@ class Slovenia extends Country
     public string $capital = 'Ljubljana';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '20,273.0';
+
+    /**
      * Continent
      *
      * AF: Africa

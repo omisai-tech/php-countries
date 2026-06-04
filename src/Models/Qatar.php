@@ -43,6 +43,11 @@ class Qatar extends Country
     public string $capital = 'Doha';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '11,437.0';
+
+    /**
      * Continent
      *
      * AF: Africa

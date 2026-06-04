@@ -43,6 +43,11 @@ class Bolivia extends Country
     public string $capital = 'Sucre';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,098,580.0';
+
+    /**
      * Continent
      *
      * AF: Africa

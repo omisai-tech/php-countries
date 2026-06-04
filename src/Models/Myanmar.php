@@ -43,6 +43,11 @@ class Myanmar extends Country
     public string $capital = 'Nay Pyi Taw';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '678,500.0';
+
+    /**
      * Continent
      *
      * AF: Africa

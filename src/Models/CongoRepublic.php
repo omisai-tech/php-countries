@@ -43,6 +43,11 @@ class CongoRepublic extends Country
     public string $capital = 'Brazzaville';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '342,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

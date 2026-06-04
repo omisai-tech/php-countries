@@ -43,6 +43,11 @@ class Dominica extends Country
     public string $capital = 'Roseau';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '754.0';
+
+    /**
      * Continent
      *
      * AF: Africa

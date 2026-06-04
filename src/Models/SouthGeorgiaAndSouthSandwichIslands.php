@@ -43,6 +43,11 @@ class SouthGeorgiaAndSouthSandwichIslands extends Country
     public string $capital = 'Grytviken';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '3,903.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Maldives extends Country
     public string $capital = 'Male';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '300.0';
+
+    /**
      * Continent
      *
      * AF: Africa

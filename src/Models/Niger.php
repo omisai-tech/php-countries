@@ -43,6 +43,11 @@ class Niger extends Country
     public string $capital = 'Niamey';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,267,000.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Germany extends Country
     public string $capital = 'Berlin';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '357,021.0';
+
+    /**
      * Continent
      *
      * AF: Africa

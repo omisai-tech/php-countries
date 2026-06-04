@@ -43,6 +43,11 @@ class SolomonIslands extends Country
     public string $capital = 'Honiara';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '28,450.0';
+
+    /**
      * Continent
      *
      * AF: Africa

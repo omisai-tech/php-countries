@@ -43,6 +43,11 @@ class Aruba extends Country
     public string $capital = 'Oranjestad';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '193.0';
+
+    /**
      * Continent
      *
      * AF: Africa

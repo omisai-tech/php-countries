@@ -43,6 +43,11 @@ class Cambodia extends Country
     public string $capital = 'Phnom Penh';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '181,040.0';
+
+    /**
      * Continent
      *
      * AF: Africa

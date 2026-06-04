@@ -43,6 +43,11 @@ class Ethiopia extends Country
     public string $capital = 'Addis Ababa';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,127,127.0';
+
+    /**
      * Continent
      *
      * AF: Africa

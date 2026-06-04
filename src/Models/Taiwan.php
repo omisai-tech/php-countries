@@ -43,6 +43,11 @@ class Taiwan extends Country
     public string $capital = 'Taipei';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '35,980.0';
+
+    /**
      * Continent
      *
      * AF: Africa

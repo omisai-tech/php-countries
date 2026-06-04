@@ -43,6 +43,11 @@ class Lebanon extends Country
     public string $capital = 'Beirut';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '10,400.0';
+
+    /**
      * Continent
      *
      * AF: Africa

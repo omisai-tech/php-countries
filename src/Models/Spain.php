@@ -43,6 +43,11 @@ class Spain extends Country
     public string $capital = 'Madrid';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '504,782.0';
+
+    /**
      * Continent
      *
      * AF: Africa

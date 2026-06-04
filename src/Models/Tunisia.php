@@ -43,6 +43,11 @@ class Tunisia extends Country
     public string $capital = 'Tunis';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '163,610.0';
+
+    /**
      * Continent
      *
      * AF: Africa

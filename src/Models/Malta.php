@@ -43,6 +43,11 @@ class Malta extends Country
     public string $capital = 'Valletta';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '316.0';
+
+    /**
      * Continent
      *
      * AF: Africa

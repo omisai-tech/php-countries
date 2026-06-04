@@ -43,6 +43,11 @@ class SouthAfrica extends Country
     public string $capital = 'Pretoria';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,219,912.0';
+
+    /**
      * Continent
      *
      * AF: Africa

@@ -43,6 +43,11 @@ class Burundi extends Country
     public string $capital = 'Gitega';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '27,830.0';
+
+    /**
      * Continent
      *
      * AF: Africa

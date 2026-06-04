@@ -43,6 +43,11 @@ class Sweden extends Country
     public string $capital = 'Stockholm';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '449,964.0';
+
+    /**
      * Continent
      *
      * AF: Africa

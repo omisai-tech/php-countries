@@ -43,6 +43,11 @@ class Angola extends Country
     public string $capital = 'Luanda';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '1,246,700.0';
+
+    /**
      * Continent
      *
      * AF: Africa

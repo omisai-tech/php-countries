@@ -43,6 +43,11 @@ class SaintBarthlemy extends Country
     public string $capital = 'Gustavia';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '21.0';
+
+    /**
      * Continent
      *
      * AF: Africa

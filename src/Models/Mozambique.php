@@ -43,6 +43,11 @@ class Mozambique extends Country
     public string $capital = 'Maputo';
 
     /**
+     * Total area in square kilometers
+     */
+    public string $area = '801,590.0';
+
+    /**
      * Continent
      *
      * AF: Africa
