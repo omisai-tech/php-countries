@@ -9,7 +9,7 @@ The PHP Countries Package provides a convenient and object-oriented approach to 
 
 ## Features
 
-- Easy retrieval of country names and codes, capital city and/or continent.
+- Easy retrieval of country names and codes, total area in square kilometers, capital city and/or continent.
 - Object-Oriented Programming (OOP) approach for better data management and integration.
 - Lightweight and simple to integrate into any PHP project. (8.1+)
 - Currently supporting English, Hungarian, German, Spanish,
@@ -73,6 +73,7 @@ $collection->getCountriesAlpha3(); // ['country_name' => 'country_alpha3']
 $collection->getCountriesNumeric(); // ['country_name' => 'country_numeric']
 $collection->getCountriesFipCode(); // ['country_name' => 'country_fipCode']
 $collection->getCountriesDial(); // ['country_name' => 'country_dial']
+$collection->getCountriesArea(); // ['country_name' => 'country_area']
 
 $collection->getCountriesAlpha2('fr'); // ['fr:country_name' => 'country_alpha2'] -> ['Finlande' => 'FI']
 
@@ -91,6 +92,7 @@ $europe->fipCode; // "FI"
 $europe->dial; // "358"
 $europe->capital; // "Helsinki"
 $europe->continent; // "EU"
+$europe->area; // "337,030.0"
 $europe->hu; // "Finnország"
 $europe->name; // "Finland"
 $europe->getName('it'); // "Finlandia"
