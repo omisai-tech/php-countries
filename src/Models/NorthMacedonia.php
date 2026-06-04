@@ -89,4 +89,49 @@ class NorthMacedonia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Macedônia do Norte';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'North Macedonia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nordmakedonien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nordmakedonien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nord-Makedonia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Macedonia Północna';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Severní Makedonie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Severné Macedónsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Severna Makedonija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sjeverna Makedonija';
 }

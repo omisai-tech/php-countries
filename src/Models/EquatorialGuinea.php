@@ -89,4 +89,49 @@ class EquatorialGuinea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guiné Equatorial';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Equatorial Guinea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ækvatorialguinea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ekvatorialguinea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ekvatorial-Guinea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gwinea Równikowa';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Rovníková Guinea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Rovníková Guinea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ekvatorialna Gvineja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ekvatorijalna Gvineja';
 }

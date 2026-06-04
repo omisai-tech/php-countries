@@ -89,4 +89,49 @@ class Kosovo extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Kosovo';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kosovo';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kosovo';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kosovo';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kosovo';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kosowo';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kosovo';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kosovo';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kosovo';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kosovo';
 }

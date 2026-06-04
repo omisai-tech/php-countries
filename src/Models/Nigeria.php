@@ -89,4 +89,49 @@ class Nigeria extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Nigéria';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Nigeria';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nigeria';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nigeria';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nigeria';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Nigeria';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nigérie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nigéria';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nigerija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Nigerija';
 }

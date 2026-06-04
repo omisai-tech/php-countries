@@ -89,4 +89,49 @@ class VaticanCity extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Cidade do Vaticano';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Vatican City';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Vatikanstaten';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Vatikanstaten';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Vatikanstaten';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Watykan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Vatikán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Vatikán';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Vatikan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Vatikan';
 }

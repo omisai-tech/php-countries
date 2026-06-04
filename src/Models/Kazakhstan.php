@@ -89,4 +89,49 @@ class Kazakhstan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Cazaquistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kazakhstan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kasakhstan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kazakstan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kasakhstan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kazachstan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kazachstán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kazachstan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kazahstan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kazahstan';
 }

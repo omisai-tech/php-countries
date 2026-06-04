@@ -89,4 +89,49 @@ class Belize extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Belize';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Belize';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Belize';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Belize';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Belize';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Belize';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Belize';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Belize';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Belize';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Belize';
 }

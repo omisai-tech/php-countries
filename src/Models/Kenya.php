@@ -89,4 +89,49 @@ class Kenya extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Quênia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kenya';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kenya';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kenya';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kenya';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kenia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Keňa';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Keňa';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kenija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kenija';
 }

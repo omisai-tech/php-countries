@@ -89,4 +89,49 @@ class Venezuela extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Venezuela';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Venezuela';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Venezuela';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Venezuela';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Venezuela';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wenezuela';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Venezuela';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Venezuela';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Venezuela';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Venezuela';
 }

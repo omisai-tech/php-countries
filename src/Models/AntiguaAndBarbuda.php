@@ -89,4 +89,49 @@ class AntiguaAndBarbuda extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Antígua e Barbuda';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Antigua and Barbuda';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Antigua og Barbuda';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Antigua och Barbuda';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Antigua og Barbuda';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Antigua i Barbuda';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Antigua a Barbuda';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Antigua a Barbuda';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Antigva in Barbuda';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Antigva i Barbuda';
 }

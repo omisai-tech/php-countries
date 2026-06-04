@@ -89,4 +89,49 @@ class Canada extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Canadá';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Canada';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Canada';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kanada';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Canada';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kanada';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kanada';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kanada';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kanada';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kanada';
 }

@@ -89,4 +89,49 @@ class Sweden extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Suécia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Sweden';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sverige';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sverige';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sverige';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Szwecja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Švédsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Švédsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Švedska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Švedska';
 }

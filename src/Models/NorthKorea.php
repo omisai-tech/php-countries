@@ -89,4 +89,49 @@ class NorthKorea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Coréia do Norte';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'North Korea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nordkorea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nordkorea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nord-Korea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Korea Północna';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Severní Korea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Severná Kórea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Severna Koreja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sjeverna Koreja';
 }

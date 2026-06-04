@@ -89,4 +89,49 @@ class NewZealand extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Nova Zelândia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'New Zealand';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'New Zealand';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nya Zeeland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'New Zealand';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Nowa Zelandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nový Zéland';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nový Zéland';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nova Zelandija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Novi Zeland';
 }

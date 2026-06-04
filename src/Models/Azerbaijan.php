@@ -89,4 +89,49 @@ class Azerbaijan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Azerbaijão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Azerbaijan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Aserbajdsjan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Azerbajdzjan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Aserbajdsjan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Azerbejdżan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ázerbajdžán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Azerbajdžan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Azerbajdžan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Azerbejdžan';
 }

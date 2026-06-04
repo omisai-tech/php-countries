@@ -89,4 +89,49 @@ class Ukraine extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ucrânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ukraine';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ukraine';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ukraina';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ukraina';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Ukraina';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ukrajina';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Ukrajina';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ukrajina';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ukrajina';
 }

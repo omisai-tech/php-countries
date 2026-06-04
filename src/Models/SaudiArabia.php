@@ -89,4 +89,49 @@ class SaudiArabia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Arábia Saudita';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Saudi Arabia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Saudi-Arabien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'saudi-arabien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Saudi-Arabia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Arabia Saudyjska';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Saúdská Arábie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Saudská Arábia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Savdska Arabija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Saudijska Arabija';
 }

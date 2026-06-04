@@ -89,4 +89,49 @@ class Jamaica extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Jamaica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Jamaica';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Jamaica';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Jamaica';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Jamaica';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Jamajka';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jamaica';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Jamajka';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Jamajka';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Jamajka';
 }

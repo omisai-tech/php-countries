@@ -89,4 +89,49 @@ class Philippines extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Filipinas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Philippines';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Filippinerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Filippinerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Filippinene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Filipiny';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Filipíny';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Filipíny';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Filipini';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Filipini';
 }

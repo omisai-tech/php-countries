@@ -89,4 +89,49 @@ class Turkey extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Peru';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Turkey';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kalkun';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Turkiet';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kalkun';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Indyk';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Turecko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Turecko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Turčija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Turska';
 }

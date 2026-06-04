@@ -89,4 +89,49 @@ class Sudan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Sudão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Sudan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sudan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sudan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sudan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Sudan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Súdán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Sudán';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sudan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sudan';
 }

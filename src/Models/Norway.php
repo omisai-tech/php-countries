@@ -89,4 +89,49 @@ class Norway extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Noruega';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Norway';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Norge';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Norge';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Norge';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Norwegia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Norsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nórsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Norveška';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Norveška';
 }

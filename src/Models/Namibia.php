@@ -89,4 +89,49 @@ class Namibia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Namíbia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Namibia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Namibia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Namibia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Namibia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Namibia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Namibie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Namíbia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Namibija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Namibija';
 }

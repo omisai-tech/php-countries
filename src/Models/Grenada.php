@@ -89,4 +89,49 @@ class Grenada extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Granada';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Grenada';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Grenada';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Grenada';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Grenada';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Grenada';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Grenada';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Grenada';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Grenada';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Grenada';
 }

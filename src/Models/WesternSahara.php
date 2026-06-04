@@ -89,4 +89,49 @@ class WesternSahara extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Saara Ocidental';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Western Sahara';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Vestsahara';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Västsahara';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Vest-Sahara';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Sahara Zachodnia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Západní Sahara';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Západná Sahara';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Zahodna Sahara';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Zapadna Sahara';
 }

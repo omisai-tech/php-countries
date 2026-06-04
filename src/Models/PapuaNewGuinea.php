@@ -89,4 +89,49 @@ class PapuaNewGuinea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Papua Nova Guiné';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Papua New Guinea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Papua Ny Guinea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Papua Nya Guinea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Papua Ny-Guinea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Papua-Nowa Gwinea';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Papua Nová Guinea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Papua-Nová Guinea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Papua Nova Gvineja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Papua Nova Gvineja';
 }

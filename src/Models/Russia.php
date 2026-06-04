@@ -89,4 +89,49 @@ class Russia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Rússia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Russia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Rusland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ryssland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Russland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Rosja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Rusko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Rusko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Rusija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Rusija';
 }

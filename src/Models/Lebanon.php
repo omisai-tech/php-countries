@@ -89,4 +89,49 @@ class Lebanon extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Líbano';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Lebanon';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Libanon';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Libanon';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Libanon';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Liban';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Libanon';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Libanon';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Libanon';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Libanon';
 }

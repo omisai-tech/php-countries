@@ -89,4 +89,49 @@ class Poland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Polônia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Poland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Polen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Polen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Polen';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Polska';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Polsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Poľsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Poljska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Poljska';
 }

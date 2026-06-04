@@ -89,4 +89,49 @@ class Guernsey extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guernsey';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guernsey';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guernsey';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guernsey';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guernsey';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Guernsey';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guernsey';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guernsey';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Guernsey';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Guernsey';
 }

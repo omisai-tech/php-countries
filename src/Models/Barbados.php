@@ -89,4 +89,49 @@ class Barbados extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Barbados';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Barbados';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Barbados';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Barbados';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Barbados';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Barbados';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Barbados';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Barbados';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Barbados';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Barbados';
 }

@@ -89,4 +89,49 @@ class Brunei extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Brunei';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Brunei';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Brunei';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Brunei';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Brunei';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Brunei';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Brunej';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Brunej';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Brunej';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Brunej';
 }

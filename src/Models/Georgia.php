@@ -89,4 +89,49 @@ class Georgia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Geórgia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Georgia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Georgien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Georgien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Georgia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gruzja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Gruzie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Gruzínsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gruzija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gruzija';
 }

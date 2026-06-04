@@ -89,4 +89,49 @@ class Belarus extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bielorrússia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Belarus';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Hviderusland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Belarus';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Hviterussland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Białoruś';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bělorusko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bielorusko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Belorusija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bjelorusija';
 }

@@ -89,4 +89,49 @@ class IsleOfMan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilha de Man';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Isle of Man';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Isle of Man';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Isle of Man';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Isle of Man';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspa Man';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ostrov Man';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Ostrov Man';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Otok Man';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Otok Man';
 }

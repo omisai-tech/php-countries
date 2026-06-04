@@ -89,4 +89,49 @@ class Hungary extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Hungria';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Hungary';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ungarn';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ungern';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ungarn';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Węgry';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Maďarsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Maďarsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Madžarska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mađarska';
 }

@@ -89,4 +89,49 @@ class CentralAfricanRepublic extends Country
      * Portuguese name of the country
      */
     public string $pt = 'República Centro-Africana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Central African Republic';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Centralafrikanske Republik';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Centralafrikanska republiken';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Den sentralafrikanske republikk';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Republika Środkowoafrykańska';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Středoafrická republika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Stredoafrická republika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Srednjeafriška republika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Srednjoafrička Republika';
 }

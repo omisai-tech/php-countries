@@ -89,4 +89,49 @@ class Cuba extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Cuba';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cuba';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Cuba';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kuba';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Cuba';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kuba';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kuba';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kuba';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kuba';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kuba';
 }

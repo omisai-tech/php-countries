@@ -89,4 +89,49 @@ class TurksAndCaicosIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Turcas e Caicos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Turks and Caicos Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Turks- og Caicosøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Turks- och Caicosöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Turks- og Caicosøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Turks i Caicos';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ostrovy Turks a Caicos';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Ostrovy Turks a Caicos';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Otoki Turks in Caicos';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Otoci Turks i Caicos';
 }

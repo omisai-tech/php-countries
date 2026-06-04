@@ -89,4 +89,49 @@ class Haiti extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Haiti';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Haiti';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Haiti';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Haiti';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Haiti';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Haiti';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Haiti';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Haiti';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Haiti';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Haiti';
 }

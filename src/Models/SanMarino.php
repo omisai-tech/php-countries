@@ -89,4 +89,49 @@ class SanMarino extends Country
      * Portuguese name of the country
      */
     public string $pt = 'São Marino';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'San Marino';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'San Marino';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'San Marino';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'San Marino';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'San Marino';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'San Marino';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'San Maríno';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'San Marino';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'San Marino';
 }

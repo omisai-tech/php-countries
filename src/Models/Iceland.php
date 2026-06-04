@@ -89,4 +89,49 @@ class Iceland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Islândia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Iceland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Island';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Island';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Island';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Islandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Island';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Island';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Islandija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Island';
 }

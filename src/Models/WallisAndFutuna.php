@@ -89,4 +89,49 @@ class WallisAndFutuna extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Wallis e Futuna';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Wallis and Futuna';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Wallis- og Futunaøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Wallis- och Futunaöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Wallis- og Futunaøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wallis i Futuna';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Wallis a Futuna';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Wallis a Futuna';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Wallis in Futuna';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Wallis i Futuna';
 }

@@ -89,4 +89,49 @@ class CaboVerde extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Cabo Verde';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cabo Verde';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kap Verde';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kap Verde';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kapp Verde';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Republika Zielonego Przylądka';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kapverdy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kapverdy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Zelenortski otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Zelenortski Otoci';
 }

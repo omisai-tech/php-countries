@@ -89,4 +89,49 @@ class Guadeloupe extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guadalupe';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guadeloupe';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guadeloupe';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guadeloupe';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guadeloupe';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gwadelupa';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guadeloupe';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guadeloupe';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gvadalupe';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gvadalupa';
 }

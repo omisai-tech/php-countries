@@ -89,4 +89,49 @@ class ChristmasIsland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilha do Natal';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Christmas Island';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Juleøen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Julön';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Juleøya';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspa Bożego Narodzenia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Vánoční ostrov';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Vianočný ostrov';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Božični otok';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Božićni otok';
 }

@@ -89,4 +89,49 @@ class Armenia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Armênia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Armenia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Armenien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Armenien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Armenia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Armenia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Arménie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Arménsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Armenija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Armenija';
 }

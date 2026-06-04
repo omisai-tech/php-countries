@@ -89,4 +89,49 @@ class Martinique extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Martinica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Martinique';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Martinique';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Martinique';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Martinique';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Martynika';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Martinik';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Martinik';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Martinik';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Martinik';
 }

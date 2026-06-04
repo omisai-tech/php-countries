@@ -89,4 +89,49 @@ class Guyana extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guiana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guyana';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guyana';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guyana';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guyana';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gujana';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guyana';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guyana';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gvajana';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gvajana';
 }

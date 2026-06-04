@@ -89,4 +89,49 @@ class CongoRepublic extends Country
      * Portuguese name of the country
      */
     public string $pt = 'República do Congo';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Congo Republic';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Republikken Congo';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Republiken Kongo';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Republikken Kongo';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Republika Konga';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Konžská republika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Konžská republika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Republika Kongo';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Republika Kongo';
 }

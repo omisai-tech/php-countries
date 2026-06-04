@@ -89,4 +89,49 @@ class Slovakia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Eslováquia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Slovakia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Slovakiet';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Slovakien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Slovakia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Słowacja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Slovensko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Slovensko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Slovaška';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Slovačka';
 }

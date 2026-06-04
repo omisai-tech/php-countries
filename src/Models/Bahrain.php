@@ -89,4 +89,49 @@ class Bahrain extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bahrein';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bahrain';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bahrain';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bahrain';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bahrain';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bahrajn';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bahrajn';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bahrajn';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bahrajn';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bahrein';
 }

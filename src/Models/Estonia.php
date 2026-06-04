@@ -89,4 +89,49 @@ class Estonia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Estônia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Estonia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Estland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Estland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Estland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Estonia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Estonsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Estónsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Estonija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Estonija';
 }

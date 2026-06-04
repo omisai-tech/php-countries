@@ -89,4 +89,49 @@ class Kiribati extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Quiribáti';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kiribati';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kiribati';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kiribati';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kiribati';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kiribati';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kiribati';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kiribati';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kiribati';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kiribati';
 }

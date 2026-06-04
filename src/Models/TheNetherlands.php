@@ -89,4 +89,49 @@ class TheNetherlands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Os Países Baixos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'The Netherlands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Holland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nederländerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nederland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Holandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nizozemsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Holandsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nizozemska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Nizozemska';
 }

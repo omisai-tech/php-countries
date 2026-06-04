@@ -89,4 +89,49 @@ class Eswatini extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Essuatíni';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Eswatini';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Eswatini';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Eswatini';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Eswatini';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Eswatini';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svazijsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Eswatini';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Esvatini';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Esvatini';
 }

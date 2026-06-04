@@ -89,4 +89,49 @@ class Ghana extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Gana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ghana';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ghana';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ghana';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ghana';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Ghana';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ghana';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Ghana';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gana';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gana';
 }

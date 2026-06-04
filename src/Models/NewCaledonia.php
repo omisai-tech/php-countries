@@ -89,4 +89,49 @@ class NewCaledonia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Nova Caledônia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'New Caledonia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ny Kaledonien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nya Kaledonien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ny-Caledonia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Nowa Kaledonia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nová Kaledonie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nová Kaledónia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nova Kaledonija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Nova Kaledonija';
 }

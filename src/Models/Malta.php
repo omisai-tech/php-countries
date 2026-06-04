@@ -89,4 +89,49 @@ class Malta extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Malta';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Malta';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Malta';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Malta';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Malta';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Malta';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Malta';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Malta';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Malta';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Malta';
 }

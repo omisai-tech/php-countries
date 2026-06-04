@@ -89,4 +89,49 @@ class CostaRica extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Costa Rica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Costa Rica';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Costa Rica';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Costa Rica';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Costa Rica';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kostaryka';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kostarika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kostarika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kostarika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kostarika';
 }

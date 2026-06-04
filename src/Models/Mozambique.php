@@ -89,4 +89,49 @@ class Mozambique extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Moçambique';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mozambique';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mozambique';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Moçambique';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mosambik';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mozambik';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mosambik';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mozambik';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mozambik';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mozambik';
 }

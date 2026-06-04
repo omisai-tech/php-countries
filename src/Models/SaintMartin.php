@@ -89,4 +89,49 @@ class SaintMartin extends Country
      * Portuguese name of the country
      */
     public string $pt = 'são Martinho';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Saint Martin';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sankt Martin';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sankt Martin';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Saint Martin';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Święty Marcin';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svatý Martin';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svätý Martin';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sveti Martin';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sveti Martin';
 }

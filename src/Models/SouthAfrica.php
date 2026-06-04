@@ -89,4 +89,49 @@ class SouthAfrica extends Country
      * Portuguese name of the country
      */
     public string $pt = 'África do Sul';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'South Africa';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sydafrika';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sydafrika';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sør-Afrika';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Republika Południowej Afryki';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jižní Afrika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Južná Afrika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Južna Afrika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Južna Afrika';
 }

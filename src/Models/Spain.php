@@ -89,4 +89,49 @@ class Spain extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Espanha';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Spain';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Spanien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Spanien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Spania';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Hiszpania';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Španělsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Španielsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Španija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Španjolska';
 }

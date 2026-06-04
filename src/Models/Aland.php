@@ -89,4 +89,49 @@ class Aland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Uma terra';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Aland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Åland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Åland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Åland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Aland';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Åland';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Åland';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Åland';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Åland';
 }

@@ -89,4 +89,49 @@ class Curaao extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Curaçau';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Curaçao';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Curaçao';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Curaçao';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Curaçao';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Curaçao';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Curaçao';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Curaçao';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Curaçao';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Curaçao';
 }

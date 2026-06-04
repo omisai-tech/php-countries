@@ -89,4 +89,49 @@ class Tunisia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tunísia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tunisia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tunesien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tunisien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tunisia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tunezja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tunisko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tunisko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tunizija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tunis';
 }

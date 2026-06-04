@@ -89,4 +89,49 @@ class China extends Country
      * Portuguese name of the country
      */
     public string $pt = 'China';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'China';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kina';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kina';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kina';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Chiny';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Čína';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Čína';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kitajska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kina';
 }

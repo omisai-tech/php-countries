@@ -89,4 +89,49 @@ class UsVirginIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Virgens dos EUA';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'U.S. Virgin Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'De Amerikanske Jomfruøer';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Amerikanska Jungfruöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'De amerikanske Jomfruøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Dziewicze Stanów Zjednoczonych';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Americké Panenské ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Americké Panenské ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ameriški Deviški otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Američki Djevičanski otoci';
 }

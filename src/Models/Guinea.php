@@ -89,4 +89,49 @@ class Guinea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guiné';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guinea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guinea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guinea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guinea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gwinea';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guinea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guinea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gvineja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gvineja';
 }

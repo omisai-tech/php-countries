@@ -89,4 +89,49 @@ class Andorra extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Andorra';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Andorra';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Andorra';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Andorra';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Andorra';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Andora';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Andorra';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Andorra';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Andora';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Andora';
 }

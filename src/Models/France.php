@@ -89,4 +89,49 @@ class France extends Country
      * Portuguese name of the country
      */
     public string $pt = 'França';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'France';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Frankrig';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Frankrike';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Frankrike';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Francja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Francie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Francúzsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Francija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Francuska';
 }

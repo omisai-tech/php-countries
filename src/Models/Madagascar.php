@@ -89,4 +89,49 @@ class Madagascar extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Madagáscar';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Madagascar';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Madagaskar';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Madagaskar';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Madagaskar';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Madagaskar';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Madagaskar';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Madagaskar';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Madagaskar';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Madagaskar';
 }

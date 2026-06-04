@@ -89,4 +89,49 @@ class Uruguay extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Uruguai';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Uruguay';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Uruguay';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Uruguay';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Uruguay';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Urugwaj';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Uruguay';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Uruguaj';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Urugvaj';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Urugvaj';
 }

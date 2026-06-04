@@ -89,4 +89,49 @@ class Nepal extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Nepal';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Nepal';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nepal';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nepal';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nepal';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Nepal';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nepál';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nepál';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nepal';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Nepal';
 }

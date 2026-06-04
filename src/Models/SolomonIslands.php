@@ -89,4 +89,49 @@ class SolomonIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Salomão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Solomon Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Salomonøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Salomonöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Salomonøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Salomona';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Šalamounovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Šalamúnove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Salomonovi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Salomonski Otoci';
 }

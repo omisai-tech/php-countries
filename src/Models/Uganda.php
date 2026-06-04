@@ -89,4 +89,49 @@ class Uganda extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Uganda';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Uganda';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Uganda';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Uganda';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Uganda';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Uganda';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Uganda';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Uganda';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Uganda';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Uganda';
 }

@@ -89,4 +89,49 @@ class Mauritania extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Mauritânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mauritania';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mauretanien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mauretanien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mauritania';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mauretania';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mauritánie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mauritánia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mavretanija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mauritanija';
 }

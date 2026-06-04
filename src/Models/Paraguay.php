@@ -89,4 +89,49 @@ class Paraguay extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Paraguai';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Paraguay';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Paraguay';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Paraguay';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Paraguay';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Paragwaj';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Paraguay';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Paraguaj';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Paragvaj';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Paragvaj';
 }

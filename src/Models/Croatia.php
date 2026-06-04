@@ -89,4 +89,49 @@ class Croatia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Croácia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Croatia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kroatien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kroatien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kroatia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Chorwacja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Chorvatsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Chorvátsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Hrvaška';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Hrvatska';
 }

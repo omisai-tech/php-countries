@@ -89,4 +89,49 @@ class Syria extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Síria';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Syria';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Syrien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Syrien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Syria';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Syria';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Sýrie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Sýria';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sirija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sirija';
 }

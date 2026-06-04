@@ -89,4 +89,49 @@ class Panama extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Panamá';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Panama';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Panama';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Panama';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Panama';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Panama';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Panama';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Panama';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Panama';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Panama';
 }

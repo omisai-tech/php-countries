@@ -89,4 +89,49 @@ class Greenland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Groenlândia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Greenland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Grønland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Grönland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Grønland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Grenlandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Grónsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Grónsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Grenlandija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Grenland';
 }

@@ -89,4 +89,49 @@ class Monaco extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Mônaco';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Monaco';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Monaco';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Monaco';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Monaco';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Monako';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Monako';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Monako';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Monako';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Monako';
 }

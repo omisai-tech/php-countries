@@ -89,4 +89,49 @@ class Israel extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Israel';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Israel';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Israel';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Israel';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Israel';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Izrael';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Izrael';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Izrael';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Izrael';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Izrael';
 }

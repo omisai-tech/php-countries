@@ -89,4 +89,49 @@ class Albania extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Albânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Albania';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Albanien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Albanien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Albania';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Albania';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Albánie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Albánsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Albanija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Albanija';
 }

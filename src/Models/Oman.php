@@ -89,4 +89,49 @@ class Oman extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Omã';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Oman';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Oman';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'oman';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Oman';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Oman';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Omán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Omán';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Oman';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Oman';
 }

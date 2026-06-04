@@ -89,4 +89,49 @@ class SaintBarthlemy extends Country
      * Portuguese name of the country
      */
     public string $pt = 'São Bartolomeu';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Saint Barthélemy';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Saint-Barthélemy';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Saint Barthélemy';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Saint-Barthélemy';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Święty Bartłomiej';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svatý Bartoloměj';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svätý Bartolomej';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sveti Bartolomej';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sveti Bartolomej';
 }

@@ -89,4 +89,49 @@ class Maldives extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Maldivas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Maldives';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Maldiverne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Maldiverna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Maldivene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Malediwy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Maledivy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Maldivy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Maldivi';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Maldivi';
 }

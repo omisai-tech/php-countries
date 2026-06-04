@@ -89,4 +89,49 @@ class Montenegro extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Montenegro';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Montenegro';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Montenegro';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Montenegro';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Montenegro';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Czarnogóra';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Černá Hora';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Čierna Hora';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Črna gora';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Crna Gora';
 }

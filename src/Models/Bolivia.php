@@ -89,4 +89,49 @@ class Bolivia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bolívia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bolivia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bolivia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bolivia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bolivia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Boliwia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bolívie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bolívia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bolivija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bolivija';
 }

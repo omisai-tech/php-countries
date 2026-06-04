@@ -89,4 +89,49 @@ class Niue extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Niue';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Niue';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Niue';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Niue';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Niue';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Niue';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Niue';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Niue';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Niue';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Niue';
 }

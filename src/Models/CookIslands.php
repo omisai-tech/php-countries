@@ -89,4 +89,49 @@ class CookIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Cook';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cook Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Cookøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Cooköarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Cookøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Cooka';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Cookovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Cookove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Cookovi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Cookovi otoci';
 }

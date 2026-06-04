@@ -89,4 +89,49 @@ class UnitedStates extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Estados Unidos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'United States';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Forenede Stater';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Förenta staterna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'USA';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Stany Zjednoczone';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Spojené státy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Spojené štáty';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Združene države Amerike';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sjedinjene Države';
 }

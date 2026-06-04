@@ -89,4 +89,49 @@ class CaymanIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Cayman';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cayman Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Caymanøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Caymanöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Caymanøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Kajmany';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kajmanské ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kajmanské ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kajmanski otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kajmanski otoci';
 }

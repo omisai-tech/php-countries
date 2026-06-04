@@ -89,4 +89,49 @@ class Colombia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Colômbia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Colombia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Colombia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Colombia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Colombia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kolumbia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kolumbie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kolumbia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kolumbija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kolumbija';
 }

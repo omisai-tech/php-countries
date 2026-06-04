@@ -89,4 +89,49 @@ class Tuvalu extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tuvalu';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tuvalu';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tuvalu';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tuvalu';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tuvalu';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tuvalu';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tuvalu';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tuvalu';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tuvalu';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tuvalu';
 }

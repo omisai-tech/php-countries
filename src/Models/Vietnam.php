@@ -89,4 +89,49 @@ class Vietnam extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Vietnã';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Vietnam';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Vietnam';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Vietnam';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Vietnam';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wietnam';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Vietnam';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Vietnam';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Vietnam';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Vijetnam';
 }

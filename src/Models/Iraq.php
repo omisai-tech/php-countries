@@ -89,4 +89,49 @@ class Iraq extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Iraque';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Iraq';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Irak';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Irak';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Irak';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Irak';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Irák';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Irak';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Irak';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Irak';
 }

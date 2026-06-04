@@ -89,4 +89,49 @@ class Thailand extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tailândia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Thailand';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Thailand';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Thailand';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Thailand';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tajlandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Thajsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Thajsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tajska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tajland';
 }

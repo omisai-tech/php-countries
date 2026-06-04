@@ -89,4 +89,49 @@ class PuertoRico extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Porto Rico';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Puerto Rico';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Puerto Rico';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Puerto Rico';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Puerto Rico';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Portoryko';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Portoriko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Portoriko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Portoriko';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Portoriko';
 }

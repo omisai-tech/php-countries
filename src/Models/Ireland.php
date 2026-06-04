@@ -89,4 +89,49 @@ class Ireland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Irlanda';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ireland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Irland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Irland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Irland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Irlandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Irsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Írsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Irska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Irska';
 }

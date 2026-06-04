@@ -89,4 +89,49 @@ class Nicaragua extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Nicarágua';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Nicaragua';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nicaragua';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nicaragua';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nicaragua';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Nikaragua';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Nikaragua';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nikaragua';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nikaragva';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Nikaragva';
 }

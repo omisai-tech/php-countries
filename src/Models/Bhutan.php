@@ -89,4 +89,49 @@ class Bhutan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Butão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bhutan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bhutan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bhutan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bhutan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bhutan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bhútán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bhután';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Butan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Butan';
 }

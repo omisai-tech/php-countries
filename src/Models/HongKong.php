@@ -89,4 +89,49 @@ class HongKong extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Hong Kong';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Hong Kong';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Hongkong';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Hongkong';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Hongkong';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Hongkong';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Hongkong';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Hongkong';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Hongkong';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Hong Kong';
 }

@@ -89,4 +89,49 @@ class Zimbabwe extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Zimbábue';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Zimbabwe';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Zimbabwe';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Zimbabwe';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Zimbabwe';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Zimbabwe';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Zimbabwe';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Zimbabwe';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Zimbabve';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Zimbabve';
 }

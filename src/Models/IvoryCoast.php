@@ -89,4 +89,49 @@ class IvoryCoast extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Costa do Marfim';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ivory Coast';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Elfenbenskysten';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Elfenbenskusten';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Elfenbenskysten';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wybrzeże Kości Słoniowej';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Pobřeží slonoviny';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Pobrežie Slonoviny';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Slonokoščena obala';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Obala Bjelokosti';
 }

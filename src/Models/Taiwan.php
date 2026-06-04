@@ -89,4 +89,49 @@ class Taiwan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Taiwan';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Taiwan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Taiwan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Taiwan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Taiwan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tajwan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tchaj-wan';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Taiwan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tajvan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tajvan';
 }

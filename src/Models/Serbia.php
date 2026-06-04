@@ -89,4 +89,49 @@ class Serbia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Sérvia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Serbia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Serbien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Serbien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Serbia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Serbia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Srbsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Srbsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Srbija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Srbija';
 }

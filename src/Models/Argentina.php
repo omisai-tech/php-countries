@@ -89,4 +89,49 @@ class Argentina extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Argentina';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Argentina';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Argentina';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Argentina';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Argentina';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Argentyna';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Argentina';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Argentína';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Argentina';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Argentina';
 }

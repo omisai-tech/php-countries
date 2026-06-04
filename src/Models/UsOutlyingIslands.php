@@ -89,4 +89,49 @@ class UsOutlyingIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Distantes dos EUA';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'U.S. Outlying Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'De amerikanske ydre øer';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Amerikanska yttre öarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'De amerikanske ytre øyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Dalekie USA';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Odlehlé ostrovy USA';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Odľahlé ostrovy USA';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Oddaljeni otoki ZDA';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Udaljeni otoci SAD-a';
 }

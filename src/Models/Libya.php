@@ -89,4 +89,49 @@ class Libya extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Líbia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Libya';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Libyen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Libyen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Libya';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Libia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Libye';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Líbya';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Libija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Libija';
 }

@@ -89,4 +89,49 @@ class HeardAndMcdonaldIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Heard e McDonald';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Heard and McDonald Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Heard- og McDonaldøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Heard- och McDonaldöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Heard- og McDonaldøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Heard i McDonalda';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Heardovy a McDonaldovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Heardove a McDonaldove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Heardovi in ​​McDonaldovi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Otoci Heard i McDonald';
 }

@@ -89,4 +89,49 @@ class PitcairnIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Pitcairn';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Pitcairn Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Pitcairnøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Pitcairnöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Pitcairnøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Pitcairn';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Pitcairnovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Pitcairnove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Pitcairnovi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Pitcairnovi otoci';
 }

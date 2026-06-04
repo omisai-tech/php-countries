@@ -89,4 +89,49 @@ class Runion extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Reunião';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Réunion';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Genforening';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Återförening';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Gjenforening';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Zjazd';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Shledání';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Réunion';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Reunion';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Réunion';
 }

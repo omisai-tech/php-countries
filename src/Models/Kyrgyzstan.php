@@ -89,4 +89,49 @@ class Kyrgyzstan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Quirguistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kyrgyzstan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kirgisistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kirgizistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kirgisistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kirgistan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kyrgyzstán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kirgizsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kirgizistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kirgistan';
 }

@@ -89,4 +89,49 @@ class Comoros extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Comores';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Comoros';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Comorerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Komorerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Komorene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Komory';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Komory';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Komory';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Komori';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Komori';
 }

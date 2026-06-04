@@ -89,4 +89,49 @@ class Tokelau extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Toquelau';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tokelau';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tokelau';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tokelauöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tokelau';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tokelau';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tokelau';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tokelau';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tokelau';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tokelau';
 }

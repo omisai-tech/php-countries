@@ -89,4 +89,49 @@ class Greece extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Grécia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Greece';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Grækenland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Grekland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Hellas';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Grecja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Řecko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Grécko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Grčija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Grčka';
 }

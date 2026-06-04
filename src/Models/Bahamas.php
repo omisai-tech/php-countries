@@ -89,4 +89,49 @@ class Bahamas extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bahamas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bahamas';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bahamas';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bahamas';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bahamas';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bahamy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bahamy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bahamy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bahami';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bahami';
 }

@@ -89,4 +89,49 @@ class Yemen extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Iémen';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Yemen';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Yemen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Jemen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Jemen';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Jemen';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jemen';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Jemen';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Jemen';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Jemen';
 }

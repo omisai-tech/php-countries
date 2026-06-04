@@ -89,4 +89,49 @@ class Palestine extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Palestina';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Palestine';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Palæstina';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Palestina';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Palestina';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Palestyna';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Palestina';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Palestína';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Palestina';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Palestina';
 }

@@ -89,4 +89,49 @@ class Gibraltar extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Gibraltar';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Gibraltar';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Gibraltar';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Gibraltar';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Gibraltar';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gibraltar';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Gibraltar';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Gibraltár';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gibraltar';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gibraltar';
 }

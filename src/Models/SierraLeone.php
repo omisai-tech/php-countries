@@ -89,4 +89,49 @@ class SierraLeone extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Serra Leoa';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Sierra Leone';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sierra Leone';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sierra Leone';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sierra Leone';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Sierra Leone';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Sierra Leone';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Sierra Leone';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sierra Leone';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sijera Leone';
 }

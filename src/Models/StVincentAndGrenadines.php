@@ -89,4 +89,49 @@ class StVincentAndGrenadines extends Country
      * Portuguese name of the country
      */
     public string $pt = 'São Vicente e Granadinas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'St Vincent and Grenadines';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'St. Vincent og Grenadinerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'St Vincent och Grenadinerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'St. Vincent og Grenadinene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Saint Vincent i Grenadyny';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svatý Vincenc a Grenadiny';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svätý Vincent a Grenadíny';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sveti Vincent in Grenadine';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sveti Vincent i Grenadini';
 }

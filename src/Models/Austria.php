@@ -89,4 +89,49 @@ class Austria extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Áustria';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Austria';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Østrig';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Österrike';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Østerrike';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Austria';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Rakousko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Rakúsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Avstrija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Austrija';
 }

@@ -89,4 +89,49 @@ class Bangladesh extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bangladesh';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bangladesh';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bangladesh';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bangladesh';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bangladesh';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bangladesz';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bangladéš';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bangladéš';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bangladeš';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bangladeš';
 }

@@ -89,4 +89,49 @@ class Burundi extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Burundi';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Burundi';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Burundi';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Burundi';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Burundi';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Burundi';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Burundi';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Burundi';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Burundi';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Burundi';
 }

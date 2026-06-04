@@ -89,4 +89,49 @@ class BonaireSintEustatiusAndSaba extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bonaire, Santo Eustáquio e Saba';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bonaire, Sint Eustatius, and Saba';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bonaire, Sint Eustatius og Saba';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bonaire, Sint Eustatius och Saba';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bonaire, Sint Eustatius og Saba';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bonaire, Sint Eustatius i Saba';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bonaire, Sint Eustatius a Saba';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bonaire, Sint Eustatius a Saba';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bonaire, Sint Eustatius in Saba';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bonaire, Sint Eustatius i Saba';
 }

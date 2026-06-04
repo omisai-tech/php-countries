@@ -89,4 +89,49 @@ class Iran extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Irã';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Iran';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Iran';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Iran';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Iran';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Iran';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Írán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Irán';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Iran';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Iran';
 }

@@ -89,4 +89,49 @@ class Ecuador extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Equador';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ecuador';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Ecuador';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Ecuador';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Ecuador';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Ekwador';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Ekvádor';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Ekvádor';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ekvador';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ekvador';
 }

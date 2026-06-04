@@ -89,4 +89,49 @@ class SouthGeorgiaAndSouthSandwichIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Geórgia do Sul e Sandwich do Sul';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'South Georgia and South Sandwich Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sydgeorgien og Sydsandwichøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sydgeorgien och Sydsandwichöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sør-Georgia og Sør-Sandwichøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Georgia Południowa i Sandwich Południowy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jižní Georgie a Jižní Sandwichovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Južná Georgia a Južné Sandwichove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Južna Georgia in Južni Sendvičevi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Južna Georgija i Južni Sendvički Otoci';
 }

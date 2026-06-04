@@ -89,4 +89,49 @@ class Palau extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Palau';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Palau';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Palau';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Palau';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Palau';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Palau';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Palau';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Palau';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Palau';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Palau';
 }

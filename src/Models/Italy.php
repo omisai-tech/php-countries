@@ -89,4 +89,49 @@ class Italy extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Itália';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Italy';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Italien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Italien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Italia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Włochy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Itálie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Taliansko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Italija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Italija';
 }

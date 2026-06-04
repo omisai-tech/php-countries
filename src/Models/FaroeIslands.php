@@ -89,4 +89,49 @@ class FaroeIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'ilhas Faroe';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Faroe Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Færøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Färöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Færøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Owcze';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Faerské ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Faerské ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ferski otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Farski otoci';
 }

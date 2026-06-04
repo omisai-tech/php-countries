@@ -89,4 +89,49 @@ class Romania extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Romênia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Romania';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Rumænien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Rumänien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Romania';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Rumunia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Rumunsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Rumunsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Romunija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Rumunija';
 }

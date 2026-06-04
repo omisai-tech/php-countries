@@ -89,4 +89,49 @@ class Eritrea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Eritreia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Eritrea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Eritrea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Eritrea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Eritrea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Erytrea';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Eritrea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Eritrea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Eritreja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Eritreja';
 }

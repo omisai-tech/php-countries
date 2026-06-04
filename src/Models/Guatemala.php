@@ -89,4 +89,49 @@ class Guatemala extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guatemala';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guatemala';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guatemala';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guatemala';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guatemala';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gwatemala';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guatemala';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guatemala';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gvatemala';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gvatemala';
 }

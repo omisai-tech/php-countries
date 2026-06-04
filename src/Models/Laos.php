@@ -89,4 +89,49 @@ class Laos extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Laos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Laos';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Laos';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Laos';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Laos';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Laos';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Laos';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Laos';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Laos';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Laos';
 }

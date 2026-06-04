@@ -89,4 +89,49 @@ class Mongolia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Mongólia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mongolia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mongoliet';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'mongoliet';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mongolia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mongolia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mongolsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mongolsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mongolija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mongolija';
 }

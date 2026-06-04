@@ -89,4 +89,49 @@ class NorthernMarianaIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Marianas do Norte';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Northern Mariana Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Nordmarianerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Nordmarianerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Nord-Marianene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mariany Północne';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Severní Mariany';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Severné Mariány';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Severni Marianski otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sjevernomarijanski otoci';
 }

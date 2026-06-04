@@ -89,4 +89,49 @@ class AmericanSamoa extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Samoa Americana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'American Samoa';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Amerikansk Samoa';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Amerikanska Samoa';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Amerikansk Samoa';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Samoa Amerykańskie';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Americká Samoa';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Americká Samoa';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ameriška Samoa';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Američka Samoa';
 }

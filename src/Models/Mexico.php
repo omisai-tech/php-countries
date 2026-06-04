@@ -89,4 +89,49 @@ class Mexico extends Country
      * Portuguese name of the country
      */
     public string $pt = 'México';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mexico';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mexico';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mexiko';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mexico';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Meksyk';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mexiko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mexiko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mehika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Meksiko';
 }

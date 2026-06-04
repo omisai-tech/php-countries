@@ -89,4 +89,49 @@ class Seychelles extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Seicheles';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Seychelles';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Seychellerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Seychellerna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Seychellene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Seszele';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Seychely';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Seychely';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sejšeli';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sejšeli';
 }

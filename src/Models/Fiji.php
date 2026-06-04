@@ -89,4 +89,49 @@ class Fiji extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Fiji';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Fiji';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Fiji';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Fiji';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Fiji';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Fidżi';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Fidži';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Fidži';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Fidži';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Fidži';
 }

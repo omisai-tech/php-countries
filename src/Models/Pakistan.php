@@ -89,4 +89,49 @@ class Pakistan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Paquistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Pakistan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Pakistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Pakistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Pakistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Pakistan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Pákistán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Pakistan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Pakistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Pakistan';
 }

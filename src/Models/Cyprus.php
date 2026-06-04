@@ -89,4 +89,49 @@ class Cyprus extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Chipre';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cyprus';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Cypern';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Cypern';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kypros';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Cypr';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kypr';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Cyprus';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ciper';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Cipar';
 }

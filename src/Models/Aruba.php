@@ -89,4 +89,49 @@ class Aruba extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Aruba';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Aruba';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Aruba';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Aruba';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Aruba';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Aruba';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Aruba';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Aruba';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Aruba';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Aruba';
 }

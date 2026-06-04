@@ -89,4 +89,49 @@ class BritishIndianOceanTerritory extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Território Britânico do Oceano Índico';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'British Indian Ocean Territory';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Britisk territorium i Det Indiske Ocean';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Brittiska territoriet i Indiska oceanen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Det britiske territoriet i Indiahavet';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Brytyjskie Terytorium Oceanu Indyjskiego';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Britské indickooceánské území';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Britské indickooceánske územie';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Britansko ozemlje v Indijskem oceanu';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Britanski teritorij Indijskog oceana';
 }

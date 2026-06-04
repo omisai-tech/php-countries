@@ -89,4 +89,49 @@ class Tajikistan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tadjiquistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tajikistan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tadsjikistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tadzjikistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tadsjikistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tadżykistan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tádžikistán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tadžikistan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tadžikistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tadžikistan';
 }

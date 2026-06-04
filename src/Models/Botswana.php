@@ -89,4 +89,49 @@ class Botswana extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Botsuana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Botswana';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Botswana';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Botswana';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Botswana';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Botswana';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Botswana';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Botswana';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bocvana';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bocvana';
 }

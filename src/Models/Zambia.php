@@ -89,4 +89,49 @@ class Zambia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Zâmbia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Zambia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Zambia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Zambia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Zambia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Zambia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Zambie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Zambia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Zambija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Zambija';
 }

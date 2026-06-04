@@ -89,4 +89,49 @@ class UnitedArabEmirates extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Emirados Árabes Unidos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'United Arab Emirates';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'De Forenede Arabiske Emirater';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Förenade Arabemiraten';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'De forente arabiske emirater';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Emiraty Arabskie';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Spojené arabské emiráty';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Spojené arabské emiráty';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Združeni arabski emirati';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ujedinjeni Arapski Emirati';
 }

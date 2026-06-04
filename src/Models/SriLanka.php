@@ -89,4 +89,49 @@ class SriLanka extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Sri Lanka';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Sri Lanka';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sri Lanka';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sri Lanka';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sri Lanka';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Sri Lanka';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Srí Lanka';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Srí Lanka';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Šrilanka';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Šri Lanka';
 }

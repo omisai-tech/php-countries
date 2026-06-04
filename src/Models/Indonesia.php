@@ -89,4 +89,49 @@ class Indonesia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Indonésia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Indonesia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Indonesien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Indonesien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Indonesia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Indonezja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Indonésie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Indonézia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Indonezija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Indonezija';
 }

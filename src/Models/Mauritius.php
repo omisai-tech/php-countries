@@ -89,4 +89,49 @@ class Mauritius extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Maurício';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mauritius';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mauritius';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mauritius';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mauritius';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mauritius';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mauricius';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Maurícius';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mauritius';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mauricijus';
 }

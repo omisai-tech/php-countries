@@ -89,4 +89,49 @@ class Macao extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Macau';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Macao';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Macao';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Macao';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Macao';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Makao';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Macao';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Macao';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Macao';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Makao';
 }

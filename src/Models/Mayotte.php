@@ -89,4 +89,49 @@ class Mayotte extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Maiote';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mayotte';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mayotte';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mayotte';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mayotte';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Majotta';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mayotte';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mayotte';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Majot';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Majot';
 }

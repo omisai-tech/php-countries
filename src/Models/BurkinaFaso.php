@@ -89,4 +89,49 @@ class BurkinaFaso extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Burkina Faso';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Burkina Faso';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Burkina Faso';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Burkina Faso';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Burkina Faso';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Burkina Faso';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Burkina Faso';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Burkina Faso';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Burkina Faso';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Burkina Faso';
 }

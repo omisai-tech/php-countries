@@ -89,4 +89,49 @@ class Benin extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Benim';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Benin';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Benin';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Benin';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Benin';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Benin';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Benin';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Benin';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Benin';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Benin';
 }

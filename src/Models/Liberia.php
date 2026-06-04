@@ -89,4 +89,49 @@ class Liberia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Libéria';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Liberia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Liberia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Liberia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Liberia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Liberia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Libérie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Libéria';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Liberija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Liberija';
 }

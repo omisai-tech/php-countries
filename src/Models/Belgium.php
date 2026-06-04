@@ -89,4 +89,49 @@ class Belgium extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bélgica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Belgium';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Belgien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Belgien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Belgia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Belgia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Belgie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Belgicko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Belgija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Belgija';
 }

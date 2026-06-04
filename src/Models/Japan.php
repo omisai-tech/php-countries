@@ -89,4 +89,49 @@ class Japan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Japão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Japan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Japan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Japan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Japan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Japonia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Japonsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Japonsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Japonska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Japan';
 }

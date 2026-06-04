@@ -89,4 +89,49 @@ class Togo extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ir';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Togo';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Togo';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Togo';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Togo';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Togo';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Togo';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Togo';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Togo';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Togo';
 }

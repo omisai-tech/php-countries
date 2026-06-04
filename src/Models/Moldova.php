@@ -89,4 +89,49 @@ class Moldova extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Moldávia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Moldova';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Moldova';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Moldavien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Moldova';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Moldova';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Moldavsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Moldavsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Moldavija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Moldavija';
 }

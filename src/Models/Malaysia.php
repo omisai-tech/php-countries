@@ -89,4 +89,49 @@ class Malaysia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Malásia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Malaysia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Malaysia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Malaysia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Malaysia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Malezja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Malajsie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Malajzia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Malezija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Malezija';
 }

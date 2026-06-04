@@ -89,4 +89,49 @@ class Dominica extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Domínica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Dominica';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Dominica';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Dominica';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Dominica';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Dominika';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Dominika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Dominika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Dominika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Dominika';
 }

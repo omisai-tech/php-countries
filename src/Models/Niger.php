@@ -89,4 +89,49 @@ class Niger extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Níger';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Niger';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Niger';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Niger';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Niger';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Niger';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Niger';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Niger';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Niger';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Niger';
 }

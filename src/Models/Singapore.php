@@ -89,4 +89,49 @@ class Singapore extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Cingapura';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Singapore';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Singapore';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Singapore';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Singapore';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Singapur';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Singapur';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Singapur';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Singapur';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Singapur';
 }

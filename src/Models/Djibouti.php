@@ -89,4 +89,49 @@ class Djibouti extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Djibuti';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Djibouti';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Djibouti';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Djibouti';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Djibouti';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Dżibuti';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Džibutsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Džibutsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Džibuti';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Džibuti';
 }

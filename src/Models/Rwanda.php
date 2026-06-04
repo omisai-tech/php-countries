@@ -89,4 +89,49 @@ class Rwanda extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ruanda';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Rwanda';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Rwanda';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Rwanda';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Rwanda';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Rwanda';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Rwanda';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Rwanda';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Ruanda';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ruanda';
 }

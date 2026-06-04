@@ -89,4 +89,49 @@ class SvalbardAndJanMayen extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Svalbard e Jan Mayen';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Svalbard and Jan Mayen';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Svalbard og Jan Mayen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Svalbard och Jan Mayen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Svalbard og Jan Mayen';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Svalbard i Jan Mayen';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Špicberky a Jan Mayen';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svalbard a Jan Mayen';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Svalbard in Jan Mayen';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Svalbard i Jan Mayen';
 }

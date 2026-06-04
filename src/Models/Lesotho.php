@@ -89,4 +89,49 @@ class Lesotho extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Lesoto';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Lesotho';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Lesotho';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Lesotho';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Lesotho';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Lesotho';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Lesotho';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Lesotho';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Lesoto';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Lesoto';
 }

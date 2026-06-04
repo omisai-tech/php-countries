@@ -89,4 +89,49 @@ class FrenchPolynesia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Polinésia Francesa';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'French Polynesia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Fransk Polynesien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Franska Polynesien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Fransk Polynesia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Polinezja Francuska';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Francouzská Polynésie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Francúzska Polynézia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Francoska Polinezija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Francuska Polinezija';
 }

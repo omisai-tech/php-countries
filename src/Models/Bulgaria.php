@@ -89,4 +89,49 @@ class Bulgaria extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bulgária';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bulgaria';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bulgarien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bulgarien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bulgaria';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bułgaria';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bulharsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bulharsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bolgarija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bugarska';
 }

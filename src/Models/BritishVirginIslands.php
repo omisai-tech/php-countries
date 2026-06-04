@@ -89,4 +89,49 @@ class BritishVirginIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Virgens Britânicas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'British Virgin Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'De Britiske Jomfruøer';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Brittiska Jungfruöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'De britiske Jomfruøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Brytyjskie Wyspy Dziewicze';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Britské Panenské ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Britské Panenské ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Britanski Deviški otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Britanski Djevičanski otoci';
 }

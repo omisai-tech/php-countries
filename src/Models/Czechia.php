@@ -89,4 +89,49 @@ class Czechia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tcheca';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Czechia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tjekkiet';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tjeckien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tsjekkia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Czechy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Česko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Česko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Češka';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Češka';
 }

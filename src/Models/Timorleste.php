@@ -89,4 +89,49 @@ class Timorleste extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Timor-Leste';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Timor-Leste';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Timor-Leste';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Östtimor';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Øst-Timor';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Timor Wschodni';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Východní Timor';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Východný Timor';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Vzhodni Timor';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Istočni Timor';
 }

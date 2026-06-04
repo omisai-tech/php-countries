@@ -89,4 +89,49 @@ class SaintHelena extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Santa Helena';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Saint Helena';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sankt Helena';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sankta Helena';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'St. Helena';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Święta Helena';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svatá Helena';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svätá Helena';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sveta Helena';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sveta Helena';
 }

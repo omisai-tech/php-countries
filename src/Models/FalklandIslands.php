@@ -89,4 +89,49 @@ class FalklandIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Malvinas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Falkland Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Falklandsøerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Falklandsöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Falklandsøyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Falklandy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Falklandské ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Falklandské ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Falklandski otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Falklandski otoci';
 }

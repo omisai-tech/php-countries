@@ -89,4 +89,49 @@ class SaintPierreAndMiquelon extends Country
      * Portuguese name of the country
      */
     public string $pt = 'São Pedro e Miquelon';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Saint Pierre and Miquelon';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Saint-Pierre og Miquelon';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Saint Pierre och Miquelon';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Saint-Pierre og Miquelon';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Saint-Pierre i Miquelon';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Saint-Pierre a Miquelon';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Saint-Pierre a Miquelon';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Saint Pierre in Miquelon';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Saint Pierre i Miquelon';
 }

@@ -89,4 +89,49 @@ class Antarctica extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Antártica';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Antarctica';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Antarktis';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Antarktis';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Antarktis';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Antarktyda';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Antarktida';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Antarktída';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Antarktika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Antarktika';
 }

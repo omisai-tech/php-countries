@@ -89,4 +89,49 @@ class Liechtenstein extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Liechtenstein';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Liechtenstein';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Liechtenstein';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Liechtenstein';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Liechtenstein';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Liechtenstein';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Lichtenštejnsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Lichtenštajnsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Lihtenštajn';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Lihtenštajn';
 }

@@ -89,4 +89,49 @@ class Qatar extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Catar';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Qatar';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Qatar';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Qatar';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Qatar';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Katar';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Katar';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Katar';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Katar';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Katar';
 }

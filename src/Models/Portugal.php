@@ -89,4 +89,49 @@ class Portugal extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Portugal';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Portugal';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Portugal';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Portugal';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Portugal';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Portugalia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Portugalsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Portugalsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Portugalska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Portugal';
 }

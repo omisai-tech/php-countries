@@ -89,4 +89,49 @@ class Peru extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Peru';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Peru';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Peru';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Peru';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Peru';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Peru';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Peru';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Peru';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Peru';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Peru';
 }

@@ -89,4 +89,49 @@ class Angola extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Angola';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Angola';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Angola';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Angola';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Angola';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Angola';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Angola';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Angola';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Angola';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Angola';
 }

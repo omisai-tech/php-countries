@@ -89,4 +89,49 @@ class Lithuania extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Lituânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Lithuania';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Litauen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Litauen';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Litauen';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Litwa';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Litva';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Litva';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Litva';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Litva';
 }

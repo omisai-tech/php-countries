@@ -89,4 +89,49 @@ class Uzbekistan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Uzbequistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Uzbekistan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Usbekistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Uzbekistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Usbekistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Uzbekistan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Uzbekistán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Uzbekistan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Uzbekistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Uzbekistan';
 }

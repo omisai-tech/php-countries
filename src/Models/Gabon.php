@@ -89,4 +89,49 @@ class Gabon extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Gabão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Gabon';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Gabon';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Gabon';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Gabon';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gabon';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Gabon';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Gabon';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gabon';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gabon';
 }

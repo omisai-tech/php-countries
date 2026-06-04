@@ -89,4 +89,49 @@ class Malawi extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Maláui';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Malawi';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Malawi';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Malawi';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Malawi';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Malawi';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Malawi';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Malawi';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Malavi';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Malavi';
 }

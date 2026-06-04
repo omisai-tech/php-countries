@@ -89,4 +89,49 @@ class Cambodia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Camboja';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cambodia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Cambodja';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kambodja';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kambodsja';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kambodża';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kambodža';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kambodža';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kambodža';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kambodža';
 }

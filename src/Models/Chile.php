@@ -89,4 +89,49 @@ class Chile extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Chile';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Chile';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Chile';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Chile';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Chile';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Chile';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Chile';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Čile';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Čile';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Čile';
 }

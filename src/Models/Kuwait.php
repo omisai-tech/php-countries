@@ -89,4 +89,49 @@ class Kuwait extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Kuwait';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Kuwait';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kuwait';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kuwait';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kuwait';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Kuwejt';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kuvajt';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kuvajt';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kuvajt';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kuvajt';
 }

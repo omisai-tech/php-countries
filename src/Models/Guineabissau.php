@@ -89,4 +89,49 @@ class Guineabissau extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guiné-Bissau';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guinea-Bissau';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guinea-Bissau';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guinea-Bissau';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guinea-Bissau';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gwinea Bissau';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guinea-Bissau';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guinea-Bissau';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gvineja Bissau';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gvineja Bisau';
 }

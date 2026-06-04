@@ -89,4 +89,49 @@ class DrCongo extends Country
      * Portuguese name of the country
      */
     public string $pt = 'RD Congo';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'DR Congo';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'DR Congo';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'DR Kongo';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'DR Kongo';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Demokratyczna Republika Konga';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'DR Kongo';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'DR Kongo';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'DR Kongo';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'DR Kongo';
 }

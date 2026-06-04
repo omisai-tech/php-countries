@@ -89,4 +89,49 @@ class Honduras extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Honduras';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Honduras';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Honduras';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Honduras';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Honduras';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Honduras';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Honduras';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Honduras';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Honduras';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Honduras';
 }

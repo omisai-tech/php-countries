@@ -89,4 +89,49 @@ class Tanzania extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tanzânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tanzania';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tanzania';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tanzania';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tanzania';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tanzania';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tanzanie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tanzánia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tanzanija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Tanzanija';
 }

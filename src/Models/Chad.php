@@ -89,4 +89,49 @@ class Chad extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Chade';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Chad';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tchad';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tchad';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tsjad';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Czad';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Čad';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Čad';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Čad';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Čad';
 }

@@ -89,4 +89,49 @@ class TrinidadAndTobago extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Trinidad e Tobago';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Trinidad and Tobago';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Trinidad og Tobago';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Trinidad och Tobago';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Trinidad og Tobago';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Trynidad i Tobago';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Trinidad a Tobago';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Trinidad a Tobago';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Trinidad in Tobago';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Trinidad i Tobago';
 }

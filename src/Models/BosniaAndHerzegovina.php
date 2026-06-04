@@ -89,4 +89,49 @@ class BosniaAndHerzegovina extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bósnia e Herzegovina';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bosnia and Herzegovina';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bosnien-Hercegovina';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bosnien och Hercegovina';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bosnia-Hercegovina';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bośnia i Hercegowina';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bosna a Hercegovina';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bosna a Hercegovina';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bosna in Hercegovina';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bosna i Hercegovina';
 }

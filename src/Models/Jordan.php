@@ -89,4 +89,49 @@ class Jordan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Jordânia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Jordan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Jordan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Jordanien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Jordan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Jordania';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jordán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Jordánsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Jordanija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Jordan';
 }

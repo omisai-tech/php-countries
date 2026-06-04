@@ -89,4 +89,49 @@ class Mali extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Mali';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Mali';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mali';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mali';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mali';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mali';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mali';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mali';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mali';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mali';
 }

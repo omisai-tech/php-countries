@@ -89,4 +89,49 @@ class India extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Índia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'India';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Indien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Indien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'India';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Indie';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Indie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'India';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Indija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Indija';
 }

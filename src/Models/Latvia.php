@@ -89,4 +89,49 @@ class Latvia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Letônia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Latvia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Letland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Lettland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Latvia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Łotwa';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Lotyšsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Lotyšsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Latvija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Latvija';
 }

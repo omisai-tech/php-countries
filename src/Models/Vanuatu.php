@@ -89,4 +89,49 @@ class Vanuatu extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Vanuatu';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Vanuatu';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Vanuatu';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Vanuatu';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Vanuatu';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Vanuatu';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Vanuatu';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Vanuatu';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Vanuatu';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Vanuatu';
 }

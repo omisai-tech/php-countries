@@ -89,4 +89,49 @@ class Germany extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Alemanha';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Germany';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tyskland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tyskland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tyskland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Niemcy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Německo';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Nemecko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Nemčija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Njemačka';
 }

@@ -89,4 +89,49 @@ class Luxembourg extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Luxemburgo';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Luxembourg';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Luxembourg';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Luxemburg';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Luxembourg';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Luksemburg';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Lucembursko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Luxembursko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Luksemburg';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Luksemburg';
 }

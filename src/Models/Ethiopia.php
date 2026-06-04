@@ -89,4 +89,49 @@ class Ethiopia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Etiópia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Ethiopia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Etiopien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Etiopien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Etiopia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Etiopia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Etiopie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Etiópia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Etiopija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Etiopija';
 }

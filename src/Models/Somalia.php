@@ -89,4 +89,49 @@ class Somalia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Somália';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Somalia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Somalia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Somalia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Somalia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Somali';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Somálsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Somálsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Somalija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Somalija';
 }

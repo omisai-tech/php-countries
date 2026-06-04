@@ -89,4 +89,49 @@ class TheGambia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'A Gâmbia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'The Gambia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Gambia';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Gambia';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Gambia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Gambia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Gambie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Gambia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Gambija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Gambija';
 }

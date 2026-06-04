@@ -89,4 +89,49 @@ class Guam extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Guam';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Guam';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Guam';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Guam';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Guam';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Guam';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Guam';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Guam';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Guam';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Guam';
 }

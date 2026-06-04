@@ -89,4 +89,49 @@ class Myanmar extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Mianmar';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Myanmar';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Myanmar';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Myanmar';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Myanmar';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Myanmar';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Myanmar';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mjanmarsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mjanmar';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mjanmar';
 }

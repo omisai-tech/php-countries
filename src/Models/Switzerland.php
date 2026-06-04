@@ -89,4 +89,49 @@ class Switzerland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Suíça';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Switzerland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Schweiz';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Schweiz';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sveits';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Szwajcaria';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Švýcarsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Švajčiarsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Švica';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Švicarska';
 }

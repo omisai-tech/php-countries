@@ -89,4 +89,49 @@ class ElSalvador extends Country
      * Portuguese name of the country
      */
     public string $pt = 'El Salvador';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'El Salvador';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'El Salvador';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'El Salvador';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'El Salvador';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Salwador';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Salvador';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Salvádor';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Salvador';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Salvador';
 }

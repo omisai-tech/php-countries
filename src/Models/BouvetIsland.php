@@ -89,4 +89,49 @@ class BouvetIsland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilha Bouvet';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bouvet Island';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bouvetøen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bouvetön';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bouvetøya';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspa Bouveta';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bouvetův ostrov';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bouvetov ostrov';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Otok Bouvet';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Otok Bouvet';
 }

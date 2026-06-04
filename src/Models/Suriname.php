@@ -89,4 +89,49 @@ class Suriname extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Suriname';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Suriname';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Surinam';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Surinam';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Surinam';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Surinam';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Surinam';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Surinam';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Surinam';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Surinam';
 }

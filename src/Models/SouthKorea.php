@@ -89,4 +89,49 @@ class SouthKorea extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Coreia do Sul';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'South Korea';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Sydkorea';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Sydkorea';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Sør-Korea';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Korea Południowa';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Jižní Korea';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Južná Kórea';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Južna Koreja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Južna Koreja';
 }

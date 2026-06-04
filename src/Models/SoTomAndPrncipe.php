@@ -89,4 +89,49 @@ class SoTomAndPrncipe extends Country
      * Portuguese name of the country
      */
     public string $pt = 'São Tomé e Príncipe';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'São Tomé and Príncipe';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'São Tomé og Príncipe';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'São Tomé och Príncipe';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'São Tomé og Príncipe';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Świętego Tomasza i Książęca';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Svatý Tomáš a Princův ostrov';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Svätý Tomáš a Princov ostrov';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Sao Tomé in Principe';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Sveti Toma i Prinsipe';
 }

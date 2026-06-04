@@ -89,4 +89,49 @@ class Egypt extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Egito';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Egypt';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Egypten';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Egypten';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Egypt';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Egipt';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Egypt';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Egypt';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Egipt';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Egipat';
 }

@@ -89,4 +89,49 @@ class CocoskeelingIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Cocos (Keeling)';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Cocos (Keeling) Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Kokosøerne (Keelingøerne)';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Kokosöarna (Keelingöarna)';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Kokosøyene (Keelingøyene)';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Kokosowe (Keelinga)';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Kokosové (Keelingovy) ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Kokosové (Keelingove) ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Kokosovi (Keelingovi) otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Kokosovi (Keelingovi) otoci';
 }

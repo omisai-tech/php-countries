@@ -89,4 +89,49 @@ class Jersey extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Jersey';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Jersey';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Jersey';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Jersey';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Jersey';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Golf';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Trikot';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Jersey';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Jersey';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Dres';
 }

@@ -89,4 +89,49 @@ class Turkmenistan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Turcomenistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Turkmenistan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Turkmenistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Turkmenistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Turkmenistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Turkmenia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Turkmenistán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Turkménsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Turkmenistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Turkmenistan';
 }

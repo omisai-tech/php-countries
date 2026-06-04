@@ -89,4 +89,49 @@ class Tonga extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Tonga';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Tonga';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Tonga';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Tonga';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Tonga';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Tonga';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Tonga';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Tonga';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Tonga';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Laka dvokolica';
 }

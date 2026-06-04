@@ -89,4 +89,49 @@ class Montserrat extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Montserrate';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Montserrat';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Montserrat';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Montserrat';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Montserrat';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Montserrat';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Montserrat';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Montserrat';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Montserrat';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Montserrat';
 }

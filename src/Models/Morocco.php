@@ -89,4 +89,49 @@ class Morocco extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Marrocos';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Morocco';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Marokko';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Marocko';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Marokko';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Maroko';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Maroko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Maroko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Maroko';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Maroko';
 }

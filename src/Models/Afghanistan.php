@@ -89,4 +89,49 @@ class Afghanistan extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Afeganistão';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Afghanistan';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Afghanistan';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Afghanistan';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Afghanistan';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Afganistan';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Afghánistán';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Afganistan';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Afganistan';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Afganistan';
 }

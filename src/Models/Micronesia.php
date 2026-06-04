@@ -89,4 +89,49 @@ class Micronesia extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Micronésia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Micronesia';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Mikronesien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Mikronesien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Mikronesia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Mikronezja';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Mikronésie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Mikronézia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Mikronezija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Mikronezija';
 }

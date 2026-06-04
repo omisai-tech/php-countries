@@ -89,4 +89,49 @@ class FrenchSouthernTerritories extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Territórios Franceses do Sul';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'French Southern Territories';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Franske sydlige territorier';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Franska sydterritorierna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Franske sørlige territorier';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Francuskie Terytoria Południowe';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Francouzská jižní území';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Francúzske južné územia';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Francoska južna ozemlja';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Francuski južni teritoriji';
 }

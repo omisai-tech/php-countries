@@ -89,4 +89,49 @@ class Anguilla extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Anguila';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Anguilla';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Anguilla';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Anguilla';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Anguilla';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Anguilla';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Anguilla';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Anguilla';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Angvila';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Angvila';
 }

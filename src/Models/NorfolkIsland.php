@@ -89,4 +89,49 @@ class NorfolkIsland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilha Norfolk';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Norfolk Island';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Norfolkøen';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Norfolkön';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Norfolkøya';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspa Norfolk';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Norfolkský ostrov';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Norfolkský ostrov';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Norfolški otok';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Otok Norfolk';
 }

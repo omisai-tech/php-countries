@@ -89,4 +89,49 @@ class UnitedKingdom extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Reino Unido';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'United Kingdom';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Storbritannien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Storbritannien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Storbritannia';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Zjednoczone Królestwo';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Spojené království';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Spojené kráľovstvo';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Združeno kraljestvo';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Ujedinjeno Kraljevstvo';
 }

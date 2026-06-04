@@ -89,4 +89,49 @@ class DominicanRepublic extends Country
      * Portuguese name of the country
      */
     public string $pt = 'República Dominicana';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Dominican Republic';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Den Dominikanske Republik';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Dominikanska republiken';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Den dominikanske republikk';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Republika Dominikańska';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Dominikánská republika';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Dominikánska republika';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Dominikanska republika';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Dominikanska Republika';
 }

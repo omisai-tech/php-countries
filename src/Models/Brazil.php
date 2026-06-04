@@ -89,4 +89,49 @@ class Brazil extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Brasil';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Brazil';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Brasilien';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Brasilien';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Brasil';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Brazylia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Brazílie';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Brazília';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Brazilija';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Brazil';
 }

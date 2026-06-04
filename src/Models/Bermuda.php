@@ -89,4 +89,49 @@ class Bermuda extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Bermudas';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Bermuda';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Bermuda';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Bermuda';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Bermuda';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Bermudy';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Bermudy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Bermudy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Bermudi';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Bermuda';
 }

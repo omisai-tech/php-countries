@@ -89,4 +89,49 @@ class MarshallIslands extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Ilhas Marshall';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Marshall Islands';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Marshalløerne';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Marshallöarna';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Marshalløyene';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Wyspy Marshalla';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Marshallovy ostrovy';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Marshallove ostrovy';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Marshallovi otoki';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Maršalovi Otoci';
 }

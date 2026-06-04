@@ -89,4 +89,49 @@ class Finland extends Country
      * Portuguese name of the country
      */
     public string $pt = 'Finlândia';
+
+    /**
+     * Dutch name of the country
+     */
+    public string $nl = 'Finland';
+
+    /**
+     * Danish name of the country
+     */
+    public string $da = 'Finland';
+
+    /**
+     * Swedish name of the country
+     */
+    public string $sv = 'Finland';
+
+    /**
+     * Norwegian name of the country
+     */
+    public string $no = 'Finland';
+
+    /**
+     * Polish name of the country
+     */
+    public string $pl = 'Finlandia';
+
+    /**
+     * Czech name of the country
+     */
+    public string $cs = 'Finsko';
+
+    /**
+     * Slovak name of the country
+     */
+    public string $sk = 'Fínsko';
+
+    /**
+     * Slovenian name of the country
+     */
+    public string $sl = 'Finska';
+
+    /**
+     * Croatian name of the country
+     */
+    public string $hr = 'Finska';
 }
