@@ -109,6 +109,51 @@ class $className extends Country
      * Portuguese name of the country
      */
     public string \$pt = \"{$data[15]}\";
+
+    /**
+     * Dutch name of the country
+     */
+    public string \$nl = \"{$data[16]}\";
+
+    /**
+     * Danish name of the country
+     */
+    public string \$da = \"{$data[17]}\";
+
+    /**
+     * Swedish name of the country
+     */
+    public string \$sv = \"{$data[18]}\";
+
+    /**
+     * Norwegian name of the country
+     */
+    public string \$no = \"{$data[19]}\";
+
+    /**
+     * Polish name of the country
+     */
+    public string \$pl = \"{$data[20]}\";
+
+    /**
+     * Czech name of the country
+     */
+    public string \$cs = \"{$data[21]}\";
+
+    /**
+     * Slovak name of the country
+     */
+    public string \$sk = \"{$data[22]}\";
+
+    /**
+     * Slovenian name of the country
+     */
+    public string \$sl = \"{$data[23]}\";
+
+    /**
+     * Croatian name of the country
+     */
+    public string \$hr = \"{$data[24]}\";
     \n}
 ";
 
