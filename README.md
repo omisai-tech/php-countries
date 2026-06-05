@@ -5,7 +5,7 @@
 
 # PHP Countries Package
 
-The PHP Countries Package provides a convenient and object-oriented approach to working with country data. Designed to integrate country information into any PHP applications with ease. This package offers easy access to country names, ISO 3166-1 alpha-2 code, ISO 3166-1 alpha-3 code, ISO 3166-1 numeric code, FIPS code, phone dial, country's capital city, continent code.
+The PHP Countries Package provides a convenient and object-oriented approach to working with country data. Designed to integrate country information into any PHP applications with ease. This package offers easy access to country names, ISO 3166-1 alpha-2 code, ISO 3166-1 alpha-3 code, ISO 3166-1 numeric code, FIPS code, phone dial,total area in square kilometers, country's capital city, continent code.
 
 ## Features
 
