@@ -73,17 +73,17 @@ class Turkey extends Country
     /**
      * German name of the country
      */
-    public string $de = 'Truthahn';
+    public string $de = 'Türkei';
 
     /**
      * Spanish name of the country
      */
-    public string $es = 'Pavo';
+    public string $es = 'Turquía';
 
     /**
      * Italian name of the country
      */
-    public string $it = 'Tacchino';
+    public string $it = 'Turchia';
 
     /**
      * French name of the country
@@ -93,17 +93,17 @@ class Turkey extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = 'Peru';
+    public string $pt = 'Turquia';
 
     /**
      * Dutch name of the country
      */
-    public string $nl = 'Turkey';
+    public string $nl = 'Turkije';
 
     /**
      * Danish name of the country
      */
-    public string $da = 'Kalkun';
+    public string $da = 'Tyrkiet';
 
     /**
      * Swedish name of the country
@@ -113,12 +113,12 @@ class Turkey extends Country
     /**
      * Norwegian name of the country
      */
-    public string $no = 'Kalkun';
+    public string $no = 'Tyrkia';
 
     /**
      * Polish name of the country
      */
-    public string $pl = 'Indyk';
+    public string $pl = 'Turcja';
 
     /**
      * Czech name of the country
