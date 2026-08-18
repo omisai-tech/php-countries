@@ -78,7 +78,7 @@ class SintMaarten extends Country
     /**
      * Spanish name of the country
      */
-    public string $es = 'San Martín';
+    public string $es = 'Sint Maarten';
 
     /**
      * Italian name of the country
@@ -88,12 +88,12 @@ class SintMaarten extends Country
     /**
      * French name of the country
      */
-    public string $fr = 'Saint-Martin';
+    public string $fr = 'Sint Maarten';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = 'São Martinho';
+    public string $pt = 'Sint Maarten';
 
     /**
      * Dutch name of the country
@@ -123,20 +123,20 @@ class SintMaarten extends Country
     /**
      * Czech name of the country
      */
-    public string $cs = 'Svatý Martin';
+    public string $cs = 'Svatý Martin (Nizozemsko)';
 
     /**
      * Slovak name of the country
      */
-    public string $sk = 'Svätý Martin';
+    public string $sk = 'Svätý Martin (hol.)';
 
     /**
      * Slovenian name of the country
      */
-    public string $sl = 'Sveti Martin';
+    public string $sl = 'Nizozemski Sveti Martin';
 
     /**
      * Croatian name of the country
      */
-    public string $hr = 'Sveti Martin';
+    public string $hr = 'Sint Maarten';
 }
