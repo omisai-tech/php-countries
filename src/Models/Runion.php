@@ -73,7 +73,7 @@ class Runion extends Country
     /**
      * German name of the country
      */
-    public string $de = 'Wiedervereinigung';
+    public string $de = 'Réunion';
 
     /**
      * Spanish name of the country
@@ -103,27 +103,27 @@ class Runion extends Country
     /**
      * Danish name of the country
      */
-    public string $da = 'Genforening';
+    public string $da = 'Réunion';
 
     /**
      * Swedish name of the country
      */
-    public string $sv = 'Återförening';
+    public string $sv = 'Réunion';
 
     /**
      * Norwegian name of the country
      */
-    public string $no = 'Gjenforening';
+    public string $no = 'Réunion';
 
     /**
      * Polish name of the country
      */
-    public string $pl = 'Zjazd';
+    public string $pl = 'Reunion';
 
     /**
      * Czech name of the country
      */
-    public string $cs = 'Shledání';
+    public string $cs = 'Réunion';
 
     /**
      * Slovak name of the country
