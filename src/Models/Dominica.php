@@ -78,7 +78,7 @@ class Dominica extends Country
     /**
      * Spanish name of the country
      */
-    public string $es = 'república dominicana';
+    public string $es = 'Dominica';
 
     /**
      * Italian name of the country
