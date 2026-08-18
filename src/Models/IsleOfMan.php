@@ -78,7 +78,7 @@ class IsleOfMan extends Country
     /**
      * Spanish name of the country
      */
-    public string $es = 'Isla del hombre';
+    public string $es = 'Isla de Man';
 
     /**
      * Italian name of the country
