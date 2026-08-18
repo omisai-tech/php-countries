@@ -78,7 +78,7 @@ class Jordan extends Country
     /**
      * Spanish name of the country
      */
-    public string $es = 'Jordán';
+    public string $es = 'Jordania';
 
     /**
      * Italian name of the country
@@ -88,7 +88,7 @@ class Jordan extends Country
     /**
      * French name of the country
      */
-    public string $fr = 'Jordan';
+    public string $fr = 'Jordanie';
 
     /**
      * Portuguese name of the country
@@ -123,7 +123,7 @@ class Jordan extends Country
     /**
      * Czech name of the country
      */
-    public string $cs = 'Jordán';
+    public string $cs = 'Jordánsko';
 
     /**
      * Slovak name of the country
