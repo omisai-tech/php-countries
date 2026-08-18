@@ -73,27 +73,27 @@ class Aland extends Country
     /**
      * German name of the country
      */
-    public string $de = 'Ein Land';
+    public string $de = 'Ålandinseln';
 
     /**
      * Spanish name of the country
      */
-    public string $es = 'Una tierra';
+    public string $es = 'Islas Åland';
 
     /**
      * Italian name of the country
      */
-    public string $it = 'Una terra';
+    public string $it = 'Isole Åland';
 
     /**
      * French name of the country
      */
-    public string $fr = 'Un terrain';
+    public string $fr = 'Îles Åland';
 
     /**
      * Portuguese name of the country
      */
-    public string $pt = 'Uma terra';
+    public string $pt = 'Ilhas Åland';
 
     /**
      * Dutch name of the country
