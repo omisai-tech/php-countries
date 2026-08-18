@@ -83,7 +83,7 @@ class Jersey extends Country
     /**
      * Italian name of the country
      */
-    public string $it = 'Maglia';
+    public string $it = 'Jersey';
 
     /**
      * French name of the country
@@ -118,12 +118,12 @@ class Jersey extends Country
     /**
      * Polish name of the country
      */
-    public string $pl = 'Golf';
+    public string $pl = 'Jersey';
 
     /**
      * Czech name of the country
      */
-    public string $cs = 'Trikot';
+    public string $cs = 'Jersey';
 
     /**
      * Slovak name of the country
@@ -138,5 +138,5 @@ class Jersey extends Country
     /**
      * Croatian name of the country
      */
-    public string $hr = 'Dres';
+    public string $hr = 'Jersey';
 }
