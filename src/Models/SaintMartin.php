@@ -93,7 +93,7 @@ class SaintMartin extends Country
     /**
      * Portuguese name of the country
      */
-    public string $pt = 'são Martinho';
+    public string $pt = 'São Martinho';
 
     /**
      * Dutch name of the country
@@ -123,17 +123,17 @@ class SaintMartin extends Country
     /**
      * Czech name of the country
      */
-    public string $cs = 'Svatý Martin';
+    public string $cs = 'Svatý Martin (Francie)';
 
     /**
      * Slovak name of the country
      */
-    public string $sk = 'Svätý Martin';
+    public string $sk = 'Svätý Martin (fr.)';
 
     /**
      * Slovenian name of the country
      */
-    public string $sl = 'Sveti Martin';
+    public string $sl = 'Francoski Sveti Martin';
 
     /**
      * Croatian name of the country
