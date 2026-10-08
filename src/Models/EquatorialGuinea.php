@@ -40,7 +40,7 @@ class EquatorialGuinea extends Country
     /**
      * Capital city
      */
-    public string $capital = 'Malabo';
+    public string $capital = 'Ciudad de la Paz';
 
     /**
      * Total area in square kilometers
