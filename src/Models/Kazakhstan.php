@@ -40,7 +40,7 @@ class Kazakhstan extends Country
     /**
      * Capital city
      */
-    public string $capital = 'Nur-Sultan';
+    public string $capital = 'Astana';
 
     /**
      * Total area in square kilometers
